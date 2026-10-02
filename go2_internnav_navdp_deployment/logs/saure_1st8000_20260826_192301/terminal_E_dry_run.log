@@ -1,0 +1,81 @@
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1787743574.092001 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[SAFETY] dry-run: not publishing cmd_vel
+[NAVDP_CLIENT] dry-run command topic: /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.200 m/s max_angular_speed=0.100 rad/s
+[MPC CONFIG] tracking_profile=smooth_continuous savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[SAFETY] dry-run: control thread was not started and no cmd_vel publisher exists
+[NAVDP_CLIENT] anchored pointgoal local=(3.0, 0.0) world=(37.511470363792334, -6.949832954855392)
+response status=200 bytes=28609
+idx: 0 after http 0.722s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.6557371616363525 right_clearance_m=1.8876981735229492 trajectory_end_y_m=0.035
+[DRY RUN] trajectory_points=24 traj_len=2.288
+response status=200 bytes=28580
+idx: 1 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.410
+response status=200 bytes=28634
+idx: 2 after http 0.295s
+[DRY RUN] trajectory_points=24 traj_len=2.345
+response status=200 bytes=28712
+idx: 3 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.490
+response status=200 bytes=28673
+idx: 4 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.504
+response status=200 bytes=28790
+idx: 5 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.542
+response status=200 bytes=28793
+idx: 6 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.350
+response status=200 bytes=28651
+idx: 7 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.575
+response status=200 bytes=28634
+idx: 8 after http 0.372s
+[DRY RUN] trajectory_points=24 traj_len=2.594
+response status=200 bytes=28784
+idx: 9 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.469
+response status=200 bytes=28717
+idx: 10 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.483
+response status=200 bytes=28558
+idx: 11 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.171
+response status=200 bytes=28682
+idx: 12 after http 0.709s
+[DRY RUN] trajectory_points=24 traj_len=2.445
+response status=200 bytes=28674
+idx: 13 after http 0.320s
+[DRY RUN] trajectory_points=24 traj_len=2.482
+response status=200 bytes=28589
+idx: 14 after http 0.286s
+[DRY RUN] trajectory_points=24 traj_len=2.374
+response status=200 bytes=28600
+idx: 15 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.527
+response status=200 bytes=28705
+idx: 16 after http 0.321s
+[DRY RUN] trajectory_points=24 traj_len=2.558
+response status=200 bytes=28626
+idx: 17 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.465
+response status=200 bytes=28702
+idx: 18 after http 0.323s
+[DRY RUN] trajectory_points=24 traj_len=2.497
+response status=200 bytes=28633
+idx: 19 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.500

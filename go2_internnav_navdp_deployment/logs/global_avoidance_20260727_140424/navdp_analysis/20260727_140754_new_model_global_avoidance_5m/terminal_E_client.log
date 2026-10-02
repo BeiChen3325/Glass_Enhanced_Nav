@@ -1,0 +1,26 @@
+[ANALYSIS] run dir: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m
+[ANALYSIS] terminal log: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/terminal_E_client.log
+[ANALYSIS] responses: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/responses.jsonl
+[ANALYSIS] manifest: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/manifest.json
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+[GOLDEN RECORD] opened /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/responses.jsonl (existing file is overwritten)
+[ANALYSIS] tracking references: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_references.jsonl
+[ANALYSIS] control trace: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/control_trace.csv
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=1.000 rad/s
+[MPC TRACKING] profile=smooth_continuous
+[MPC TRACKING CONFIG] savgol_window=7 savgol_polyorder=2 max_deviation_m=0.030 angular_delta_weight=1.000 max_angular_accel_radps2=0.600
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[GOLDEN RECORD] writing model responses to /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/responses.jsonl
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.55 clear_distance_m=0.75 min_block_duration_s=0.50 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] anchored pointgoal local=(5.0, 0.0) world=(5.570481422383419, 0.17986169546186245)
+[GOLDEN RECORD] closed /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/responses.jsonl
+[ANALYSIS] closed tracking diagnostics /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_references.jsonl /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/control_trace.csv
+[ANALYSIS] generated /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/trajectory_summary.csv /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/trajectory_overview.png /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/trajectory_frames
+[ANALYSIS] generated tracking diagnostics /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_references.jsonl /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/control_trace.csv /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_reference_summary.csv /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_reference_overview.png /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260727_140424/navdp_analysis/20260727_140754_new_model_global_avoidance_5m/tracking_reference_frames

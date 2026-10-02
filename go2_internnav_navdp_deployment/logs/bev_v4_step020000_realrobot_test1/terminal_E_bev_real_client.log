@@ -1,0 +1,880 @@
+[NAVDP_CLIENT] server url: http://192.168.0.52:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1786954864.441919 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://192.168.0.52:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=v4_snapshot
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=0.100 rad/s
+[MPC CONFIG] tracking_profile=smooth_continuous savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[CLIENT HOLD] reason=trajectory_stale:age_s=none; cleared MPC and waiting for next planner output
+[NAVDP_CLIENT] anchored pointgoal local=(5.0, 0.0) world=(4.9525423191081, 0.5212616484851094)
+[V4 CACHE] frame=0 episode=0 clock=ros_header odom_error_ms=3.5 ready=False memory_mib=46.9
+[V4 STATEFUL NEGOTIATED] transport=stateful_delta_v1 batch_size=4 batch_endpoint=/v4/stateful/frames reset_s=0.016 session=79cd57ca3b9b89e398392a100c4f7b2c
+[V4 STATEFUL UPLOAD] frames=4 batch=4 accepted_fps=19.21 queue_age_ms=108.8 encode_max_ms=32.9 http_ms=75.0 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=6 batch=2 accepted_fps=20.88 queue_age_ms=84.3 encode_max_ms=18.0 http_ms=42.8 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=8 batch=2 accepted_fps=19.30 queue_age_ms=92.4 encode_max_ms=9.1 http_ms=43.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=11 batch=3 accepted_fps=20.27 queue_age_ms=77.2 encode_max_ms=25.7 http_ms=61.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=15 batch=4 accepted_fps=22.42 queue_age_ms=71.4 encode_max_ms=13.6 http_ms=61.8 source_lag=None dropped=0 ready=False
+[V4 CACHE RESET] reason=clock_domain_change episode=1
+[V4 STATEFUL UPLOAD] frames=18 batch=3 accepted_fps=23.32 queue_age_ms=90.9 encode_max_ms=21.7 http_ms=53.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL NEGOTIATED] transport=stateful_delta_v1 batch_size=4 batch_endpoint=/v4/stateful/frames reset_s=0.050 session=1ae29fe93b77e37bed4cf027045c61e3
+[V4 STATEFUL UPLOAD] frames=21 batch=3 accepted_fps=22.65 queue_age_ms=113.8 encode_max_ms=15.3 http_ms=53.2 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=23 batch=2 accepted_fps=22.06 queue_age_ms=128.6 encode_max_ms=18.8 http_ms=58.0 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=25 batch=2 accepted_fps=21.59 queue_age_ms=97.5 encode_max_ms=12.6 http_ms=58.1 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=27 batch=2 accepted_fps=20.99 queue_age_ms=76.0 encode_max_ms=9.8 http_ms=45.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=29 batch=2 accepted_fps=20.44 queue_age_ms=62.2 encode_max_ms=8.4 http_ms=47.8 source_lag=None dropped=0 ready=False
+[V4 CACHE] frame=30 episode=1 clock=monotonic_receipt odom_error_ms=10.6 ready=False memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=31 batch=2 accepted_fps=17.53 queue_age_ms=78.6 encode_max_ms=22.4 http_ms=66.3 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=34 batch=3 accepted_fps=18.05 queue_age_ms=73.0 encode_max_ms=24.8 http_ms=47.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=37 batch=3 accepted_fps=18.14 queue_age_ms=142.4 encode_max_ms=66.0 http_ms=75.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=40 batch=3 accepted_fps=18.85 queue_age_ms=69.5 encode_max_ms=28.7 http_ms=55.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=44 batch=4 accepted_fps=19.59 queue_age_ms=68.3 encode_max_ms=17.0 http_ms=58.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=47 batch=3 accepted_fps=19.56 queue_age_ms=116.4 encode_max_ms=13.6 http_ms=84.3 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=50 batch=3 accepted_fps=19.71 queue_age_ms=100.8 encode_max_ms=29.7 http_ms=65.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=52 batch=2 accepted_fps=19.79 queue_age_ms=110.9 encode_max_ms=59.1 http_ms=47.9 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=55 batch=3 accepted_fps=19.77 queue_age_ms=111.0 encode_max_ms=49.9 http_ms=83.5 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=55:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=56 batch=1 accepted_fps=19.27 queue_age_ms=146.6 encode_max_ms=12.7 http_ms=45.9 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=58 batch=2 accepted_fps=19.01 queue_age_ms=111.1 encode_max_ms=28.4 http_ms=57.5 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=59:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=60 batch=2 accepted_fps=18.91 queue_age_ms=104.0 encode_max_ms=13.7 http_ms=67.8 source_lag=None dropped=0 ready=False
+[V4 CACHE] frame=60 episode=1 clock=monotonic_receipt odom_error_ms=22.2 ready=False memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=61 batch=1 accepted_fps=18.07 queue_age_ms=182.7 encode_max_ms=8.7 http_ms=82.4 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=62:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=64 batch=3 accepted_fps=18.10 queue_age_ms=90.7 encode_max_ms=9.8 http_ms=78.3 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=67 batch=3 accepted_fps=18.44 queue_age_ms=91.6 encode_max_ms=35.8 http_ms=52.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=71 batch=4 accepted_fps=19.03 queue_age_ms=91.0 encode_max_ms=40.4 http_ms=59.1 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=74 batch=3 accepted_fps=19.15 queue_age_ms=84.6 encode_max_ms=10.2 http_ms=71.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=75 batch=1 accepted_fps=18.74 queue_age_ms=144.5 encode_max_ms=10.8 http_ms=41.6 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=78:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=79 batch=4 accepted_fps=18.83 queue_age_ms=90.0 encode_max_ms=26.9 http_ms=65.8 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=83 batch=4 accepted_fps=19.16 queue_age_ms=110.6 encode_max_ms=19.7 http_ms=96.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=86 batch=3 accepted_fps=19.47 queue_age_ms=110.2 encode_max_ms=24.6 http_ms=76.3 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=88 batch=2 accepted_fps=19.42 queue_age_ms=92.3 encode_max_ms=14.3 http_ms=64.8 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=89:source_lag=None:limit=5
+[V4 CACHE] frame=90 episode=1 clock=monotonic_receipt odom_error_ms=2.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=91 batch=3 accepted_fps=19.60 queue_age_ms=102.7 encode_max_ms=15.7 http_ms=61.9 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=95 batch=4 accepted_fps=19.95 queue_age_ms=71.4 encode_max_ms=9.5 http_ms=61.2 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=97:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=98 batch=3 accepted_fps=20.11 queue_age_ms=106.9 encode_max_ms=9.7 http_ms=59.9 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=101 batch=3 accepted_fps=20.32 queue_age_ms=64.4 encode_max_ms=23.2 http_ms=43.1 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=103:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=104 batch=3 accepted_fps=20.24 queue_age_ms=76.2 encode_max_ms=19.7 http_ms=55.7 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=108 batch=4 accepted_fps=20.42 queue_age_ms=96.5 encode_max_ms=43.9 http_ms=50.5 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=112:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=112 batch=4 accepted_fps=20.75 queue_age_ms=81.2 encode_max_ms=36.1 http_ms=71.5 source_lag=None dropped=0 ready=False
+[V4 STATEFUL UPLOAD] frames=115 batch=3 accepted_fps=20.88 queue_age_ms=119.6 encode_max_ms=9.3 http_ms=58.5 source_lag=None dropped=0 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=None:source_anchor=None:watermark=118:source_lag=None:limit=5
+[V4 CACHE] frame=120 episode=1 clock=monotonic_receipt odom_error_ms=1.5 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=121 batch=3 accepted_fps=20.79 queue_age_ms=160.3 encode_max_ms=14.0 http_ms=116.4 source_lag=6 dropped=0 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.279 snapshot_wait_s=0.000 interval_s=first version=2 source_anchor=117 client_watermark=120 source_lag=3 retries=0 bytes=29146
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=0.9416333436965942 right_clearance_m=1.1251606941223145 trajectory_end_y_m=0.045
+traj len 0.7979973940638289
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1560->0.1013
+1786954870.8014567 update traj
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.208 snapshot_wait_s=0.084 interval_s=0.798 version=5 source_anchor=139 client_watermark=144 source_lag=5 retries=0 bytes=29116
+traj len 1.2020557184918639
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1333->0.0478
+1786954871.578688 update traj
+[V4 CACHE] frame=150 episode=1 clock=monotonic_receipt odom_error_ms=1.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=152 batch=3 accepted_fps=21.76 queue_age_ms=78.6 encode_max_ms=8.4 http_ms=69.5 source_lag=11 dropped=0 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.261 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=6:last_leased=5:source_anchor=142:watermark=157:source_lag=15:limit=5
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.212 snapshot_wait_s=0.099 interval_s=0.764 version=7 source_anchor=158 client_watermark=163 source_lag=5 retries=0 bytes=29237
+traj len 0.9626023712503957
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1670->0.0397
+1786954872.345992 update traj
+[V4 CACHE] frame=180 episode=1 clock=monotonic_receipt odom_error_ms=4.8 ready=True memory_mib=46.9
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.264 snapshot_wait_s=0.000 interval_s=0.355 version=15 source_anchor=169 client_watermark=174 source_lag=5 retries=0 bytes=29128
+traj len 0.9725092997720434
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.1568->0.0492
+1786954872.6986368 update traj
+[V4 STATEFUL UPLOAD] frames=181 batch=4 accepted_fps=22.55 queue_age_ms=224.2 encode_max_ms=17.9 http_ms=204.8 source_lag=13 dropped=0 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.215 snapshot_wait_s=0.151 interval_s=0.444 version=23 source_anchor=184 client_watermark=189 source_lag=5 retries=0 bytes=29090
+traj len 1.1463173249494496
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0058 mean_corner_rad=0.1266->0.0345
+1786954873.1667757 update traj
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.234 snapshot_wait_s=0.000 interval_s=0.365 version=31 source_anchor=192 client_watermark=197 source_lag=5 retries=0 bytes=29113
+traj len 0.9378254806540287
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1539->0.0529
+1786954873.5154665 update traj
+[V4 CACHE] frame=210 episode=1 clock=monotonic_receipt odom_error_ms=1.7 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=213 batch=4 accepted_fps=23.52 queue_age_ms=117.2 encode_max_ms=13.9 http_ms=102.9 source_lag=3 dropped=0 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.221 snapshot_wait_s=0.000 interval_s=0.359 version=33 source_anchor=204 client_watermark=208 source_lag=4 retries=0 bytes=29089
+traj len 0.8705352820852231
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0091 mean_corner_rad=0.1824->0.0596
+1786954873.8816185 update traj
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.273 snapshot_wait_s=0.000 interval_s=0.438 version=44 source_anchor=215 client_watermark=220 source_lag=5 retries=0 bytes=29258
+traj len 0.8230770796702813
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1044->0.0564
+1786954874.3107166 update traj
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.279 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=51:last_leased=44:source_anchor=222:watermark=237:source_lag=15:limit=5
+[V4 CACHE] frame=240 episode=1 clock=monotonic_receipt odom_error_ms=2.5 ready=True memory_mib=46.9
+[V4 STATEFUL BACKPRESSURE] dropped_oldest_frames=1
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.540 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=51:last_leased=44:source_anchor=222:watermark=243:source_lag=21:limit=5
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.750; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=230 batch=4 accepted_fps=22.34 queue_age_ms=756.8 encode_max_ms=27.9 http_ms=703.6 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=252:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=234 batch=4 accepted_fps=22.45 queue_age_ms=412.3 encode_max_ms=12.7 http_ms=128.2 source_lag=None dropped=9 ready=False
+[V4 STATEFUL UPLOAD] frames=238 batch=4 accepted_fps=22.56 queue_age_ms=400.7 encode_max_ms=26.7 http_ms=119.9 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=260:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=242 batch=4 accepted_fps=22.70 queue_age_ms=392.1 encode_max_ms=17.1 http_ms=109.0 source_lag=None dropped=9 ready=False
+[V4 STATEFUL UPLOAD] frames=246 batch=4 accepted_fps=22.85 queue_age_ms=364.9 encode_max_ms=16.3 http_ms=101.8 source_lag=None dropped=9 ready=False
+[V4 STATEFUL UPLOAD] frames=250 batch=4 accepted_fps=22.98 queue_age_ms=317.8 encode_max_ms=26.4 http_ms=112.5 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=266:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=254 batch=4 accepted_fps=23.13 queue_age_ms=279.8 encode_max_ms=14.0 http_ms=98.4 source_lag=None dropped=9 ready=False
+[V4 CACHE] frame=270 episode=1 clock=monotonic_receipt odom_error_ms=5.5 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=258 batch=4 accepted_fps=23.17 queue_age_ms=270.1 encode_max_ms=14.6 http_ms=155.0 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=273:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=262 batch=4 accepted_fps=23.36 queue_age_ms=160.8 encode_max_ms=33.9 http_ms=80.5 source_lag=None dropped=9 ready=False
+[V4 STATEFUL UPLOAD] frames=266 batch=4 accepted_fps=23.50 queue_age_ms=120.8 encode_max_ms=11.9 http_ms=102.2 source_lag=None dropped=9 ready=False
+[V4 STATEFUL UPLOAD] frames=269 batch=3 accepted_fps=23.51 queue_age_ms=78.6 encode_max_ms=8.5 http_ms=68.0 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=280:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=272 batch=3 accepted_fps=23.52 queue_age_ms=100.4 encode_max_ms=16.2 http_ms=66.7 source_lag=None dropped=9 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=44:source_anchor=None:watermark=288:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=276 batch=4 accepted_fps=23.51 queue_age_ms=141.0 encode_max_ms=19.3 http_ms=120.7 source_lag=4 dropped=9 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.255 snapshot_wait_s=0.000 interval_s=2.549 version=52 source_anchor=284 client_watermark=289 source_lag=5 retries=0 bytes=28740
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786954876.8598933 update traj
+[V4 STATEFUL UPLOAD] frames=280 batch=4 accepted_fps=23.12 queue_age_ms=378.5 encode_max_ms=12.6 http_ms=366.4 source_lag=11 dropped=9 ready=True
+[V4 CACHE] frame=300 episode=1 clock=monotonic_receipt odom_error_ms=0.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=284 batch=4 accepted_fps=23.07 queue_age_ms=433.0 encode_max_ms=12.9 http_ms=198.1 source_lag=12 dropped=9 ready=True
+[V4 STATEFUL UPLOAD] frames=288 batch=4 accepted_fps=22.91 queue_age_ms=573.6 encode_max_ms=11.3 http_ms=258.5 source_lag=16 dropped=13 ready=True
+[V4 STATEFUL UPLOAD] frames=292 batch=4 accepted_fps=22.91 queue_age_ms=439.2 encode_max_ms=32.6 http_ms=172.0 source_lag=21 dropped=14 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.303 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=64:last_leased=52:source_anchor=296:watermark=324:source_lag=28:limit=5
+[V4 STATEFUL UPLOAD] frames=296 batch=4 accepted_fps=22.47 queue_age_ms=679.7 encode_max_ms=36.2 http_ms=428.9 source_lag=34 dropped=23 ready=True
+[V4 CACHE] frame=330 episode=1 clock=monotonic_receipt odom_error_ms=1.7 ready=True memory_mib=46.9
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.563 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=64:last_leased=52:source_anchor=296:watermark=333:source_lag=37:limit=5
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.608; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=300 batch=4 accepted_fps=22.53 queue_age_ms=414.8 encode_max_ms=23.7 http_ms=137.2 source_lag=None dropped=23 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=52:source_anchor=None:watermark=340:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=304 batch=4 accepted_fps=22.40 queue_age_ms=555.2 encode_max_ms=38.4 http_ms=256.0 source_lag=None dropped=25 ready=False
+[V4 STATEFUL UPLOAD] frames=308 batch=4 accepted_fps=22.51 queue_age_ms=484.4 encode_max_ms=35.4 http_ms=112.8 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=52:source_anchor=None:watermark=348:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=312 batch=4 accepted_fps=22.51 queue_age_ms=459.8 encode_max_ms=11.6 http_ms=175.3 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=316 batch=4 accepted_fps=22.60 queue_age_ms=405.4 encode_max_ms=16.7 http_ms=123.3 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=52:source_anchor=None:watermark=356:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=320 batch=4 accepted_fps=22.67 queue_age_ms=443.3 encode_max_ms=25.7 http_ms=125.6 source_lag=None dropped=26 ready=False
+[V4 CACHE] frame=360 episode=1 clock=monotonic_receipt odom_error_ms=0.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=324 batch=4 accepted_fps=22.72 queue_age_ms=414.9 encode_max_ms=28.5 http_ms=148.2 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=52:source_anchor=None:watermark=363:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=328 batch=4 accepted_fps=22.80 queue_age_ms=414.1 encode_max_ms=19.3 http_ms=121.6 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=332 batch=4 accepted_fps=22.85 queue_age_ms=431.2 encode_max_ms=15.5 http_ms=148.2 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=336 batch=4 accepted_fps=22.98 queue_age_ms=345.2 encode_max_ms=27.5 http_ms=90.8 source_lag=8 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=72:last_leased=52:source_anchor=360:watermark=368:source_lag=8:limit=5
+[V4 STATEFUL UPLOAD] frames=340 batch=4 accepted_fps=23.08 queue_age_ms=276.5 encode_max_ms=11.1 http_ms=106.7 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=344 batch=4 accepted_fps=23.10 queue_age_ms=216.6 encode_max_ms=13.7 http_ms=161.0 source_lag=14 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=72:last_leased=52:source_anchor=360:watermark=375:source_lag=15:limit=5
+[V4 STATEFUL UPLOAD] frames=348 batch=4 accepted_fps=23.19 queue_age_ms=172.3 encode_max_ms=12.6 http_ms=113.7 source_lag=18 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=352 batch=4 accepted_fps=23.21 queue_age_ms=188.0 encode_max_ms=10.0 http_ms=158.7 source_lag=22 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=72:last_leased=52:source_anchor=360:watermark=382:source_lag=22:limit=5
+[V4 STATEFUL UPLOAD] frames=356 batch=4 accepted_fps=23.18 queue_age_ms=247.9 encode_max_ms=13.9 http_ms=187.6 source_lag=6 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=76:last_leased=52:source_anchor=381:watermark=390:source_lag=9:limit=5
+[V4 CACHE] frame=390 episode=1 clock=monotonic_receipt odom_error_ms=1.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=360 batch=4 accepted_fps=23.26 queue_age_ms=240.0 encode_max_ms=13.8 http_ms=117.1 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=364 batch=4 accepted_fps=23.32 queue_age_ms=207.4 encode_max_ms=14.8 http_ms=130.6 source_lag=7 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=82:last_leased=52:source_anchor=387:watermark=397:source_lag=10:limit=5
+[V4 STATEFUL UPLOAD] frames=368 batch=4 accepted_fps=23.39 queue_age_ms=161.4 encode_max_ms=23.3 http_ms=129.3 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=372 batch=4 accepted_fps=23.39 queue_age_ms=223.9 encode_max_ms=11.8 http_ms=166.2 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=376 batch=4 accepted_fps=23.45 queue_age_ms=174.9 encode_max_ms=24.1 http_ms=130.1 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.262 snapshot_wait_s=0.109 interval_s=4.116 version=85 source_anchor=397 client_watermark=402 source_lag=5 retries=0 bytes=29512
+traj len 1.2579154239513528
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0061 mean_corner_rad=0.1297->0.0424
+1786954880.988769 update traj
+[V4 STATEFUL UPLOAD] frames=380 batch=4 accepted_fps=23.36 queue_age_ms=283.2 encode_max_ms=17.6 http_ms=230.1 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=384 batch=4 accepted_fps=23.41 queue_age_ms=261.0 encode_max_ms=14.9 http_ms=136.0 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=388 batch=4 accepted_fps=23.47 queue_age_ms=248.4 encode_max_ms=37.5 http_ms=126.1 source_lag=5 dropped=26 ready=True
+[V4 CACHE] frame=420 episode=1 clock=monotonic_receipt odom_error_ms=9.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=392 batch=4 accepted_fps=23.53 queue_age_ms=182.6 encode_max_ms=19.5 http_ms=128.3 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=396 batch=4 accepted_fps=23.60 queue_age_ms=176.6 encode_max_ms=25.9 http_ms=119.3 source_lag=10 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.261 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=90:last_leased=85:source_anchor=415:watermark=426:source_lag=11:limit=5
+[V4 STATEFUL UPLOAD] frames=400 batch=4 accepted_fps=23.63 queue_age_ms=183.0 encode_max_ms=18.8 http_ms=147.2 source_lag=14 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=404 batch=4 accepted_fps=23.72 queue_age_ms=146.9 encode_max_ms=17.4 http_ms=105.9 source_lag=17 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.526 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=90:last_leased=85:source_anchor=415:watermark=433:source_lag=18:limit=5
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.643; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=407 batch=3 accepted_fps=23.65 queue_age_ms=201.8 encode_max_ms=12.5 http_ms=170.2 source_lag=22 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=411 batch=4 accepted_fps=23.72 queue_age_ms=190.7 encode_max_ms=16.5 http_ms=122.5 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=414 batch=3 accepted_fps=23.77 queue_age_ms=146.2 encode_max_ms=10.8 http_ms=88.6 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=417 batch=3 accepted_fps=23.80 queue_age_ms=110.1 encode_max_ms=13.2 http_ms=77.1 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.211 snapshot_wait_s=0.200 interval_s=1.377 version=91 source_anchor=436 client_watermark=439 source_lag=3 retries=0 bytes=29325
+traj len 0.7981385495320953
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0048 mean_corner_rad=0.1749->0.0469
+1786954882.3541374 update traj
+[V4 STATEFUL UPLOAD] frames=419 batch=2 accepted_fps=23.71 queue_age_ms=170.4 encode_max_ms=15.0 http_ms=103.3 source_lag=10 dropped=26 ready=True
+[V4 CACHE] frame=450 episode=1 clock=monotonic_receipt odom_error_ms=1.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=422 batch=3 accepted_fps=23.74 queue_age_ms=135.1 encode_max_ms=15.2 http_ms=88.7 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=425 batch=3 accepted_fps=23.69 queue_age_ms=189.2 encode_max_ms=31.6 http_ms=131.8 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=429 batch=4 accepted_fps=23.79 queue_age_ms=119.0 encode_max_ms=16.9 http_ms=93.8 source_lag=20 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=433 batch=4 accepted_fps=23.85 queue_age_ms=110.3 encode_max_ms=32.6 http_ms=100.7 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.233 snapshot_wait_s=0.056 interval_s=0.842 version=93 source_anchor=458 client_watermark=460 source_lag=2 retries=0 bytes=29386
+traj len 1.1770329131068982
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.1277->0.0575
+1786954883.1955173 update traj
+[V4 STATEFUL UPLOAD] frames=437 batch=4 accepted_fps=23.75 queue_age_ms=203.9 encode_max_ms=35.2 http_ms=168.1 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=441 batch=4 accepted_fps=23.74 queue_age_ms=241.5 encode_max_ms=18.2 http_ms=173.1 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=445 batch=4 accepted_fps=23.80 queue_age_ms=223.8 encode_max_ms=29.4 http_ms=121.5 source_lag=11 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.261 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=98:last_leased=93:source_anchor=464:watermark=475:source_lag=11:limit=5
+[V4 STATEFUL UPLOAD] frames=449 batch=4 accepted_fps=23.87 queue_age_ms=164.0 encode_max_ms=15.8 http_ms=108.5 source_lag=14 dropped=26 ready=True
+[V4 CACHE] frame=480 episode=1 clock=monotonic_receipt odom_error_ms=1.4 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=453 batch=4 accepted_fps=23.96 queue_age_ms=115.5 encode_max_ms=21.2 http_ms=90.7 source_lag=17 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.535 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=98:last_leased=93:source_anchor=464:watermark=483:source_lag=19:limit=5
+[V4 STATEFUL UPLOAD] frames=456 batch=3 accepted_fps=24.00 queue_age_ms=115.9 encode_max_ms=22.8 http_ms=67.9 source_lag=2 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.607; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=459 batch=3 accepted_fps=24.00 queue_age_ms=97.0 encode_max_ms=17.2 http_ms=77.6 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=463 batch=4 accepted_fps=24.02 queue_age_ms=109.5 encode_max_ms=21.4 http_ms=100.4 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.239 snapshot_wait_s=0.000 interval_s=0.920 version=101 source_anchor=481 client_watermark=484 source_lag=3 retries=0 bytes=29340
+traj len 1.3593860922179002
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1082->0.0546
+1786954884.1227763 update traj
+[V4 STATEFUL UPLOAD] frames=466 batch=3 accepted_fps=24.01 queue_age_ms=170.2 encode_max_ms=16.4 http_ms=107.2 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=469 batch=3 accepted_fps=23.88 queue_age_ms=225.3 encode_max_ms=32.8 http_ms=208.6 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=473 batch=4 accepted_fps=23.88 queue_age_ms=211.2 encode_max_ms=26.0 http_ms=165.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=477 batch=4 accepted_fps=23.96 queue_age_ms=203.5 encode_max_ms=42.0 http_ms=103.5 source_lag=6 dropped=26 ready=True
+[V4 CACHE] frame=510 episode=1 clock=monotonic_receipt odom_error_ms=1.5 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=481 batch=4 accepted_fps=24.03 queue_age_ms=196.4 encode_max_ms=40.3 http_ms=105.4 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=485 batch=4 accepted_fps=24.04 queue_age_ms=220.8 encode_max_ms=23.0 http_ms=158.4 source_lag=10 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.282 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=107:last_leased=101:source_anchor=505:watermark=518:source_lag=13:limit=5
+[V4 STATEFUL UPLOAD] frames=489 batch=4 accepted_fps=24.13 queue_age_ms=171.8 encode_max_ms=22.4 http_ms=84.3 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=493 batch=4 accepted_fps=24.14 queue_age_ms=208.9 encode_max_ms=43.9 http_ms=157.9 source_lag=9 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.551 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=109:last_leased=101:source_anchor=513:watermark=524:source_lag=11:limit=5
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.604; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=497 batch=4 accepted_fps=24.13 queue_age_ms=191.4 encode_max_ms=10.1 http_ms=170.9 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=500 batch=3 accepted_fps=24.11 queue_age_ms=206.9 encode_max_ms=40.0 http_ms=138.4 source_lag=18 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=109:last_leased=101:source_anchor=513:watermark=533:source_lag=20:limit=5
+[V4 STATEFUL UPLOAD] frames=504 batch=4 accepted_fps=24.20 queue_age_ms=155.0 encode_max_ms=25.8 http_ms=86.4 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=508 batch=4 accepted_fps=24.17 queue_age_ms=232.2 encode_max_ms=20.8 http_ms=186.3 source_lag=6 dropped=26 ready=True
+[V4 CACHE] frame=540 episode=1 clock=monotonic_receipt odom_error_ms=2.6 ready=True memory_mib=46.9
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.266 snapshot_wait_s=0.000 interval_s=1.839 version=110 source_anchor=529 client_watermark=534 source_lag=5 retries=0 bytes=29435
+traj len 1.2746841067979955
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.0816->0.0435
+1786954885.9525964 update traj
+[V4 STATEFUL UPLOAD] frames=512 batch=4 accepted_fps=24.19 queue_age_ms=224.1 encode_max_ms=15.0 http_ms=148.4 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=516 batch=4 accepted_fps=24.17 queue_age_ms=274.0 encode_max_ms=20.4 http_ms=184.9 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=520 batch=4 accepted_fps=24.19 queue_age_ms=248.4 encode_max_ms=20.5 http_ms=148.9 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=524 batch=4 accepted_fps=24.24 queue_age_ms=237.6 encode_max_ms=25.2 http_ms=114.3 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=528 batch=4 accepted_fps=24.31 queue_age_ms=204.6 encode_max_ms=15.8 http_ms=98.1 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=532 batch=4 accepted_fps=24.31 queue_age_ms=204.4 encode_max_ms=12.2 http_ms=165.7 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.252 snapshot_wait_s=0.112 interval_s=0.825 version=119 source_anchor=553 client_watermark=557 source_lag=4 retries=0 bytes=29342
+traj len 1.565453873024181
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.0869->0.0361
+1786954886.7726402 update traj
+[V4 STATEFUL UPLOAD] frames=536 batch=4 accepted_fps=24.25 queue_age_ms=290.5 encode_max_ms=34.7 http_ms=216.3 source_lag=14 dropped=26 ready=True
+[V4 CACHE] frame=570 episode=1 clock=monotonic_receipt odom_error_ms=0.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=540 batch=4 accepted_fps=24.31 queue_age_ms=277.0 encode_max_ms=14.6 http_ms=111.7 source_lag=7 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.274 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=125:last_leased=119:source_anchor=565:watermark=573:source_lag=8:limit=5
+[V4 STATEFUL UPLOAD] frames=544 batch=4 accepted_fps=24.40 queue_age_ms=198.7 encode_max_ms=29.2 http_ms=75.0 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=548 batch=4 accepted_fps=24.47 queue_age_ms=152.0 encode_max_ms=12.3 http_ms=100.1 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=551 batch=3 accepted_fps=24.50 queue_age_ms=112.3 encode_max_ms=13.1 http_ms=99.8 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.250 snapshot_wait_s=0.000 interval_s=0.625 version=129 source_anchor=569 client_watermark=574 source_lag=5 retries=0 bytes=29486
+traj len 1.4530282509595496
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0064 mean_corner_rad=0.0933->0.0437
+1786954887.397518 update traj
+[V4 STATEFUL UPLOAD] frames=555 batch=4 accepted_fps=24.52 queue_age_ms=131.0 encode_max_ms=35.7 http_ms=122.7 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=557 batch=2 accepted_fps=24.53 queue_age_ms=126.5 encode_max_ms=26.4 http_ms=70.0 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=561 batch=4 accepted_fps=24.51 queue_age_ms=164.4 encode_max_ms=22.4 http_ms=139.9 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.268 snapshot_wait_s=0.000 interval_s=0.397 version=134 source_anchor=582 client_watermark=585 source_lag=3 retries=0 bytes=29341
+traj len 1.0951150273606503
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0075 mean_corner_rad=0.1208->0.0659
+1786954887.8057318 update traj
+[V4 STATEFUL UPLOAD] frames=565 batch=4 accepted_fps=24.52 queue_age_ms=197.4 encode_max_ms=18.9 http_ms=148.1 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=569 batch=4 accepted_fps=24.57 queue_age_ms=173.0 encode_max_ms=16.8 http_ms=120.0 source_lag=4 dropped=26 ready=True
+[V4 CACHE] frame=600 episode=1 clock=monotonic_receipt odom_error_ms=0.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=573 batch=4 accepted_fps=24.63 queue_age_ms=148.1 encode_max_ms=21.3 http_ms=97.5 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.226 snapshot_wait_s=0.071 interval_s=0.397 version=145 source_anchor=594 client_watermark=598 source_lag=4 retries=0 bytes=29267
+traj len 0.8021819508348639
+[V4 STATEFUL UPLOAD] frames=576 batch=3 accepted_fps=24.62 queue_age_ms=145.5 encode_max_ms=23.0 http_ms=99.8 source_lag=6 dropped=26 ready=True
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0088 mean_corner_rad=0.1267->0.0690
+1786954888.2054276 update traj
+[V4 STATEFUL UPLOAD] frames=579 batch=3 accepted_fps=24.63 queue_age_ms=130.7 encode_max_ms=26.2 http_ms=98.0 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=583 batch=4 accepted_fps=24.66 queue_age_ms=101.4 encode_max_ms=32.5 http_ms=89.5 source_lag=13 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.298 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=149:last_leased=145:source_anchor=598:watermark=613:source_lag=15:limit=5
+[V4 STATEFUL UPLOAD] frames=587 batch=4 accepted_fps=24.67 queue_age_ms=120.6 encode_max_ms=10.6 http_ms=111.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=589 batch=2 accepted_fps=24.66 queue_age_ms=144.2 encode_max_ms=12.5 http_ms=70.3 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=593 batch=4 accepted_fps=24.69 queue_age_ms=100.3 encode_max_ms=28.7 http_ms=85.9 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.224 snapshot_wait_s=0.021 interval_s=0.636 version=152 source_anchor=611 client_watermark=614 source_lag=3 retries=0 bytes=28541
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786954888.8224993 update traj
+[V4 STATEFUL UPLOAD] frames=595 batch=2 accepted_fps=24.65 queue_age_ms=159.0 encode_max_ms=8.2 http_ms=79.1 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=599 batch=4 accepted_fps=24.66 queue_age_ms=111.0 encode_max_ms=18.5 http_ms=97.3 source_lag=15 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.276 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=152:last_leased=152:source_anchor=611:watermark=628:source_lag=17:limit=5
+[V4 STATEFUL UPLOAD] frames=602 batch=3 accepted_fps=24.69 queue_age_ms=88.0 encode_max_ms=20.3 http_ms=67.2 source_lag=18 dropped=26 ready=True
+[V4 CACHE] frame=630 episode=1 clock=monotonic_receipt odom_error_ms=2.4 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=605 batch=3 accepted_fps=24.69 queue_age_ms=105.1 encode_max_ms=10.8 http_ms=91.1 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=609 batch=4 accepted_fps=24.67 queue_age_ms=141.5 encode_max_ms=28.1 http_ms=129.9 source_lag=5 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.668; cleared MPC and waiting for next planner output
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.233 snapshot_wait_s=0.087 interval_s=0.715 version=155 source_anchor=630 client_watermark=633 source_lag=3 retries=0 bytes=29331
+traj len 1.0164568173242008
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1267->0.0632
+1786954889.547344 update traj
+[V4 STATEFUL UPLOAD] frames=613 batch=4 accepted_fps=24.71 queue_age_ms=128.0 encode_max_ms=14.3 http_ms=114.9 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=615 batch=2 accepted_fps=24.71 queue_age_ms=139.4 encode_max_ms=21.1 http_ms=73.4 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=619 batch=4 accepted_fps=24.73 queue_age_ms=111.6 encode_max_ms=22.9 http_ms=91.7 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=622 batch=3 accepted_fps=24.73 queue_age_ms=136.4 encode_max_ms=13.6 http_ms=77.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=625 batch=3 accepted_fps=24.73 queue_age_ms=133.7 encode_max_ms=14.8 http_ms=91.1 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.218 snapshot_wait_s=0.044 interval_s=0.629 version=158 source_anchor=647 client_watermark=650 source_lag=3 retries=0 bytes=29285
+traj len 1.046888904277558
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0071 mean_corner_rad=0.1162->0.0750
+1786954890.17071 update traj
+[V4 STATEFUL UPLOAD] frames=628 batch=3 accepted_fps=24.67 queue_age_ms=147.1 encode_max_ms=15.7 http_ms=137.5 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=632 batch=4 accepted_fps=24.67 queue_age_ms=166.7 encode_max_ms=33.8 http_ms=148.5 source_lag=13 dropped=26 ready=True
+[V4 CACHE] frame=660 episode=1 clock=monotonic_receipt odom_error_ms=0.7 ready=True memory_mib=46.9
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.299 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=158:last_leased=158:source_anchor=647:watermark=664:source_lag=17:limit=5
+[V4 STATEFUL UPLOAD] frames=636 batch=4 accepted_fps=24.68 queue_age_ms=134.6 encode_max_ms=32.8 http_ms=105.8 source_lag=18 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=640 batch=4 accepted_fps=24.73 queue_age_ms=132.4 encode_max_ms=28.9 http_ms=112.9 source_lag=20 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.558 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=158:last_leased=158:source_anchor=647:watermark=671:source_lag=24:limit=5
+[V4 STATEFUL UPLOAD] frames=644 batch=4 accepted_fps=24.72 queue_age_ms=119.9 encode_max_ms=49.6 http_ms=110.1 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.621; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=647 batch=3 accepted_fps=24.74 queue_age_ms=133.8 encode_max_ms=10.5 http_ms=70.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=651 batch=4 accepted_fps=24.75 queue_age_ms=98.6 encode_max_ms=11.8 http_ms=85.3 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.195 snapshot_wait_s=0.052 interval_s=0.976 version=159 source_anchor=672 client_watermark=675 source_lag=3 retries=0 bytes=29260
+traj len 1.9070222344302656
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0080 mean_corner_rad=0.0792->0.0292
+1786954891.1655154 update traj
+[V4 STATEFUL UPLOAD] frames=653 batch=2 accepted_fps=24.73 queue_age_ms=129.3 encode_max_ms=12.0 http_ms=55.4 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=657 batch=4 accepted_fps=24.72 queue_age_ms=118.8 encode_max_ms=17.2 http_ms=101.4 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=660 batch=3 accepted_fps=24.75 queue_age_ms=108.5 encode_max_ms=16.6 http_ms=71.5 source_lag=15 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=663 batch=3 accepted_fps=24.76 queue_age_ms=67.2 encode_max_ms=11.6 http_ms=58.6 source_lag=17 dropped=26 ready=True
+[V4 CACHE] frame=690 episode=1 clock=monotonic_receipt odom_error_ms=7.7 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=665 batch=2 accepted_fps=24.71 queue_age_ms=110.2 encode_max_ms=20.8 http_ms=54.3 source_lag=None dropped=26 ready=False
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.264 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=159:source_anchor=None:watermark=694:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=669 batch=4 accepted_fps=24.77 queue_age_ms=92.2 encode_max_ms=29.7 http_ms=79.6 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=672 batch=3 accepted_fps=24.76 queue_age_ms=93.8 encode_max_ms=14.0 http_ms=84.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=675 batch=3 accepted_fps=24.72 queue_age_ms=153.3 encode_max_ms=16.3 http_ms=130.2 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.230 snapshot_wait_s=0.144 interval_s=1.028 version=161 source_anchor=696 client_watermark=699 source_lag=3 retries=0 bytes=29104
+traj len 1.2617787328446406
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.0932->0.0337
+1786954892.1749432 update traj
+[V4 STATEFUL UPLOAD] frames=678 batch=3 accepted_fps=24.73 queue_age_ms=174.7 encode_max_ms=13.1 http_ms=112.2 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=682 batch=4 accepted_fps=24.77 queue_age_ms=136.7 encode_max_ms=16.9 http_ms=107.3 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=685 batch=3 accepted_fps=24.83 queue_age_ms=107.6 encode_max_ms=31.2 http_ms=54.3 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=687 batch=2 accepted_fps=24.82 queue_age_ms=100.6 encode_max_ms=10.3 http_ms=38.7 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.222 snapshot_wait_s=0.076 interval_s=0.378 version=166 source_anchor=707 client_watermark=710 source_lag=3 retries=0 bytes=29378
+traj len 1.3300239478601517
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0101 mean_corner_rad=0.0950->0.0311
+1786954892.5544279 update traj
+[V4 STATEFUL UPLOAD] frames=690 batch=3 accepted_fps=24.81 queue_age_ms=68.3 encode_max_ms=12.8 http_ms=54.7 source_lag=5 dropped=26 ready=True
+[V4 CACHE] frame=720 episode=1 clock=monotonic_receipt odom_error_ms=3.7 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=693 batch=3 accepted_fps=24.75 queue_age_ms=121.9 encode_max_ms=8.6 http_ms=108.0 source_lag=9 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.264 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=170:last_leased=166:source_anchor=711:watermark=721:source_lag=10:limit=5
+[V4 STATEFUL UPLOAD] frames=696 batch=3 accepted_fps=24.75 queue_age_ms=112.4 encode_max_ms=21.0 http_ms=90.4 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=699 batch=3 accepted_fps=24.74 queue_age_ms=134.3 encode_max_ms=11.7 http_ms=91.6 source_lag=16 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.534 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=170:last_leased=166:source_anchor=711:watermark=728:source_lag=17:limit=5
+[V4 STATEFUL UPLOAD] frames=702 batch=3 accepted_fps=24.73 queue_age_ms=167.1 encode_max_ms=17.7 http_ms=112.3 source_lag=19 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=705 batch=3 accepted_fps=24.72 queue_age_ms=166.2 encode_max_ms=28.2 http_ms=126.3 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.731; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=166:source_anchor=None:watermark=737:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=709 batch=4 accepted_fps=24.78 queue_age_ms=114.7 encode_max_ms=17.2 http_ms=95.4 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=713 batch=4 accepted_fps=24.73 queue_age_ms=177.5 encode_max_ms=20.5 http_ms=166.3 source_lag=6 dropped=26 ready=True
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=173:last_leased=166:source_anchor=737:watermark=744:source_lag=7:limit=5
+[V4 STATEFUL UPLOAD] frames=717 batch=4 accepted_fps=24.78 queue_age_ms=156.4 encode_max_ms=20.5 http_ms=111.2 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=721 batch=4 accepted_fps=24.83 queue_age_ms=129.3 encode_max_ms=12.6 http_ms=103.9 source_lag=2 dropped=26 ready=True
+[V4 CACHE] frame=750 episode=1 clock=monotonic_receipt odom_error_ms=1.9 ready=True memory_mib=46.9
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.263 snapshot_wait_s=0.093 interval_s=1.552 version=176 source_anchor=746 client_watermark=748 source_lag=2 retries=0 bytes=29304
+traj len 1.2255847746052606
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0046 mean_corner_rad=0.0756->0.0420
+1786954894.1092017 update traj
+[V4 STATEFUL UPLOAD] frames=725 batch=4 accepted_fps=24.72 queue_age_ms=249.5 encode_max_ms=14.6 http_ms=233.4 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=729 batch=4 accepted_fps=24.76 queue_age_ms=233.9 encode_max_ms=13.5 http_ms=116.7 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=733 batch=4 accepted_fps=24.75 queue_age_ms=240.1 encode_max_ms=59.3 http_ms=172.8 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=737 batch=4 accepted_fps=24.76 queue_age_ms=239.2 encode_max_ms=32.6 http_ms=142.8 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=741 batch=4 accepted_fps=24.79 queue_age_ms=198.9 encode_max_ms=27.6 http_ms=127.1 source_lag=12 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.264 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=182:last_leased=176:source_anchor=758:watermark=772:source_lag=14:limit=5
+[V4 STATEFUL UPLOAD] frames=745 batch=4 accepted_fps=24.85 queue_age_ms=118.2 encode_max_ms=15.6 http_ms=88.7 source_lag=14 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=747 batch=2 accepted_fps=24.84 queue_age_ms=129.2 encode_max_ms=13.5 http_ms=61.8 source_lag=16 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=750 batch=3 accepted_fps=24.84 queue_age_ms=77.9 encode_max_ms=20.9 http_ms=62.2 source_lag=19 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.550 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=182:last_leased=176:source_anchor=758:watermark=778:source_lag=20:limit=5
+[V4 STATEFUL UPLOAD] frames=753 batch=3 accepted_fps=24.84 queue_age_ms=90.0 encode_max_ms=9.5 http_ms=69.8 source_lag=22 dropped=26 ready=True
+[V4 CACHE] frame=780 episode=1 clock=monotonic_receipt odom_error_ms=2.2 ready=True memory_mib=46.9
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.631; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=756 batch=3 accepted_fps=24.84 queue_age_ms=94.5 encode_max_ms=26.2 http_ms=69.4 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=176:source_anchor=None:watermark=784:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=758 batch=2 accepted_fps=24.81 queue_age_ms=134.4 encode_max_ms=13.6 http_ms=65.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=762 batch=4 accepted_fps=24.84 queue_age_ms=91.2 encode_max_ms=16.2 http_ms=74.5 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=766 batch=4 accepted_fps=24.88 queue_age_ms=73.1 encode_max_ms=14.8 http_ms=65.2 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=769 batch=3 accepted_fps=24.86 queue_age_ms=83.0 encode_max_ms=11.3 http_ms=71.2 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.211 snapshot_wait_s=0.170 interval_s=1.693 version=183 source_anchor=791 client_watermark=792 source_lag=1 retries=0 bytes=29380
+traj len 1.1070973823695325
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0071 mean_corner_rad=0.0991->0.0484
+1786954895.8074095 update traj
+[V4 STATEFUL UPLOAD] frames=771 batch=2 accepted_fps=24.76 queue_age_ms=226.1 encode_max_ms=9.1 http_ms=162.3 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=775 batch=4 accepted_fps=24.82 queue_age_ms=144.0 encode_max_ms=29.5 http_ms=85.0 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=779 batch=4 accepted_fps=24.87 queue_age_ms=93.2 encode_max_ms=38.8 http_ms=60.7 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=782 batch=3 accepted_fps=24.86 queue_age_ms=67.6 encode_max_ms=12.1 http_ms=51.8 source_lag=4 dropped=26 ready=True
+[V4 CACHE] frame=810 episode=1 clock=monotonic_receipt odom_error_ms=3.2 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=785 batch=3 accepted_fps=24.85 queue_age_ms=78.2 encode_max_ms=9.6 http_ms=60.9 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.284 snapshot_wait_s=0.000 interval_s=0.690 version=186 source_anchor=804 client_watermark=807 source_lag=3 retries=0 bytes=29200
+traj len 1.2988673280694334
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0103 mean_corner_rad=0.1048->0.0479
+1786954896.5158362 update traj
+[V4 STATEFUL UPLOAD] frames=788 batch=3 accepted_fps=24.81 queue_age_ms=106.0 encode_max_ms=19.3 http_ms=80.9 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=792 batch=4 accepted_fps=24.77 queue_age_ms=173.5 encode_max_ms=36.0 http_ms=134.3 source_lag=17 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.269 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=186:last_leased=186:source_anchor=804:watermark=821:source_lag=17:limit=5
+[V4 STATEFUL UPLOAD] frames=796 batch=4 accepted_fps=24.83 queue_age_ms=143.7 encode_max_ms=27.5 http_ms=92.2 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=799 batch=3 accepted_fps=24.79 queue_age_ms=114.6 encode_max_ms=14.6 http_ms=97.3 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.264 snapshot_wait_s=0.000 interval_s=0.640 version=188 source_anchor=821 client_watermark=822 source_lag=1 retries=0 bytes=29428
+traj len 1.2427802729156787
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.0668->0.0368
+1786954897.1284587 update traj
+[V4 STATEFUL UPLOAD] frames=802 batch=3 accepted_fps=24.77 queue_age_ms=131.8 encode_max_ms=17.9 http_ms=119.4 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=805 batch=3 accepted_fps=24.73 queue_age_ms=186.4 encode_max_ms=26.1 http_ms=142.3 source_lag=14 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.277 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=188:last_leased=188:source_anchor=821:watermark=837:source_lag=16:limit=5
+[V4 STATEFUL UPLOAD] frames=809 batch=4 accepted_fps=24.79 queue_age_ms=118.5 encode_max_ms=24.8 http_ms=86.2 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=813 batch=4 accepted_fps=24.82 queue_age_ms=138.5 encode_max_ms=24.1 http_ms=120.4 source_lag=2 dropped=26 ready=True
+[V4 CACHE] frame=840 episode=1 clock=monotonic_receipt odom_error_ms=2.3 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=815 batch=2 accepted_fps=24.81 queue_age_ms=100.5 encode_max_ms=9.4 http_ms=56.1 source_lag=4 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.626; cleared MPC and waiting for next planner output
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.229 snapshot_wait_s=0.084 interval_s=0.656 version=192 source_anchor=838 client_watermark=840 source_lag=2 retries=0 bytes=29233
+traj len 0.8392381525881074
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0075 mean_corner_rad=0.1863->0.0749
+1786954897.7931185 update traj
+[V4 STATEFUL UPLOAD] frames=819 batch=4 accepted_fps=24.82 queue_age_ms=114.9 encode_max_ms=32.3 http_ms=96.5 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=822 batch=3 accepted_fps=24.84 queue_age_ms=71.9 encode_max_ms=11.0 http_ms=59.6 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=825 batch=3 accepted_fps=24.80 queue_age_ms=99.6 encode_max_ms=17.5 http_ms=80.4 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=828 batch=3 accepted_fps=24.82 queue_age_ms=103.9 encode_max_ms=22.2 http_ms=61.4 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=831 batch=3 accepted_fps=24.80 queue_age_ms=132.5 encode_max_ms=17.9 http_ms=92.8 source_lag=12 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.284 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=193:last_leased=192:source_anchor=847:watermark=859:source_lag=12:limit=5
+[V4 STATEFUL UPLOAD] frames=834 batch=3 accepted_fps=24.81 queue_age_ms=129.3 encode_max_ms=21.9 http_ms=80.7 source_lag=14 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.559 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=193:last_leased=192:source_anchor=847:watermark=866:source_lag=19:limit=5
+[V4 STATEFUL UPLOAD] frames=838 batch=4 accepted_fps=24.79 queue_age_ms=147.2 encode_max_ms=32.1 http_ms=132.8 source_lag=19 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.628; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=841 batch=3 accepted_fps=24.81 queue_age_ms=136.2 encode_max_ms=20.3 http_ms=95.7 source_lag=None dropped=26 ready=False
+[V4 CACHE] frame=870 episode=1 clock=monotonic_receipt odom_error_ms=1.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=845 batch=4 accepted_fps=24.81 queue_age_ms=130.0 encode_max_ms=16.7 http_ms=115.5 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=872:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=847 batch=2 accepted_fps=24.79 queue_age_ms=173.8 encode_max_ms=8.0 http_ms=78.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=851 batch=4 accepted_fps=24.81 queue_age_ms=115.3 encode_max_ms=13.8 http_ms=106.7 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=879:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=854 batch=3 accepted_fps=24.82 queue_age_ms=92.6 encode_max_ms=15.3 http_ms=76.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=857 batch=3 accepted_fps=24.81 queue_age_ms=87.2 encode_max_ms=20.3 http_ms=78.3 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=886:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=860 batch=3 accepted_fps=24.83 queue_age_ms=113.7 encode_max_ms=20.0 http_ms=70.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=862 batch=2 accepted_fps=24.82 queue_age_ms=112.9 encode_max_ms=17.1 http_ms=51.0 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=892:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=866 batch=4 accepted_fps=24.82 queue_age_ms=104.6 encode_max_ms=15.0 http_ms=94.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=868 batch=2 accepted_fps=24.82 queue_age_ms=73.8 encode_max_ms=9.5 http_ms=44.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=872 batch=4 accepted_fps=24.85 queue_age_ms=70.3 encode_max_ms=9.0 http_ms=61.9 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=899:source_lag=None:limit=5
+[V4 CACHE] frame=900 episode=1 clock=monotonic_receipt odom_error_ms=2.0 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=875 batch=3 accepted_fps=24.83 queue_age_ms=89.6 encode_max_ms=9.8 http_ms=78.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=879 batch=4 accepted_fps=24.86 queue_age_ms=75.7 encode_max_ms=9.7 http_ms=66.8 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=192:source_anchor=None:watermark=906:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=882 batch=3 accepted_fps=24.85 queue_age_ms=70.7 encode_max_ms=13.4 http_ms=56.8 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=885 batch=3 accepted_fps=24.85 queue_age_ms=59.3 encode_max_ms=20.6 http_ms=50.9 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.200 snapshot_wait_s=0.014 interval_s=2.704 version=194 source_anchor=906 client_watermark=908 source_lag=2 retries=0 bytes=29480
+traj len 1.6302947382411703
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.0543->0.0360
+1786954900.5102303 update traj
+[V4 STATEFUL UPLOAD] frames=888 batch=3 accepted_fps=24.84 queue_age_ms=98.7 encode_max_ms=9.8 http_ms=66.9 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=890 batch=2 accepted_fps=24.80 queue_age_ms=149.9 encode_max_ms=26.4 http_ms=84.9 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=894 batch=4 accepted_fps=24.80 queue_age_ms=114.0 encode_max_ms=31.4 http_ms=79.4 source_lag=16 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=898 batch=4 accepted_fps=24.85 queue_age_ms=80.9 encode_max_ms=14.5 http_ms=60.1 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=901 batch=3 accepted_fps=24.87 queue_age_ms=87.3 encode_max_ms=42.3 http_ms=61.4 source_lag=2 dropped=26 ready=True
+[V4 CACHE] frame=930 episode=1 clock=monotonic_receipt odom_error_ms=2.1 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=903 batch=2 accepted_fps=24.85 queue_age_ms=124.7 encode_max_ms=10.2 http_ms=60.8 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.242 snapshot_wait_s=0.142 interval_s=0.686 version=196 source_anchor=923 client_watermark=925 source_lag=2 retries=0 bytes=29511
+traj len 1.2840137711830537
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0107 mean_corner_rad=0.1148->0.0442
+1786954901.1841588 update traj
+[V4 STATEFUL UPLOAD] frames=905 batch=2 accepted_fps=24.83 queue_age_ms=121.2 encode_max_ms=21.2 http_ms=53.9 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=909 batch=4 accepted_fps=24.88 queue_age_ms=68.1 encode_max_ms=16.8 http_ms=56.0 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=912 batch=3 accepted_fps=24.88 queue_age_ms=77.6 encode_max_ms=12.7 http_ms=56.4 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=914 batch=2 accepted_fps=24.81 queue_age_ms=190.4 encode_max_ms=12.0 http_ms=124.0 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.221 snapshot_wait_s=0.176 interval_s=0.509 version=200 source_anchor=936 client_watermark=939 source_lag=3 retries=0 bytes=29262
+traj len 1.2342420703546588
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1080->0.0587
+1786954901.6870928 update traj
+[V4 STATEFUL UPLOAD] frames=918 batch=4 accepted_fps=24.86 queue_age_ms=110.2 encode_max_ms=11.9 http_ms=85.2 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=920 batch=2 accepted_fps=24.84 queue_age_ms=111.3 encode_max_ms=21.0 http_ms=56.9 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=923 batch=3 accepted_fps=24.84 queue_age_ms=68.8 encode_max_ms=10.0 http_ms=56.8 source_lag=14 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.273 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=200:last_leased=200:source_anchor=936:watermark=950:source_lag=14:limit=5
+[V4 STATEFUL UPLOAD] frames=925 batch=2 accepted_fps=24.82 queue_age_ms=117.2 encode_max_ms=10.3 http_ms=48.4 source_lag=15 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=929 batch=4 accepted_fps=24.83 queue_age_ms=102.5 encode_max_ms=16.7 http_ms=90.8 source_lag=None dropped=26 ready=False
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.547 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=200:source_anchor=None:watermark=957:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=932 batch=3 accepted_fps=24.83 queue_age_ms=83.1 encode_max_ms=14.2 http_ms=72.1 source_lag=None dropped=26 ready=False
+[V4 CACHE] frame=960 episode=1 clock=monotonic_receipt odom_error_ms=2.3 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=935 batch=3 accepted_fps=24.82 queue_age_ms=100.6 encode_max_ms=10.2 http_ms=86.8 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.787; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=200:source_anchor=None:watermark=964:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=939 batch=4 accepted_fps=24.83 queue_age_ms=94.0 encode_max_ms=13.3 http_ms=80.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=942 batch=3 accepted_fps=24.83 queue_age_ms=77.7 encode_max_ms=9.0 http_ms=68.2 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=200:source_anchor=None:watermark=970:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=945 batch=3 accepted_fps=24.83 queue_age_ms=78.9 encode_max_ms=12.4 http_ms=70.2 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=948 batch=3 accepted_fps=24.83 queue_age_ms=68.5 encode_max_ms=15.7 http_ms=58.4 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=200:source_anchor=None:watermark=977:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=951 batch=3 accepted_fps=24.82 queue_age_ms=103.2 encode_max_ms=13.4 http_ms=69.4 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=955 batch=4 accepted_fps=24.82 queue_age_ms=124.4 encode_max_ms=15.1 http_ms=113.5 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=959 batch=4 accepted_fps=24.85 queue_age_ms=91.0 encode_max_ms=18.8 http_ms=79.9 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.227 snapshot_wait_s=0.145 interval_s=1.825 version=201 source_anchor=980 client_watermark=983 source_lag=3 retries=0 bytes=29290
+traj len 1.2551877995086995
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0045 mean_corner_rad=0.0760->0.0325
+1786954903.508037 update traj
+[V4 STATEFUL UPLOAD] frames=962 batch=3 accepted_fps=24.84 queue_age_ms=115.0 encode_max_ms=12.5 http_ms=102.1 source_lag=3 dropped=26 ready=True
+[V4 CACHE] frame=990 episode=1 clock=monotonic_receipt odom_error_ms=2.1 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=964 batch=2 accepted_fps=24.82 queue_age_ms=149.9 encode_max_ms=7.8 http_ms=80.7 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=966 batch=2 accepted_fps=24.80 queue_age_ms=105.1 encode_max_ms=25.7 http_ms=62.9 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=970 batch=4 accepted_fps=24.82 queue_age_ms=93.9 encode_max_ms=21.0 http_ms=83.5 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=973 batch=3 accepted_fps=24.84 queue_age_ms=105.1 encode_max_ms=31.7 http_ms=67.4 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=975 batch=2 accepted_fps=24.83 queue_age_ms=97.5 encode_max_ms=18.1 http_ms=47.6 source_lag=16 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.272 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=207:last_leased=201:source_anchor=986:watermark=1005:source_lag=19:limit=5
+[V4 STATEFUL UPLOAD] frames=979 batch=4 accepted_fps=24.83 queue_age_ms=105.2 encode_max_ms=20.4 http_ms=94.8 source_lag=20 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.530 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=207:last_leased=201:source_anchor=986:watermark=1012:source_lag=26:limit=5
+[V4 STATEFUL UPLOAD] frames=982 batch=3 accepted_fps=24.78 queue_age_ms=169.9 encode_max_ms=18.6 http_ms=149.9 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=986 batch=4 accepted_fps=24.82 queue_age_ms=158.6 encode_max_ms=16.3 http_ms=95.5 source_lag=6 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.710; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=990 batch=4 accepted_fps=24.85 queue_age_ms=139.1 encode_max_ms=28.3 http_ms=120.5 source_lag=3 dropped=26 ready=True
+[V4 CACHE] frame=1020 episode=1 clock=monotonic_receipt odom_error_ms=4.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=993 batch=3 accepted_fps=24.84 queue_age_ms=149.1 encode_max_ms=12.0 http_ms=122.1 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=996 batch=3 accepted_fps=24.86 queue_age_ms=127.2 encode_max_ms=14.6 http_ms=79.9 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.238 snapshot_wait_s=0.165 interval_s=1.376 version=210 source_anchor=1015 client_watermark=1018 source_lag=3 retries=0 bytes=29425
+traj len 1.61883893112012
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0089 mean_corner_rad=0.1195->0.0380
+1786954904.8949053 update traj
+[V4 STATEFUL UPLOAD] frames=998 batch=2 accepted_fps=24.85 queue_age_ms=145.7 encode_max_ms=10.9 http_ms=69.7 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1002 batch=4 accepted_fps=24.82 queue_age_ms=176.2 encode_max_ms=25.9 http_ms=167.1 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1006 batch=4 accepted_fps=24.84 queue_age_ms=184.6 encode_max_ms=18.1 http_ms=128.2 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1009 batch=3 accepted_fps=24.86 queue_age_ms=123.0 encode_max_ms=27.5 http_ms=88.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1013 batch=4 accepted_fps=24.83 queue_age_ms=185.8 encode_max_ms=35.9 http_ms=150.4 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.210 snapshot_wait_s=0.000 interval_s=0.725 version=214 source_anchor=1034 client_watermark=1037 source_lag=3 retries=0 bytes=29338
+traj len 1.4882209857426234
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0082 mean_corner_rad=0.0886->0.0429
+1786954905.6121836 update traj
+[V4 STATEFUL UPLOAD] frames=1017 batch=4 accepted_fps=24.86 queue_age_ms=175.6 encode_max_ms=19.5 http_ms=106.4 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1020 batch=3 accepted_fps=24.89 queue_age_ms=109.7 encode_max_ms=10.6 http_ms=80.6 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1023 batch=3 accepted_fps=24.87 queue_age_ms=70.5 encode_max_ms=19.3 http_ms=61.7 source_lag=7 dropped=26 ready=True
+[V4 CACHE] frame=1050 episode=1 clock=monotonic_receipt odom_error_ms=2.3 ready=True memory_mib=46.9
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.210 snapshot_wait_s=0.063 interval_s=0.391 version=218 source_anchor=1043 client_watermark=1046 source_lag=3 retries=0 bytes=29368
+traj len 1.4683421092684532
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.0979->0.0301
+1786954906.011918 update traj
+[V4 STATEFUL UPLOAD] frames=1025 batch=2 accepted_fps=24.85 queue_age_ms=120.5 encode_max_ms=13.8 http_ms=47.4 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1028 batch=3 accepted_fps=24.85 queue_age_ms=107.0 encode_max_ms=24.9 http_ms=67.7 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1031 batch=3 accepted_fps=24.86 queue_age_ms=100.2 encode_max_ms=10.3 http_ms=50.6 source_lag=15 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.297 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=218:last_leased=218:source_anchor=1043:watermark=1058:source_lag=15:limit=5
+[V4 STATEFUL UPLOAD] frames=1034 batch=3 accepted_fps=24.86 queue_age_ms=72.0 encode_max_ms=13.5 http_ms=61.5 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1037 batch=3 accepted_fps=24.85 queue_age_ms=65.6 encode_max_ms=10.7 http_ms=54.0 source_lag=20 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.576 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=218:last_leased=218:source_anchor=1043:watermark=1065:source_lag=22:limit=5
+[V4 STATEFUL UPLOAD] frames=1040 batch=3 accepted_fps=24.85 queue_age_ms=61.7 encode_max_ms=12.9 http_ms=51.3 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.710; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=1043 batch=3 accepted_fps=24.84 queue_age_ms=81.1 encode_max_ms=16.5 http_ms=58.1 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=218:source_anchor=None:watermark=1073:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1047 batch=4 accepted_fps=24.86 queue_age_ms=84.9 encode_max_ms=12.2 http_ms=77.1 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1049 batch=2 accepted_fps=24.86 queue_age_ms=110.8 encode_max_ms=11.9 http_ms=44.3 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1052 batch=3 accepted_fps=24.87 queue_age_ms=50.2 encode_max_ms=10.4 http_ms=42.8 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.216 snapshot_wait_s=0.000 interval_s=1.143 version=219 source_anchor=1072 client_watermark=1074 source_lag=2 retries=0 bytes=29318
+traj len 1.0597858898437953
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0077 mean_corner_rad=0.1532->0.0470
+1786954907.158114 update traj
+[V4 CACHE] frame=1080 episode=1 clock=monotonic_receipt odom_error_ms=3.4 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1055 batch=3 accepted_fps=24.84 queue_age_ms=93.2 encode_max_ms=14.9 http_ms=68.0 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1059 batch=4 accepted_fps=24.86 queue_age_ms=80.4 encode_max_ms=34.1 http_ms=59.2 source_lag=12 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1061 batch=2 accepted_fps=24.83 queue_age_ms=123.7 encode_max_ms=26.3 http_ms=60.1 source_lag=14 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1065 batch=4 accepted_fps=24.85 queue_age_ms=89.4 encode_max_ms=20.5 http_ms=75.5 source_lag=18 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1069 batch=4 accepted_fps=24.88 queue_age_ms=67.0 encode_max_ms=31.2 http_ms=57.3 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1072 batch=3 accepted_fps=24.89 queue_age_ms=54.7 encode_max_ms=18.6 http_ms=43.0 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.194 snapshot_wait_s=0.193 interval_s=0.811 version=222 source_anchor=1094 client_watermark=1095 source_lag=1 retries=0 bytes=29348
+traj len 1.6032967577153283
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.0609->0.0247
+1786954907.9762127 update traj
+[V4 STATEFUL UPLOAD] frames=1074 batch=2 accepted_fps=24.85 queue_age_ms=114.4 encode_max_ms=11.8 http_ms=55.8 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1078 batch=4 accepted_fps=24.88 queue_age_ms=93.0 encode_max_ms=18.1 http_ms=72.9 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1081 batch=3 accepted_fps=24.89 queue_age_ms=74.2 encode_max_ms=14.5 http_ms=59.1 source_lag=3 dropped=26 ready=True
+[V4 CACHE] frame=1110 episode=1 clock=monotonic_receipt odom_error_ms=1.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1083 batch=2 accepted_fps=24.87 queue_age_ms=128.0 encode_max_ms=12.0 http_ms=62.2 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.203 snapshot_wait_s=0.157 interval_s=0.480 version=226 source_anchor=1105 client_watermark=1108 source_lag=3 retries=0 bytes=29392
+traj len 1.203499082853307
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0091 mean_corner_rad=0.0930->0.0421
+1786954908.4480026 update traj
+[V4 STATEFUL UPLOAD] frames=1087 batch=4 accepted_fps=24.87 queue_age_ms=114.7 encode_max_ms=11.4 http_ms=96.2 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1090 batch=3 accepted_fps=24.87 queue_age_ms=104.2 encode_max_ms=10.0 http_ms=59.9 source_lag=12 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.258 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=226:last_leased=226:source_anchor=1105:watermark=1120:source_lag=15:limit=5
+[V4 STATEFUL UPLOAD] frames=1094 batch=4 accepted_fps=24.90 queue_age_ms=70.4 encode_max_ms=23.0 http_ms=60.4 source_lag=15 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1096 batch=2 accepted_fps=24.86 queue_age_ms=146.7 encode_max_ms=10.1 http_ms=83.0 source_lag=19 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.546 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=226:last_leased=226:source_anchor=1105:watermark=1128:source_lag=23:limit=5
+[V4 STATEFUL UPLOAD] frames=1100 batch=4 accepted_fps=24.86 queue_age_ms=160.4 encode_max_ms=11.3 http_ms=145.4 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1104 batch=4 accepted_fps=24.89 queue_age_ms=130.2 encode_max_ms=11.6 http_ms=99.3 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1107 batch=3 accepted_fps=24.92 queue_age_ms=103.6 encode_max_ms=31.2 http_ms=64.2 source_lag=2 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.792; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=1110 batch=3 accepted_fps=24.92 queue_age_ms=98.6 encode_max_ms=12.4 http_ms=68.0 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.221 snapshot_wait_s=0.079 interval_s=0.939 version=228 source_anchor=1129 client_watermark=1132 source_lag=3 retries=0 bytes=29419
+traj len 1.190092933315964
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0079 mean_corner_rad=0.0557->0.0297
+1786954909.3740292 update traj
+[V4 CACHE] frame=1140 episode=1 clock=monotonic_receipt odom_error_ms=1.5 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1113 batch=3 accepted_fps=24.90 queue_age_ms=97.0 encode_max_ms=14.4 http_ms=80.8 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1116 batch=3 accepted_fps=24.91 queue_age_ms=74.1 encode_max_ms=16.1 http_ms=55.6 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1119 batch=3 accepted_fps=24.91 queue_age_ms=69.5 encode_max_ms=11.0 http_ms=57.3 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1123 batch=4 accepted_fps=24.91 queue_age_ms=88.8 encode_max_ms=24.5 http_ms=72.8 source_lag=15 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1126 batch=3 accepted_fps=24.91 queue_age_ms=73.7 encode_max_ms=23.1 http_ms=59.9 source_lag=18 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.262 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=233:last_leased=228:source_anchor=1135:watermark=1153:source_lag=18:limit=5
+[V4 STATEFUL UPLOAD] frames=1128 batch=2 accepted_fps=24.89 queue_age_ms=136.6 encode_max_ms=12.0 http_ms=68.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1132 batch=4 accepted_fps=24.88 queue_age_ms=132.4 encode_max_ms=17.0 http_ms=121.5 source_lag=None dropped=26 ready=False
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.534 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=228:source_anchor=None:watermark=1160:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1135 batch=3 accepted_fps=24.89 queue_age_ms=138.1 encode_max_ms=11.8 http_ms=98.9 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.626; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=1137 batch=2 accepted_fps=24.89 queue_age_ms=96.1 encode_max_ms=14.8 http_ms=81.7 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1141 batch=4 accepted_fps=24.90 queue_age_ms=152.6 encode_max_ms=15.0 http_ms=127.7 source_lag=3 dropped=26 ready=True
+[V4 CACHE] frame=1170 episode=1 clock=monotonic_receipt odom_error_ms=4.7 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1144 batch=3 accepted_fps=24.93 queue_age_ms=125.9 encode_max_ms=16.1 http_ms=66.6 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.232 snapshot_wait_s=0.098 interval_s=1.350 version=235 source_anchor=1162 client_watermark=1166 source_lag=4 retries=0 bytes=29331
+traj len 1.629068410326636
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0101 mean_corner_rad=0.1066->0.0252
+1786954910.735256 update traj
+[V4 STATEFUL UPLOAD] frames=1146 batch=2 accepted_fps=24.90 queue_age_ms=97.6 encode_max_ms=14.7 http_ms=58.1 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1150 batch=4 accepted_fps=24.92 queue_age_ms=110.8 encode_max_ms=24.2 http_ms=80.5 source_lag=9 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1154 batch=4 accepted_fps=24.95 queue_age_ms=97.7 encode_max_ms=37.5 http_ms=75.3 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1158 batch=4 accepted_fps=24.97 queue_age_ms=100.1 encode_max_ms=16.0 http_ms=82.8 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1161 batch=3 accepted_fps=24.97 queue_age_ms=123.0 encode_max_ms=13.0 http_ms=88.5 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1164 batch=3 accepted_fps=24.98 queue_age_ms=88.4 encode_max_ms=10.0 http_ms=61.7 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.237 snapshot_wait_s=0.000 interval_s=0.788 version=249 source_anchor=1183 client_watermark=1188 source_lag=5 retries=0 bytes=29314
+traj len 0.9473120723832091
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0078 mean_corner_rad=0.1268->0.0414
+1786954911.5111272 update traj
+[V4 STATEFUL UPLOAD] frames=1168 batch=4 accepted_fps=24.99 queue_age_ms=113.5 encode_max_ms=22.8 http_ms=99.9 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1170 batch=2 accepted_fps=24.98 queue_age_ms=140.4 encode_max_ms=11.7 http_ms=80.3 source_lag=2 dropped=26 ready=True
+[V4 CACHE] frame=1200 episode=1 clock=monotonic_receipt odom_error_ms=2.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1174 batch=4 accepted_fps=24.99 queue_age_ms=117.6 encode_max_ms=30.8 http_ms=107.3 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.240 snapshot_wait_s=0.000 interval_s=0.320 version=253 source_anchor=1193 client_watermark=1196 source_lag=3 retries=0 bytes=29283
+traj len 1.0198077806283112
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0099 mean_corner_rad=0.1836->0.0570
+1786954911.832263 update traj
+[V4 STATEFUL UPLOAD] frames=1177 batch=3 accepted_fps=25.01 queue_age_ms=105.3 encode_max_ms=13.6 http_ms=73.1 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1179 batch=2 accepted_fps=24.97 queue_age_ms=88.3 encode_max_ms=20.9 http_ms=76.9 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1182 batch=3 accepted_fps=24.97 queue_age_ms=93.7 encode_max_ms=9.9 http_ms=68.1 source_lag=14 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.265 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=255:last_leased=253:source_anchor=1195:watermark=1210:source_lag=15:limit=5
+[V4 STATEFUL UPLOAD] frames=1185 batch=3 accepted_fps=24.97 queue_age_ms=121.1 encode_max_ms=19.8 http_ms=80.5 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1189 batch=4 accepted_fps=25.00 queue_age_ms=83.2 encode_max_ms=22.9 http_ms=59.8 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1192 batch=3 accepted_fps=25.01 queue_age_ms=88.1 encode_max_ms=23.9 http_ms=56.4 source_lag=3 dropped=26 ready=True
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.623; cleared MPC and waiting for next planner output
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.213 snapshot_wait_s=0.153 interval_s=0.743 version=258 source_anchor=1214 client_watermark=1216 source_lag=2 retries=0 bytes=29382
+traj len 0.8861951092972531
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.1372->0.0443
+1786954912.5822287 update traj
+[V4 STATEFUL UPLOAD] frames=1195 batch=3 accepted_fps=24.99 queue_age_ms=80.6 encode_max_ms=14.5 http_ms=67.2 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1198 batch=3 accepted_fps=24.98 queue_age_ms=94.8 encode_max_ms=22.6 http_ms=59.0 source_lag=10 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1201 batch=3 accepted_fps=24.98 queue_age_ms=97.1 encode_max_ms=24.7 http_ms=47.1 source_lag=13 dropped=26 ready=True
+[V4 CACHE] frame=1230 episode=1 clock=monotonic_receipt odom_error_ms=0.8 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1204 batch=3 accepted_fps=24.97 queue_age_ms=74.5 encode_max_ms=14.0 http_ms=56.1 source_lag=15 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1207 batch=3 accepted_fps=24.97 queue_age_ms=71.6 encode_max_ms=25.0 http_ms=56.0 source_lag=18 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.262 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=259:last_leased=258:source_anchor=1215:watermark=1233:source_lag=18:limit=5
+[V4 STATEFUL UPLOAD] frames=1209 batch=2 accepted_fps=24.95 queue_age_ms=121.9 encode_max_ms=10.8 http_ms=53.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1213 batch=4 accepted_fps=24.97 queue_age_ms=75.3 encode_max_ms=16.8 http_ms=63.2 source_lag=None dropped=26 ready=False
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.540 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=258:source_anchor=None:watermark=1240:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1215 batch=2 accepted_fps=24.96 queue_age_ms=112.9 encode_max_ms=27.2 http_ms=45.7 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.610; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=1218 batch=3 accepted_fps=24.96 queue_age_ms=74.5 encode_max_ms=8.9 http_ms=62.7 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=258:source_anchor=None:watermark=1246:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1221 batch=3 accepted_fps=24.95 queue_age_ms=71.6 encode_max_ms=10.9 http_ms=57.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1224 batch=3 accepted_fps=24.95 queue_age_ms=69.2 encode_max_ms=12.1 http_ms=56.6 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=258:source_anchor=None:watermark=1252:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1227 batch=3 accepted_fps=24.94 queue_age_ms=72.1 encode_max_ms=10.9 http_ms=58.4 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1230 batch=3 accepted_fps=24.93 queue_age_ms=67.8 encode_max_ms=12.3 http_ms=52.3 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=258:source_anchor=None:watermark=1258:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1233 batch=3 accepted_fps=24.93 queue_age_ms=91.6 encode_max_ms=13.1 http_ms=55.9 source_lag=None dropped=26 ready=False
+[V4 CACHE] frame=1260 episode=1 clock=monotonic_receipt odom_error_ms=0.9 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1236 batch=3 accepted_fps=24.92 queue_age_ms=66.9 encode_max_ms=14.1 http_ms=53.3 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1240 batch=4 accepted_fps=24.94 queue_age_ms=106.0 encode_max_ms=17.6 http_ms=93.1 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=258:source_anchor=None:watermark=1268:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1243 batch=3 accepted_fps=24.94 queue_age_ms=136.7 encode_max_ms=14.6 http_ms=92.8 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1246 batch=3 accepted_fps=24.96 queue_age_ms=87.1 encode_max_ms=17.7 http_ms=68.5 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1250 batch=4 accepted_fps=24.98 queue_age_ms=75.2 encode_max_ms=16.6 http_ms=66.8 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.254 snapshot_wait_s=0.061 interval_s=2.312 version=261 source_anchor=1268 client_watermark=1270 source_lag=2 retries=0 bytes=29530
+traj len 1.1118521172828433
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0115 mean_corner_rad=0.1175->0.0412
+1786954914.888509 update traj
+[V4 STATEFUL UPLOAD] frames=1252 batch=2 accepted_fps=24.97 queue_age_ms=105.2 encode_max_ms=8.6 http_ms=42.9 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1255 batch=3 accepted_fps=24.95 queue_age_ms=93.2 encode_max_ms=14.5 http_ms=64.1 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1258 batch=3 accepted_fps=24.95 queue_age_ms=83.6 encode_max_ms=27.8 http_ms=51.8 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1261 batch=3 accepted_fps=24.95 queue_age_ms=100.3 encode_max_ms=18.6 http_ms=62.6 source_lag=10 dropped=26 ready=True
+[V4 CACHE] frame=1290 episode=1 clock=monotonic_receipt odom_error_ms=1.4 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1265 batch=4 accepted_fps=24.95 queue_age_ms=100.3 encode_max_ms=32.0 http_ms=86.1 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1269 batch=4 accepted_fps=24.97 queue_age_ms=77.6 encode_max_ms=29.8 http_ms=58.2 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.230 snapshot_wait_s=0.125 interval_s=0.841 version=266 source_anchor=1290 client_watermark=1292 source_lag=2 retries=0 bytes=29346
+traj len 0.8992069642227561
+[V4 STATEFUL UPLOAD] frames=1272 batch=3 accepted_fps=24.97 queue_age_ms=113.9 encode_max_ms=21.7 http_ms=80.2 source_lag=9 dropped=26 ready=True
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0057 mean_corner_rad=0.1382->0.0448
+1786954915.7425907 update traj
+[V4 STATEFUL UPLOAD] frames=1275 batch=3 accepted_fps=24.98 queue_age_ms=93.6 encode_max_ms=26.5 http_ms=56.2 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1279 batch=4 accepted_fps=24.98 queue_age_ms=73.9 encode_max_ms=15.6 http_ms=61.6 source_lag=16 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.282 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=266:last_leased=266:source_anchor=1290:watermark=1306:source_lag=16:limit=5
+[V4 STATEFUL UPLOAD] frames=1282 batch=3 accepted_fps=24.97 queue_age_ms=71.2 encode_max_ms=17.3 http_ms=57.7 source_lag=18 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1285 batch=3 accepted_fps=24.97 queue_age_ms=69.9 encode_max_ms=10.5 http_ms=56.4 source_lag=None dropped=26 ready=False
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.552 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1312:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1287 batch=2 accepted_fps=24.95 queue_age_ms=117.7 encode_max_ms=12.7 http_ms=59.1 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.679; cleared MPC and waiting for next planner output
+[V4 STATEFUL UPLOAD] frames=1291 batch=4 accepted_fps=24.97 queue_age_ms=76.0 encode_max_ms=21.8 http_ms=60.1 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1319:source_lag=None:limit=5
+[V4 CACHE] frame=1320 episode=1 clock=monotonic_receipt odom_error_ms=2.1 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1294 batch=3 accepted_fps=24.96 queue_age_ms=76.8 encode_max_ms=13.5 http_ms=68.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1297 batch=3 accepted_fps=24.96 queue_age_ms=62.5 encode_max_ms=14.2 http_ms=52.4 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1326:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1300 batch=3 accepted_fps=24.96 queue_age_ms=73.2 encode_max_ms=18.9 http_ms=46.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1303 batch=3 accepted_fps=24.96 queue_age_ms=68.8 encode_max_ms=11.6 http_ms=54.0 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1306 batch=3 accepted_fps=24.96 queue_age_ms=68.3 encode_max_ms=14.2 http_ms=51.6 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1333:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1309 batch=3 accepted_fps=24.96 queue_age_ms=81.9 encode_max_ms=11.2 http_ms=53.6 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1312 batch=3 accepted_fps=24.94 queue_age_ms=104.9 encode_max_ms=20.2 http_ms=88.9 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1340:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1315 batch=3 accepted_fps=24.95 queue_age_ms=101.7 encode_max_ms=9.6 http_ms=68.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1318 batch=3 accepted_fps=24.96 queue_age_ms=81.7 encode_max_ms=10.1 http_ms=49.4 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1346:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1320 batch=2 accepted_fps=24.94 queue_age_ms=125.6 encode_max_ms=9.7 http_ms=52.0 source_lag=None dropped=26 ready=False
+[V4 CACHE] frame=1350 episode=1 clock=monotonic_receipt odom_error_ms=3.5 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1324 batch=4 accepted_fps=24.96 queue_age_ms=82.2 encode_max_ms=18.2 http_ms=67.4 source_lag=None dropped=26 ready=False
+[CLIENT HOLD] reason=StatefulSnapshotUnavailable:no_recent_trajectory; cleared MPC and waiting for next planner output
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=False:version=None:last_leased=266:source_anchor=None:watermark=1353:source_lag=None:limit=5
+[V4 STATEFUL UPLOAD] frames=1327 batch=3 accepted_fps=24.96 queue_age_ms=70.5 encode_max_ms=9.1 http_ms=60.1 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1330 batch=3 accepted_fps=24.93 queue_age_ms=126.0 encode_max_ms=17.6 http_ms=104.8 source_lag=None dropped=26 ready=False
+[V4 STATEFUL UPLOAD] frames=1334 batch=4 accepted_fps=24.98 queue_age_ms=81.4 encode_max_ms=15.3 http_ms=70.0 source_lag=1 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1337 batch=3 accepted_fps=24.96 queue_age_ms=69.6 encode_max_ms=12.3 http_ms=56.9 source_lag=4 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.211 snapshot_wait_s=0.198 interval_s=2.695 version=267 source_anchor=1359 client_watermark=1360 source_lag=1 retries=0 bytes=29401
+traj len 0.9720336769751129
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1302->0.0484
+1786954918.4519775 update traj
+[V4 STATEFUL UPLOAD] frames=1339 batch=2 accepted_fps=24.94 queue_age_ms=108.4 encode_max_ms=7.5 http_ms=51.8 source_lag=6 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1343 batch=4 accepted_fps=24.94 queue_age_ms=113.1 encode_max_ms=44.3 http_ms=88.3 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1346 batch=3 accepted_fps=24.95 queue_age_ms=90.4 encode_max_ms=17.6 http_ms=55.8 source_lag=13 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1350 batch=4 accepted_fps=24.95 queue_age_ms=96.3 encode_max_ms=26.9 http_ms=68.0 source_lag=18 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1353 batch=3 accepted_fps=24.96 queue_age_ms=101.7 encode_max_ms=12.8 http_ms=77.1 source_lag=1 dropped=26 ready=True
+[V4 CACHE] frame=1380 episode=1 clock=monotonic_receipt odom_error_ms=1.0 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1355 batch=2 accepted_fps=24.94 queue_age_ms=79.2 encode_max_ms=37.3 http_ms=45.6 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1359 batch=4 accepted_fps=24.97 queue_age_ms=86.6 encode_max_ms=19.1 http_ms=68.7 source_lag=7 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.216 snapshot_wait_s=0.101 interval_s=0.807 version=268 source_anchor=1378 client_watermark=1379 source_lag=1 retries=0 bytes=29371
+traj len 0.9024201767119292
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0058 mean_corner_rad=0.1229->0.0585
+1786954919.231783 update traj
+[V4 STATEFUL UPLOAD] frames=1362 batch=3 accepted_fps=24.96 queue_age_ms=92.1 encode_max_ms=20.3 http_ms=73.2 source_lag=11 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1366 batch=4 accepted_fps=24.97 queue_age_ms=71.2 encode_max_ms=12.5 http_ms=60.3 source_lag=14 dropped=26 ready=True
+[CLIENT RETAIN] reason=StatefulSnapshotUnavailable trajectory_age_s=0.273 limit_s=0.600
+[CLIENT TRANSIENT] fresh stateful snapshot wait timed out:ready=True:version=268:last_leased=268:source_anchor=1378:watermark=1392:source_lag=14:limit=5
+[V4 STATEFUL UPLOAD] frames=1368 batch=2 accepted_fps=24.95 queue_age_ms=85.7 encode_max_ms=26.4 http_ms=57.7 source_lag=17 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1372 batch=4 accepted_fps=24.98 queue_age_ms=83.1 encode_max_ms=25.1 http_ms=69.9 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1376 batch=4 accepted_fps=25.00 queue_age_ms=76.7 encode_max_ms=10.8 http_ms=64.4 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.208 snapshot_wait_s=0.124 interval_s=0.705 version=269 source_anchor=1397 client_watermark=1399 source_lag=2 retries=0 bytes=29470
+traj len 0.8718511309418496
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.1035->0.0476
+[V4 STATEFUL UPLOAD] frames=1378 batch=2 accepted_fps=24.98 queue_age_ms=123.9 encode_max_ms=11.7 http_ms=51.9 source_lag=1 dropped=26 ready=True
+1786954919.9485514 update traj
+[V4 STATEFUL UPLOAD] frames=1382 batch=4 accepted_fps=24.99 queue_age_ms=99.6 encode_max_ms=38.7 http_ms=76.0 source_lag=7 dropped=26 ready=True
+[V4 CACHE] frame=1410 episode=1 clock=monotonic_receipt odom_error_ms=2.1 ready=True memory_mib=46.9
+[V4 STATEFUL UPLOAD] frames=1385 batch=3 accepted_fps=24.99 queue_age_ms=122.5 encode_max_ms=19.8 http_ms=68.4 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.226 snapshot_wait_s=0.000 interval_s=0.332 version=275 source_anchor=1403 client_watermark=1407 source_lag=4 retries=0 bytes=29579
+traj len 0.9155772927307058
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0046 mean_corner_rad=0.0835->0.0414
+1786954920.2836843 update traj
+[V4 STATEFUL UPLOAD] frames=1388 batch=3 accepted_fps=24.99 queue_age_ms=129.3 encode_max_ms=26.1 http_ms=68.5 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1390 batch=2 accepted_fps=24.98 queue_age_ms=94.1 encode_max_ms=27.1 http_ms=48.7 source_lag=5 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1394 batch=4 accepted_fps=25.01 queue_age_ms=74.3 encode_max_ms=20.4 http_ms=65.8 source_lag=8 dropped=26 ready=True
+[V4 STATEFUL INFERENCE] status=200 elapsed_s=0.207 snapshot_wait_s=0.000 interval_s=0.386 version=277 source_anchor=1412 client_watermark=1417 source_lag=5 retries=0 bytes=29431
+traj len 0.9187234034044778
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0095 mean_corner_rad=0.1269->0.0459
+1786954920.6606388 update traj
+[V4 STATEFUL UPLOAD] frames=1398 batch=4 accepted_fps=25.00 queue_age_ms=130.4 encode_max_ms=35.9 http_ms=100.8 source_lag=3 dropped=26 ready=True
+[V4 STATEFUL UPLOAD] frames=1401 batch=3 accepted_fps=25.03 queue_age_ms=94.3 encode_max_ms=31.3 http_ms=53.7 source_lag=2 dropped=26 ready=True
+[V4 STATEFUL PAUSE] reason=pointgoal_reached discarded_pending=2
+[V4 SENSOR PAUSE] reason=pointgoal_reached discarded_pending_prepares=0
+[AUTO VISUALIZATION] skipped: --record-responses was not provided
+[CLIENT STOP] reason=pointgoal_reached; cleared MPC and stopped client planning

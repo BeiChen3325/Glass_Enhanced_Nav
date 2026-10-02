@@ -1,0 +1,37 @@
+[ANALYSIS] run dir: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m
+[ANALYSIS] terminal log: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/terminal_E_client.log
+[ANALYSIS] responses: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/responses.jsonl
+[ANALYSIS] manifest: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/manifest.json
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+[GOLDEN RECORD] opened /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/responses.jsonl (existing file is overwritten)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=0.100 rad/s
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[GOLDEN RECORD] writing model responses to /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/responses.jsonl
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.55 clear_distance_m=0.75 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015
+[SAFETY] manual override topic not configured; remote latch disabled
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "scripts/http_internvla_client_qos_isolated.py", line 507, in control_thread
+    odom = manager.odom.copy() if manager.odom else None
+AttributeError: 'NoneType' object has no attribute 'odom'
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "scripts/http_internvla_client_qos_isolated.py", line 546, in planning_thread
+    if manager.manual_override_latched:
+AttributeError: 'NoneType' object has no attribute 'manual_override_latched'
+[GOLDEN RECORD] closed /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/responses.jsonl
+[ANALYSIS] generated /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/trajectory_summary.csv /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/trajectory_overview.png /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_134751_new_model_8m/trajectory_frames

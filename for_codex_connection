@@ -1,0 +1,19 @@
+```bash
+cat > ~/.proxy_env <<'EOF'
+export http_proxy="http://192.168.8.251:7897"
+export https_proxy="http://192.168.8.251:7897"
+export HTTP_PROXY="$http_proxy"
+export HTTPS_PROXY="$https_proxy"
+export ALL_PROXY="$http_proxy"
+EOF
+grep -qxF '[ -f ~/.proxy_env ] && . ~/.proxy_env' ~/.bashrc || echo '[ -f ~/.proxy_env ] && . ~/.proxy_env' >> ~/.bashrc
+grep -qxF '[ -f ~/.proxy_env ] && . ~/.proxy_env' ~/.profile || echo '[ -f ~/.proxy_env ] && . ~/.proxy_env' >> ~/.profile
+source ~/.proxy_env
+env | grep -i proxy
+```
+此外还要修改ctrl+shift+p-->open remote setting里面的IP
+
+以下用于恢复机器狗内置的系统时间：（此问题会影响到与codex的连接）
+date -Is
+sudo timedatectl set-ntp true
+date -Is

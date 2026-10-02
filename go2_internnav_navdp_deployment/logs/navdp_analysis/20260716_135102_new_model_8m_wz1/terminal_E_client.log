@@ -1,0 +1,703 @@
+[ANALYSIS] run dir: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1
+[ANALYSIS] terminal log: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/terminal_E_client.log
+[ANALYSIS] responses: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/responses.jsonl
+[ANALYSIS] manifest: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/manifest.json
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+[GOLDEN RECORD] opened /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/responses.jsonl (existing file is overwritten)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=1.000 rad/s
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[GOLDEN RECORD] writing model responses to /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/responses.jsonl
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.55 clear_distance_m=0.75 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] anchored pointgoal local=(8.0, 0.0) world=(12.638912312352751, 0.36406082306677867)
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947943a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794bb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794b80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947deee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a520>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ac10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f11c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95be22b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947948e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a2b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ab20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcffa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcffa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947949a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f12e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1d00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794a30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947def40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9bb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ab80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1c40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9e20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a5b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bbc1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9d60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947942b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b51c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a3a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a460>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f16d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b890a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794d30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ad30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bbc2e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b891c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ac10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcafa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794a00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1e80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8adc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794e80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9eb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ab80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b894f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89a60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b893a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ab20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f17f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947deeb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f17c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a9a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5a60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a9a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1c40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89d60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479aa00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a96d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89a00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f17c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a9a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8afa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89670>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b895b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd96d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91520>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b892e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ad60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a460>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ab50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b898e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89b20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a4f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ac70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b58b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473baf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741d60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bfa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f1a30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947411c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91b80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91280>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd91c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bb80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bd00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947dee20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9f70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a8e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b520>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bc70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89280>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473ba00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bdc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91d00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b640>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473be20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947f17f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89eb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473beb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b913d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947494f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749c70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b670>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95be2430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95be2070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bdc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474cfd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b913d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f2e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474faf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89280>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474fbb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c2e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bfd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947499a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794d00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749a00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b8e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c6a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947495e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94741b20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947497f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bd00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a9880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bcf6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd92e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b7f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8adc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91f40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bac0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947a97c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b911f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474fe20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479ad30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bfd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8e790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749a30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9eb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ea30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94758190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd92e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94749370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474c8b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94758370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94758b80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ec40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8e130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474ff70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd9580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd96d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f7f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8e580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ec10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947493d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473bfd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8e190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b89070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9473b370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94794df0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474f910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b911f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8e400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8a310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9479a2b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b8ebe0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95b91070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9474fe50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff95bd96d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLIENT HOLD] reason=http_error:ConnectionError; cleared MPC and waiting for next planner output
+[CLIENT HTTP ERROR] HTTPConnectionPool(host='127.0.0.1', port=5801): Max retries exceeded with url: /eval_navdp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff947b5dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Exception in thread Thread-1[GOLDEN RECORD] closed /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/responses.jsonl
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "scripts/http_internvla_client_qos_isolated.py", line 504, in control_thread
+    manager.move(0.0, 0.0, 0.0, immediate=True)
+  File "scripts/http_internvla_client_qos_isolated.py", line 1190, in move
+    self._emit_cmd_vel(request, reason="move", force_publish=force_publish)
+  File "scripts/http_internvla_client_qos_isolated.py", line 1200, in _emit_cmd_vel
+    self.control_pub.publish(request)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/publisher.py", line 68, in publish
+    with self.handle as capsule:
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/handle.py", line 124, in __enter__
+    return self._get_capsule()
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/handle.py", line 106, in _get_capsule
+    raise InvalidHandle('Tried to use a handle that has been destroyed.')
+rclpy.handle.InvalidHandle: Tried to use a handle that has been destroyed.
+[ANALYSIS] generated /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/trajectory_summary.csv /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/trajectory_overview.png /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/navdp_analysis/20260716_135102_new_model_8m_wz1/trajectory_frames

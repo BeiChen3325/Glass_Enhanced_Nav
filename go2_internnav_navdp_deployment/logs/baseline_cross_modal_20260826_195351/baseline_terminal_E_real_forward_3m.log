@@ -1,0 +1,150 @@
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1787745804.023605 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.800 m/s max_angular_speed=0.300 rad/s
+[MPC CONFIG] tracking_profile=smooth_continuous savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[CLIENT HOLD] reason=trajectory_stale:age_s=none; cleared MPC and waiting for next planner output
+[NAVDP_CLIENT] anchored pointgoal local=(3.0, 0.0) world=(40.653911272359046, -5.516142269962199)
+response status=200 bytes=28284
+idx: 0 after http 0.341s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.6536508798599243 right_clearance_m=1.8914686441421509 trajectory_end_y_m=-0.070
+traj len 3.0374858148463564
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0159 mean_corner_rad=0.1501->0.1801
+1787745804.92842 update traj
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+response status=200 bytes=28025
+idx: 1 after http 0.343s
+traj len 2.827245992327234
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.1970->0.1765
+1787745805.5475347 update traj
+response status=200 bytes=28227
+idx: 2 after http 0.359s
+traj len 3.181103176310724
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.2363->0.1738
+1787745806.0879333 update traj
+response status=200 bytes=28251
+idx: 3 after http 0.335s
+traj len 2.966040213675621
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0283 mean_corner_rad=0.3614->0.1804
+1787745806.493913 update traj
+response status=200 bytes=28295
+idx: 4 after http 0.281s
+traj len 3.0081215704386484
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.2722->0.1773
+1787745806.8619537 update traj
+response status=200 bytes=28171
+idx: 5 after http 0.292s
+traj len 2.8395902391747994
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0290 mean_corner_rad=0.1747->0.1852
+1787745807.2250078 update traj
+response status=200 bytes=28114
+idx: 6 after http 0.307s
+traj len 2.684727007987078
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0137 mean_corner_rad=0.3661->0.1905
+1787745807.6697543 update traj
+response status=200 bytes=27889
+idx: 7 after http 0.295s
+traj len 2.620853584492791
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0208 mean_corner_rad=0.3603->0.4425
+1787745808.1915114 update traj
+response status=200 bytes=27831
+idx: 8 after http 0.297s
+traj len 2.355525891888804
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.3516->0.2272
+1787745808.615048 update traj
+response status=200 bytes=27690
+idx: 9 after http 0.295s
+traj len 2.2088199037217655
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.4907->0.2476
+1787745809.0193338 update traj
+response status=200 bytes=27705
+idx: 10 after http 0.677s
+traj len 2.108025519235034
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0160 mean_corner_rad=0.8186->0.2929
+1787745809.8488827 update traj
+response status=200 bytes=27801
+idx: 11 after http 0.283s
+traj len 1.906777017113815
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.5257->0.3078
+1787745810.2209334 update traj
+response status=200 bytes=27931
+idx: 12 after http 0.321s
+traj len 1.8021485766274223
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0250 mean_corner_rad=0.3557->0.2403
+1787745810.601322 update traj
+response status=200 bytes=27886
+idx: 13 after http 0.281s
+traj len 1.6071712834629321
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.4956->0.2906
+1787745810.962232 update traj
+response status=200 bytes=28001
+idx: 14 after http 0.279s
+traj len 1.508037569515662
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.5047->0.2581
+1787745811.3161328 update traj
+response status=200 bytes=28129
+idx: 15 after http 0.276s
+traj len 1.3989880662405605
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=0.7109->0.2627
+1787745811.6655204 update traj
+response status=200 bytes=28254
+idx: 16 after http 0.269s
+traj len 1.2150005053592012
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0291 mean_corner_rad=0.8156->0.3351
+1787745812.0062118 update traj
+response status=200 bytes=28732
+idx: 17 after http 0.274s
+traj len 1.1092339018526294
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0269 mean_corner_rad=0.5297->0.2741
+1787745812.3440986 update traj
+response status=200 bytes=28980
+idx: 18 after http 0.288s
+traj len 0.9844387262078895
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0278 mean_corner_rad=0.4106->0.2767
+1787745812.7038262 update traj
+response status=200 bytes=28865
+idx: 19 after http 0.343s
+traj len 0.927166246021708
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0264 mean_corner_rad=0.6847->0.3593
+1787745813.1325135 update traj
+response status=200 bytes=28832
+idx: 20 after http 0.283s
+traj len 0.8275083941636523
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=1.2014->0.4906
+1787745813.492262 update traj
+response status=200 bytes=28958
+idx: 21 after http 0.270s
+traj len 0.7321666704911244
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0300 mean_corner_rad=1.2802->0.4778
+1787745813.8648171 update traj
+response status=200 bytes=29041
+idx: 22 after http 0.338s
+traj len 0.5972033324280407
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0180 mean_corner_rad=0.9057->0.5281
+1787745814.2898765 update traj
+response status=200 bytes=23252
+idx: 23 after http 0.268s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1787745814.677459 update traj
+[V4 SENSOR PAUSE] reason=pointgoal_reached discarded_pending_prepares=1
+[AUTO VISUALIZATION] skipped: --record-responses was not provided
+[CLIENT STOP] reason=pointgoal_reached; cleared MPC and stopped client planning

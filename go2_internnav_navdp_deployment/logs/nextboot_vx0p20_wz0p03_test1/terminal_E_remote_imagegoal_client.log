@@ -1,0 +1,964 @@
+[NAVDP_CLIENT] server url: http://192.168.0.52:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1786951786.578537 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://192.168.0.52:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=0.100 rad/s
+[MPC CONFIG] tracking_profile=smooth_continuous savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: imagegoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] loaded image goal: /home/unitree/NavDP_workspace/1st_goal.png
+[CLIENT HOLD] reason=trajectory_stale:age_s=none; cleared MPC and waiting for next planner output
+response status=200 bytes=27951
+idx: 0 after http 0.785s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.780603051185608 right_clearance_m=2.0244550704956055 trajectory_end_y_m=0.216
+traj len 0.8556847394039421
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0071 mean_corner_rad=0.2297->0.0809
+1786951788.0703332 update traj
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+response status=200 bytes=28068
+idx: 1 after http 0.383s
+traj len 0.7934220076673005
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0089 mean_corner_rad=0.2374->0.0665
+1786951788.6857374 update traj
+response status=200 bytes=28010
+idx: 2 after http 0.290s
+traj len 0.8720943743578845
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0066 mean_corner_rad=0.1527->0.0755
+1786951789.0749135 update traj
+response status=200 bytes=28153
+idx: 3 after http 0.283s
+traj len 0.925974858155989
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0088 mean_corner_rad=0.1804->0.1125
+1786951789.422276 update traj
+response status=200 bytes=28279
+idx: 4 after http 0.332s
+traj len 0.840391104512826
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1947->0.0669
+1786951789.935214 update traj
+response status=200 bytes=27871
+idx: 5 after http 0.314s
+traj len 0.8712774876175596
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.2184->0.1114
+1786951790.3317816 update traj
+response status=200 bytes=28059
+idx: 6 after http 0.314s
+traj len 0.8412686111726883
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.2033->0.0578
+1786951790.8275073 update traj
+response status=200 bytes=28042
+idx: 7 after http 0.371s
+traj len 0.8598796266271411
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0043 mean_corner_rad=0.1492->0.0958
+1786951791.3672125 update traj
+response status=200 bytes=28134
+idx: 8 after http 0.377s
+traj len 0.8654596829908482
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0049 mean_corner_rad=0.1134->0.0542
+1786951791.8944142 update traj
+response status=200 bytes=28157
+idx: 9 after http 0.435s
+traj len 0.8842820287844042
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0072 mean_corner_rad=0.1909->0.0935
+1786951792.445247 update traj
+response status=200 bytes=28219
+idx: 10 after http 0.360s
+traj len 0.8800247300659952
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.1566->0.0597
+1786951792.8878016 update traj
+response status=200 bytes=27871
+idx: 11 after http 0.282s
+traj len 0.9030913900201776
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1313->0.0676
+1786951793.2335484 update traj
+response status=200 bytes=27983
+idx: 12 after http 0.325s
+traj len 0.825881942394082
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0075 mean_corner_rad=0.2165->0.1042
+1786951793.618161 update traj
+response status=200 bytes=28032
+idx: 13 after http 0.294s
+traj len 0.8697870271736864
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0073 mean_corner_rad=0.1423->0.0661
+1786951793.9840286 update traj
+response status=200 bytes=28039
+idx: 14 after http 0.319s
+traj len 0.8536793057519005
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0083 mean_corner_rad=0.2068->0.0862
+1786951794.39537 update traj
+response status=200 bytes=28001
+idx: 15 after http 0.339s
+traj len 0.850093541526922
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0061 mean_corner_rad=0.1726->0.0658
+1786951794.8224823 update traj
+response status=200 bytes=28156
+idx: 16 after http 0.346s
+traj len 0.8649589569205954
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0055 mean_corner_rad=0.1335->0.0852
+1786951795.2369664 update traj
+response status=200 bytes=27979
+idx: 17 after http 0.482s
+traj len 0.8857977267148062
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1857->0.0635
+1786951795.8163676 update traj
+response status=200 bytes=28135
+idx: 18 after http 0.370s
+traj len 0.8561994679671345
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0072 mean_corner_rad=0.1744->0.0564
+1786951796.258011 update traj
+response status=200 bytes=28254
+idx: 19 after http 0.408s
+traj len 0.8648891767946539
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0072 mean_corner_rad=0.1976->0.0816
+1786951796.7388558 update traj
+response status=200 bytes=28130
+idx: 20 after http 0.449s
+traj len 0.8570080761250002
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.1853->0.0626
+1786951797.2566597 update traj
+response status=200 bytes=28259
+idx: 21 after http 0.374s
+traj len 0.8390348868601234
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.1662->0.0557
+1786951797.702682 update traj
+response status=200 bytes=28161
+idx: 22 after http 0.412s
+traj len 0.8641495537521993
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.1586->0.0729
+1786951798.1946495 update traj
+response status=200 bytes=28067
+idx: 23 after http 0.451s
+traj len 0.8578765234262484
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0071 mean_corner_rad=0.1354->0.0643
+1786951798.7472634 update traj
+response status=200 bytes=28237
+idx: 24 after http 0.334s
+traj len 0.864760207289425
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.1756->0.0701
+1786951799.1416426 update traj
+response status=200 bytes=28216
+idx: 25 after http 0.298s
+traj len 0.8628718711979904
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0088 mean_corner_rad=0.1567->0.0805
+1786951799.5064943 update traj
+response status=200 bytes=28224
+idx: 26 after http 0.362s
+traj len 0.8454453308018752
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0073 mean_corner_rad=0.1979->0.0882
+1786951799.970282 update traj
+response status=200 bytes=28158
+idx: 27 after http 0.265s
+traj len 0.8708105869177496
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.1620->0.0673
+1786951800.3207839 update traj
+response status=200 bytes=28223
+idx: 28 after http 0.492s
+traj len 0.8393039934022982
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0049 mean_corner_rad=0.1781->0.0781
+1786951800.9241338 update traj
+response status=200 bytes=28130
+idx: 29 after http 0.336s
+traj len 0.8237070076982123
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.1922->0.0603
+1786951801.3416839 update traj
+response status=200 bytes=28249
+idx: 30 after http 0.305s
+traj len 0.8829921623531161
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0110 mean_corner_rad=0.2902->0.0879
+1786951801.7310717 update traj
+response status=200 bytes=28353
+idx: 31 after http 0.282s
+traj len 0.8149458133011238
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0081 mean_corner_rad=0.1763->0.0644
+1786951802.1261644 update traj
+response status=200 bytes=28279
+idx: 32 after http 0.359s
+traj len 0.8905019306834676
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0087 mean_corner_rad=0.1682->0.0637
+1786951802.570404 update traj
+response status=200 bytes=28119
+idx: 33 after http 0.381s
+traj len 0.8163831220939568
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0072 mean_corner_rad=0.2053->0.0665
+1786951803.0434265 update traj
+response status=200 bytes=28205
+idx: 34 after http 0.410s
+traj len 0.8052490419961595
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0062 mean_corner_rad=0.2099->0.0669
+1786951803.553562 update traj
+response status=200 bytes=28154
+idx: 35 after http 0.341s
+traj len 0.8547727510565752
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.1442->0.0495
+1786951804.00326 update traj
+response status=200 bytes=28132
+idx: 36 after http 0.433s
+traj len 0.8358238553397151
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0078 mean_corner_rad=0.1928->0.0614
+1786951804.5064619 update traj
+response status=200 bytes=28056
+idx: 37 after http 0.290s
+traj len 0.893800224672392
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.2151->0.0612
+1786951804.8778307 update traj
+response status=200 bytes=28296
+idx: 38 after http 0.321s
+traj len 0.753391809266745
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0107 mean_corner_rad=0.2155->0.0833
+1786951805.274226 update traj
+response status=200 bytes=28021
+idx: 39 after http 0.421s
+traj len 0.8062684922165674
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0055 mean_corner_rad=0.1856->0.0706
+1786951805.7619648 update traj
+response status=200 bytes=28113
+idx: 40 after http 0.428s
+traj len 0.7925153218675077
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.1957->0.0684
+1786951806.2670312 update traj
+response status=200 bytes=28097
+idx: 41 after http 0.348s
+traj len 0.8532083387529027
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0064 mean_corner_rad=0.1745->0.1107
+1786951806.6768572 update traj
+response status=200 bytes=28053
+idx: 42 after http 0.330s
+traj len 0.8850037384332975
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0053 mean_corner_rad=0.1358->0.0810
+1786951807.0847125 update traj
+response status=200 bytes=28062
+idx: 43 after http 0.329s
+traj len 0.8356810304428235
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.1621->0.0765
+1786951807.512006 update traj
+response status=200 bytes=28099
+idx: 44 after http 0.369s
+traj len 0.8193056457982131
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0073 mean_corner_rad=0.1567->0.0695
+1786951807.952256 update traj
+response status=200 bytes=28244
+idx: 45 after http 0.365s
+traj len 0.8816601535595429
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0060 mean_corner_rad=0.1497->0.0626
+1786951808.422993 update traj
+response status=200 bytes=28095
+idx: 46 after http 0.456s
+traj len 0.837772090601527
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0066 mean_corner_rad=0.1681->0.0635
+1786951809.0079076 update traj
+response status=200 bytes=28068
+idx: 47 after http 0.312s
+traj len 0.850423773821027
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0080 mean_corner_rad=0.1919->0.0736
+1786951809.4272776 update traj
+response status=200 bytes=28147
+idx: 48 after http 0.437s
+traj len 0.8342875714615533
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0077 mean_corner_rad=0.1547->0.0583
+1786951809.992522 update traj
+response status=200 bytes=28195
+idx: 49 after http 0.395s
+traj len 0.7738819312145331
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0042 mean_corner_rad=0.1343->0.0709
+1786951810.4613159 update traj
+response status=200 bytes=28247
+idx: 50 after http 0.303s
+traj len 0.7750840772824127
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0066 mean_corner_rad=0.2022->0.0761
+1786951810.8313262 update traj
+response status=200 bytes=28224
+idx: 51 after http 0.347s
+traj len 0.844661441185283
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.1770->0.0856
+1786951811.297772 update traj
+response status=200 bytes=28101
+idx: 52 after http 0.341s
+traj len 0.7680351042435866
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.1923->0.0727
+1786951811.7594862 update traj
+response status=200 bytes=28091
+idx: 53 after http 0.354s
+traj len 0.8729629947842197
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0054 mean_corner_rad=0.1724->0.0924
+1786951812.18903 update traj
+response status=200 bytes=27989
+idx: 54 after http 0.386s
+traj len 0.8111292989006315
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0091 mean_corner_rad=0.1638->0.0729
+1786951812.6752453 update traj
+response status=200 bytes=28139
+idx: 55 after http 0.325s
+traj len 0.7437167720802228
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0101 mean_corner_rad=0.2566->0.1120
+1786951813.080797 update traj
+response status=200 bytes=28177
+idx: 56 after http 0.405s
+traj len 0.7334372448908161
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.1615->0.0637
+1786951813.549473 update traj
+response status=200 bytes=28152
+idx: 57 after http 0.373s
+traj len 0.8106148774022865
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0046 mean_corner_rad=0.1279->0.0891
+1786951813.995467 update traj
+response status=200 bytes=28243
+idx: 58 after http 0.323s
+traj len 0.7491357744702465
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0095 mean_corner_rad=0.2326->0.0834
+1786951814.4110928 update traj
+response status=200 bytes=28293
+idx: 59 after http 0.319s
+traj len 0.7284658073477038
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0077 mean_corner_rad=0.2400->0.0831
+1786951814.8136675 update traj
+response status=200 bytes=28237
+idx: 60 after http 0.344s
+traj len 0.7646542792504377
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0047 mean_corner_rad=0.1447->0.0662
+1786951815.284045 update traj
+response status=200 bytes=28215
+idx: 61 after http 0.289s
+traj len 0.7811565808655251
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0073 mean_corner_rad=0.1643->0.0742
+1786951815.6461809 update traj
+response status=200 bytes=27985
+idx: 62 after http 0.293s
+traj len 0.7612362171599811
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.1337->0.0517
+1786951816.0455508 update traj
+response status=200 bytes=28261
+idx: 63 after http 0.303s
+traj len 0.7184647770269821
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0086 mean_corner_rad=0.1990->0.0865
+1786951816.4089644 update traj
+response status=200 bytes=28095
+idx: 64 after http 0.316s
+traj len 0.7368581995159961
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0071 mean_corner_rad=0.1549->0.0950
+1786951816.793635 update traj
+response status=200 bytes=28298
+idx: 65 after http 0.384s
+traj len 0.7507365535548941
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0066 mean_corner_rad=0.1849->0.0619
+1786951817.2605207 update traj
+response status=200 bytes=28261
+idx: 66 after http 0.302s
+traj len 0.6722241831552307
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0074 mean_corner_rad=0.1847->0.0943
+1786951817.6451085 update traj
+response status=200 bytes=28234
+idx: 67 after http 0.328s
+traj len 0.7968422057752159
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0089 mean_corner_rad=0.1676->0.0516
+1786951818.0474799 update traj
+response status=200 bytes=28199
+idx: 68 after http 0.297s
+traj len 0.7335558761075858
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0107 mean_corner_rad=0.1839->0.0592
+1786951818.4394772 update traj
+response status=200 bytes=28399
+idx: 69 after http 0.309s
+traj len 0.7429223147516715
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0099 mean_corner_rad=0.1772->0.0735
+1786951818.8257556 update traj
+response status=200 bytes=28143
+idx: 70 after http 0.315s
+traj len 0.7206899463571864
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.1645->0.0454
+1786951819.27372 update traj
+response status=200 bytes=28153
+idx: 71 after http 0.449s
+traj len 0.7728491308107861
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.1131->0.0455
+1786951819.7927175 update traj
+response status=200 bytes=28065
+idx: 72 after http 0.485s
+traj len 0.7974935526007304
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0054 mean_corner_rad=0.1396->0.0624
+1786951820.3667302 update traj
+response status=200 bytes=28350
+idx: 73 after http 0.365s
+traj len 0.6399624409679548
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0039 mean_corner_rad=0.1056->0.0391
+1786951820.8497844 update traj
+response status=200 bytes=28174
+idx: 74 after http 0.428s
+traj len 0.6721387498495959
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0042 mean_corner_rad=0.1291->0.0528
+1786951821.3394535 update traj
+response status=200 bytes=28188
+idx: 75 after http 0.369s
+traj len 0.9099910051103008
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0111 mean_corner_rad=0.1848->0.0657
+1786951821.8063831 update traj
+response status=200 bytes=28347
+idx: 76 after http 0.393s
+traj len 0.7103405127953193
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1692->0.0624
+1786951822.3230405 update traj
+response status=200 bytes=28267
+idx: 77 after http 0.491s
+traj len 0.7641618910275211
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0057 mean_corner_rad=0.1573->0.0945
+1786951822.9250207 update traj
+response status=200 bytes=28316
+idx: 78 after http 0.509s
+traj len 0.81774252032557
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0114 mean_corner_rad=0.2025->0.0625
+1786951823.524052 update traj
+response status=200 bytes=28309
+idx: 79 after http 0.320s
+traj len 0.6973468927650983
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0078 mean_corner_rad=0.2462->0.0983
+1786951823.91749 update traj
+response status=200 bytes=28309
+idx: 80 after http 0.300s
+traj len 0.7264321436841509
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0103 mean_corner_rad=0.1918->0.0879
+1786951824.2846746 update traj
+response status=200 bytes=28252
+idx: 81 after http 0.366s
+traj len 0.7629367910565769
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0083 mean_corner_rad=0.1674->0.0845
+1786951824.7107663 update traj
+response status=200 bytes=28110
+idx: 82 after http 0.400s
+traj len 0.7330339325210302
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0081 mean_corner_rad=0.2312->0.0946
+1786951825.182456 update traj
+response status=200 bytes=28163
+idx: 83 after http 0.309s
+traj len 0.7027090603509061
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0093 mean_corner_rad=0.2958->0.0892
+1786951825.576571 update traj
+response status=200 bytes=28143
+idx: 84 after http 0.266s
+traj len 0.7372328920014909
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.2456->0.1305
+1786951825.9107316 update traj
+response status=200 bytes=28153
+idx: 85 after http 0.287s
+traj len 0.6978509451467896
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.1861->0.0855
+1786951826.269408 update traj
+response status=200 bytes=28361
+idx: 86 after http 0.352s
+traj len 0.7489176491163585
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0053 mean_corner_rad=0.1814->0.0827
+1786951826.7050722 update traj
+response status=200 bytes=28451
+idx: 87 after http 0.302s
+traj len 0.7750586671765922
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0051 mean_corner_rad=0.1919->0.0815
+1786951827.076123 update traj
+response status=200 bytes=28020
+idx: 88 after http 0.383s
+traj len 0.7443744391940953
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1673->0.0621
+1786951827.52956 update traj
+response status=200 bytes=28155
+idx: 89 after http 0.442s
+traj len 0.6696807401407551
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0083 mean_corner_rad=0.2401->0.0854
+1786951828.0718496 update traj
+response status=200 bytes=28121
+idx: 90 after http 0.269s
+traj len 0.7655564374037003
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0085 mean_corner_rad=0.2258->0.0929
+1786951828.4315393 update traj
+response status=200 bytes=28321
+idx: 91 after http 0.334s
+traj len 0.6880413464598873
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.2199->0.0919
+1786951828.8299592 update traj
+response status=200 bytes=28192
+idx: 92 after http 0.298s
+traj len 0.7034856701312612
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.2001->0.0898
+1786951829.1916943 update traj
+response status=200 bytes=27782
+idx: 93 after http 0.278s
+traj len 0.6073434562479031
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0053 mean_corner_rad=0.2414->0.0924
+1786951829.5784438 update traj
+response status=200 bytes=28296
+idx: 94 after http 0.282s
+traj len 0.640930339080022
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1971->0.1065
+1786951829.9258687 update traj
+response status=200 bytes=28245
+idx: 95 after http 0.312s
+traj len 0.6532202970642369
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.1845->0.1055
+1786951830.3171523 update traj
+response status=200 bytes=28147
+idx: 96 after http 0.276s
+traj len 0.6602768007127855
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0055 mean_corner_rad=0.2250->0.0857
+1786951830.7155232 update traj
+response status=200 bytes=28285
+idx: 97 after http 0.288s
+traj len 0.6709217895996155
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0085 mean_corner_rad=0.1411->0.0807
+1786951831.0897388 update traj
+response status=200 bytes=28107
+idx: 98 after http 0.287s
+traj len 0.6443944566790353
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.1910->0.0938
+1786951831.4447167 update traj
+response status=200 bytes=28205
+idx: 99 after http 0.264s
+traj len 0.6259210971795639
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.2076->0.0908
+1786951831.771991 update traj
+response status=200 bytes=28163
+idx: 100 after http 0.268s
+traj len 0.6551243246618424
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0078 mean_corner_rad=0.2235->0.0727
+1786951832.107591 update traj
+response status=200 bytes=28045
+idx: 101 after http 0.251s
+traj len 0.561155298814301
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.2008->0.0777
+1786951832.4349072 update traj
+response status=200 bytes=28242
+idx: 102 after http 0.267s
+traj len 0.6248228105321271
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0045 mean_corner_rad=0.1233->0.0546
+1786951832.7658305 update traj
+response status=200 bytes=28104
+idx: 103 after http 0.261s
+traj len 0.5812323220444114
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0072 mean_corner_rad=0.1932->0.0750
+1786951833.0961683 update traj
+response status=200 bytes=28093
+idx: 104 after http 0.252s
+traj len 0.62988877686042
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0047 mean_corner_rad=0.2014->0.0810
+1786951833.4072134 update traj
+response status=200 bytes=28078
+idx: 105 after http 0.291s
+traj len 0.725359570849246
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0080 mean_corner_rad=0.1488->0.0653
+1786951833.7781084 update traj
+response status=200 bytes=28139
+idx: 106 after http 0.280s
+traj len 0.661972391967409
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0082 mean_corner_rad=0.2319->0.1013
+1786951834.120021 update traj
+response status=200 bytes=27822
+idx: 107 after http 0.271s
+traj len 0.5992118654250794
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0036 mean_corner_rad=0.1795->0.0747
+1786951834.449109 update traj
+response status=200 bytes=27797
+idx: 108 after http 0.261s
+traj len 0.5443064323112966
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0092 mean_corner_rad=0.3553->0.0839
+1786951834.7707672 update traj
+response status=200 bytes=27784
+idx: 109 after http 0.264s
+traj len 0.6564904118438016
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0079 mean_corner_rad=0.2419->0.0793
+1786951835.0962396 update traj
+response status=200 bytes=27118
+idx: 110 after http 0.246s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951835.4009664 update traj
+response status=200 bytes=28244
+idx: 111 after http 0.258s
+traj len 0.5559466013369613
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1806->0.0776
+1786951835.7464545 update traj
+response status=200 bytes=27878
+idx: 112 after http 0.246s
+traj len 0.6846906149655789
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0048 mean_corner_rad=0.1264->0.0596
+1786951836.0616956 update traj
+response status=200 bytes=27995
+idx: 113 after http 0.260s
+traj len 0.6915389648200473
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0066 mean_corner_rad=0.1709->0.0851
+1786951836.393388 update traj
+response status=200 bytes=27412
+idx: 114 after http 0.282s
+traj len 0.5637531523878125
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0086 mean_corner_rad=0.2025->0.1165
+1786951836.7652075 update traj
+response status=200 bytes=27376
+idx: 115 after http 0.249s
+traj len 0.6040167261982639
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.1715->0.0535
+1786951837.08031 update traj
+response status=200 bytes=27043
+idx: 116 after http 0.263s
+traj len 0.666900171685347
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.2161->0.0547
+1786951837.4287605 update traj
+response status=200 bytes=26819
+idx: 117 after http 0.304s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951837.7892892 update traj
+response status=200 bytes=27984
+idx: 118 after http 0.251s
+traj len 0.5680006966026042
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0046 mean_corner_rad=0.2352->0.0800
+1786951838.1065426 update traj
+response status=200 bytes=25858
+idx: 119 after http 0.262s
+traj len 0.5828849367325691
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0061 mean_corner_rad=0.1692->0.0951
+1786951838.4315705 update traj
+response status=200 bytes=27916
+idx: 120 after http 0.267s
+traj len 0.5684089340224633
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0085 mean_corner_rad=0.1695->0.1133
+1786951838.769964 update traj
+response status=200 bytes=24456
+idx: 121 after http 0.263s
+traj len 0.627027086949022
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.2184->0.0756
+1786951839.1037095 update traj
+response status=200 bytes=25802
+idx: 122 after http 0.352s
+traj len 0.614094709135037
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0080 mean_corner_rad=0.1599->0.0757
+1786951839.5419784 update traj
+response status=200 bytes=20763
+idx: 123 after http 0.265s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951839.956606 update traj
+response status=200 bytes=24203
+idx: 124 after http 0.246s
+traj len 0.6186055995726143
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0074 mean_corner_rad=0.2127->0.1050
+1786951840.293304 update traj
+response status=200 bytes=23000
+idx: 125 after http 0.248s
+traj len 0.5024020775562797
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0043 mean_corner_rad=0.2766->0.0737
+1786951840.64479 update traj
+response status=200 bytes=24422
+idx: 126 after http 0.244s
+traj len 0.604548582189515
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.2073->0.0772
+1786951841.013123 update traj
+response status=200 bytes=22949
+idx: 127 after http 0.243s
+traj len 0.6736920462232836
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0038 mean_corner_rad=0.1417->0.0733
+1786951841.337026 update traj
+response status=200 bytes=23669
+idx: 128 after http 0.255s
+traj len 0.6121406842202024
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0145 mean_corner_rad=0.2822->0.1516
+1786951841.6983316 update traj
+response status=200 bytes=20673
+idx: 129 after http 0.251s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951842.0218644 update traj
+response status=200 bytes=25276
+idx: 130 after http 0.244s
+traj len 0.5845600024248935
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0047 mean_corner_rad=0.1471->0.0779
+1786951842.3363712 update traj
+response status=200 bytes=17761
+idx: 131 after http 0.295s
+traj len 0.5431341489579651
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0075 mean_corner_rad=0.2462->0.1073
+1786951842.7155514 update traj
+response status=200 bytes=22017
+idx: 132 after http 0.252s
+traj len 0.5489335938032691
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.1967->0.0705
+1786951843.0313659 update traj
+response status=200 bytes=20136
+idx: 133 after http 0.244s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951843.3453915 update traj
+response status=200 bytes=19887
+idx: 134 after http 0.240s
+traj len 0.6190658527015236
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0057 mean_corner_rad=0.2070->0.0962
+1786951843.6824427 update traj
+response status=200 bytes=21874
+idx: 135 after http 0.242s
+traj len 0.577747807529315
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0107 mean_corner_rad=0.2019->0.0722
+1786951844.0074806 update traj
+response status=200 bytes=17700
+idx: 136 after http 0.253s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951844.35314 update traj
+response status=200 bytes=19910
+idx: 137 after http 0.239s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951844.6632125 update traj
+response status=200 bytes=20019
+idx: 138 after http 0.246s
+traj len 0.5488146959316921
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.2720->0.0995
+1786951845.0138705 update traj
+response status=200 bytes=23600
+idx: 139 after http 0.267s
+traj len 0.5729540632310517
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0057 mean_corner_rad=0.1649->0.0880
+1786951845.3763545 update traj
+response status=200 bytes=21259
+idx: 140 after http 0.294s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951845.7332091 update traj
+response status=200 bytes=22816
+idx: 141 after http 0.270s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951846.090406 update traj
+response status=200 bytes=19092
+idx: 142 after http 0.297s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951846.4715564 update traj
+response status=200 bytes=20021
+idx: 143 after http 0.285s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951846.811285 update traj
+response status=200 bytes=19158
+idx: 144 after http 0.304s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951847.1759655 update traj
+response status=200 bytes=22959
+idx: 145 after http 0.290s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951847.5805612 update traj
+response status=200 bytes=23024
+idx: 146 after http 0.270s
+traj len 0.5558804611091945
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.2482->0.0797
+1786951847.9136233 update traj
+response status=200 bytes=19311
+idx: 147 after http 0.274s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951848.2446218 update traj
+response status=200 bytes=20624
+idx: 148 after http 0.277s
+traj len 0.5347672350977574
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.2649->0.0887
+1786951848.5795693 update traj
+response status=200 bytes=20114
+idx: 149 after http 0.269s
+traj len 0.5007123604011072
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0076 mean_corner_rad=0.2765->0.1060
+1786951848.9175715 update traj
+response status=200 bytes=25169
+idx: 150 after http 0.282s
+traj len 0.5399584539772623
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.2470->0.0606
+1786951849.2654958 update traj
+response status=200 bytes=21960
+idx: 151 after http 0.358s
+traj len 0.6797377458965409
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0079 mean_corner_rad=0.1734->0.0866
+1786951849.687045 update traj
+response status=200 bytes=23660
+idx: 152 after http 0.278s
+traj len 0.5659789324358657
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0055 mean_corner_rad=0.2278->0.0659
+1786951850.0485318 update traj
+response status=200 bytes=19912
+idx: 153 after http 0.303s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951850.4082456 update traj
+response status=200 bytes=19997
+idx: 154 after http 0.306s
+traj len 0.5862045791152377
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0074 mean_corner_rad=0.1837->0.0911
+1786951850.7793255 update traj
+response status=200 bytes=20666
+idx: 155 after http 0.440s
+traj len 0.5206808664090573
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0059 mean_corner_rad=0.2943->0.0989
+1786951851.2849665 update traj
+response status=200 bytes=20026
+idx: 156 after http 0.429s
+traj len 0.5329842498842069
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0042 mean_corner_rad=0.1932->0.1041
+1786951851.8003664 update traj
+response status=200 bytes=17873
+idx: 157 after http 0.449s
+traj len 0.5004969768377913
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0150 mean_corner_rad=0.4489->0.1192
+1786951852.3098335 update traj
+response status=200 bytes=18530
+idx: 158 after http 0.411s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951852.7783968 update traj
+response status=200 bytes=18713
+idx: 159 after http 0.362s
+traj len 0.5272996614290861
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0080 mean_corner_rad=0.2540->0.0864
+1786951853.203887 update traj
+response status=200 bytes=19342
+idx: 160 after http 0.321s
+traj len 1.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951853.6298757 update traj
+response status=200 bytes=23837
+idx: 161 after http 0.324s
+traj len 0.5386788130688942
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.2636->0.1015
+1786951854.0319653 update traj
+response status=200 bytes=21673
+idx: 162 after http 0.360s
+traj len 0.0
+[MPC REFERENCE] profile=smooth_continuous applied=False reason=insufficient_unique_points max_deviation_m=0.0000 mean_corner_rad=0.0000->0.0000
+1786951854.4528916 update traj
+response status=200 bytes=21707
+idx: 163 after http 0.316s
+traj len 0.5246367355831401
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0050 mean_corner_rad=0.1928->0.1017
+1786951854.894969 update traj
+response status=200 bytes=27542
+idx: 164 after http 0.412s
+traj len 0.6427480446815745
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0095 mean_corner_rad=0.2124->0.0940
+1786951855.3850906 update traj
+response status=200 bytes=28329
+idx: 165 after http 0.532s
+traj len 0.6486171717946901
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.3031->0.0982
+1786951855.9757266 update traj
+response status=200 bytes=28076
+idx: 166 after http 0.477s
+traj len 0.7340260965376256
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0069 mean_corner_rad=0.1977->0.0804
+1786951856.603012 update traj
+response status=200 bytes=28102
+idx: 167 after http 0.487s
+traj len 0.7995364322380795
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0086 mean_corner_rad=0.2007->0.1089
+1786951857.1654446 update traj
+response status=200 bytes=28279
+idx: 168 after http 0.512s
+traj len 0.7674241140228162
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0089 mean_corner_rad=0.1545->0.0770
+1786951857.8180666 update traj
+response status=200 bytes=28201
+idx: 169 after http 0.372s
+traj len 0.7138831155101734
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0087 mean_corner_rad=0.2061->0.0787
+1786951858.273531 update traj
+response status=200 bytes=28141
+idx: 170 after http 0.375s
+traj len 0.8200920915104151
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0054 mean_corner_rad=0.1719->0.0906
+1786951858.7152848 update traj
+response status=200 bytes=28322
+idx: 171 after http 0.442s
+traj len 0.8402711630988993
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0044 mean_corner_rad=0.1382->0.0714
+1786951859.2880661 update traj
+response status=200 bytes=28001
+idx: 172 after http 0.403s
+traj len 0.7701003264484911
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0057 mean_corner_rad=0.1730->0.0729
+1786951859.7753336 update traj
+response status=200 bytes=28150
+idx: 173 after http 0.491s
+traj len 0.7540393472410136
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0067 mean_corner_rad=0.1601->0.0899
+1786951860.3350945 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.717; cleared MPC and waiting for next planner output
+response status=200 bytes=28066
+idx: 174 after http 0.713s
+traj len 0.9332844798149474
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0091 mean_corner_rad=0.2141->0.0578
+1786951861.1566885 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.695; cleared MPC and waiting for next planner output
+response status=200 bytes=27977
+idx: 175 after http 0.731s
+traj len 0.9348741801887961
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0061 mean_corner_rad=0.1427->0.0781
+1786951862.1080015 update traj
+response status=200 bytes=28162
+idx: 176 after http 0.391s
+traj len 0.8638442172660317
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0092 mean_corner_rad=0.2014->0.0591
+1786951862.713388 update traj
+response status=200 bytes=28054
+idx: 177 after http 0.613s
+traj len 0.9088596665717956
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0068 mean_corner_rad=0.2159->0.0612
+1786951863.4738095 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.705; cleared MPC and waiting for next planner output
+response status=200 bytes=28128
+idx: 178 after http 0.725s
+traj len 0.8754019929907166
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0065 mean_corner_rad=0.1823->0.1058
+1786951864.2598634 update traj
+response status=200 bytes=28095
+idx: 179 after http 0.582s
+traj len 0.8825637935267432
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0056 mean_corner_rad=0.1499->0.0769
+1786951865.1106725 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.714; cleared MPC and waiting for next planner output
+response status=200 bytes=28010
+idx: 180 after http 0.757s
+traj len 0.881023648506742
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0063 mean_corner_rad=0.2189->0.0893
+1786951865.9362137 update traj
+response status=200 bytes=27930
+idx: 181 after http 0.556s
+traj len 0.8441226424288517
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0064 mean_corner_rad=0.1867->0.0589
+1786951866.693926 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.603; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=mpc_reference_error:TypeError; cleared MPC and waiting for next planner output
+[MPC REFERENCE ERROR] len() of unsized object
+response status=200 bytes=27963
+idx: 182 after http 0.572s
+traj len 0.902360191737542
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0070 mean_corner_rad=0.1617->0.0801
+1786951867.3438966 update traj
+response status=200 bytes=27921
+idx: 183 after http 0.397s
+traj len 0.8778448582861753
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0089 mean_corner_rad=0.1747->0.0587
+1786951867.9687583 update traj
+response status=200 bytes=28074
+idx: 184 after http 0.442s
+traj len 0.8519618930967584
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0094 mean_corner_rad=0.2098->0.0907
+1786951868.4823399 update traj
+response status=200 bytes=28008
+idx: 185 after http 0.340s
+traj len 0.8455143480146751
+[MPC REFERENCE] profile=smooth_continuous applied=True reason=smoothed max_deviation_m=0.0049 mean_corner_rad=0.1229->0.0776
+1786951868.8819597 update traj

@@ -1,0 +1,12 @@
+"""ROS 2 topic and frame names shared by bridge/client diagnostics."""
+
+RGB_TOPIC = "/camera/camera/color/image_raw"
+RGB_CAMERA_INFO_TOPIC = "/camera/camera/color/camera_info"
+DEPTH_TOPIC = "/camera/camera/aligned_depth_to_color/image_raw"
+DEPTH_CAMERA_INFO_TOPIC = "/camera/camera/aligned_depth_to_color/camera_info"
+ODOM_TOPIC = "/odom_bridge"
+CMD_VEL_TOPIC = "/cmd_vel_bridge"
+NAVIGATION_STATUS_TOPIC = "/navdp/navigation_status"
+CAMERA_FRAME_ID = "camera_color_optical_frame"
+ODOM_FRAME_ID = "odom"
+BASE_FRAME_ID = "base_link"

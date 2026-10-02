@@ -1,0 +1,357 @@
+===== PING GO2 =====
+PING 192.168.123.161 (192.168.123.161) 56(84) bytes of data.
+64 bytes from 192.168.123.161: icmp_seq=1 ttl=64 time=0.208 ms
+64 bytes from 192.168.123.161: icmp_seq=2 ttl=64 time=0.168 ms
+64 bytes from 192.168.123.161: icmp_seq=3 ttl=64 time=0.186 ms
+
+--- 192.168.123.161 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2027ms
+rtt min/avg/max/mdev = 0.168/0.187/0.208/0.016 ms
+===== TOPIC LIST =====
+/api/assistant_recorder/request
+/api/assistant_recorder/response
+/api/audiohub/request
+/api/audiohub/response
+/api/bashrunner/request
+/api/bashrunner/response
+/api/config/request
+/api/config/response
+/api/fourg_agent/request
+/api/fourg_agent/response
+/api/gas_sensor/request
+/api/gas_sensor/response
+/api/gesture/request
+/api/gpt/request
+/api/gpt/response
+/api/motion_switcher/request
+/api/motion_switcher/response
+/api/obstacles_avoid/request
+/api/obstacles_avoid/response
+/api/pet/request
+/api/pet/response
+/api/programming_actuator/request
+/api/programming_actuator/response
+/api/robot_state/request
+/api/robot_state/response
+/api/sport_lease/request
+/api/sport_lease/response
+/api/sport/request
+/api/sport/response
+/api/uwbswitch/request
+/api/uwbswitch/response
+/api/videohub/request
+/api/videohub/response
+/api/vui/request
+/api/vui/response
+/audiohub/player/state
+/lf/lowstate
+/lf/sportmodestate
+/lio_sam_ros2/mapping/odometry
+/lowstate
+/multiplestate
+/odom_bridge
+/rtc/state
+/servicestate
+/servicestateactivate
+/sportmodestate
+/uslam/frontend/odom
+/uslam/localization/odom
+/utlidar/client_cmd
+/utlidar/cloud
+/utlidar/cloud_base
+/utlidar/cloud_deskewed
+/utlidar/grid_map
+/utlidar/height_map
+/utlidar/height_map_array
+/utlidar/imu
+/utlidar/lidar_state
+/utlidar/mapping_cmd
+/utlidar/range_info
+/utlidar/range_map
+/utlidar/robot_odom
+/utlidar/robot_pose
+/utlidar/server_log
+/utlidar/switch
+/utlidar/voxel_map
+/utlidar/voxel_map_compressed
+/uwbstate
+/wirelesscontroller
+/wirelesscontroller_unprocessed
+===== /api/sport/request INFO =====
+/opt/ros/foxy/bin/ros2:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+Type: unitree_api/msg/Request
+
+Publisher count: 10
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.32.1b.e2.57.3c.59.9d.f4.d9.69.00.00.06.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.3a.70.99.fe.14.4b.83.1f.e2.0c.00.00.08.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.5c.da.3a.71.6d.2b.ea.16.5a.e9.00.00.04.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.71.c2.a3.fb.89.ec.9f.b5.9e.4a.00.00.10.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: cmd_vel_sport_safe_bridge
+Node namespace: /
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.7e.c1.3c.88.1e.10.0b.0b.be.42.00.00.16.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.93.b9.c8.dd.b4.13.7f.2e.fd.55.00.00.2a.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.9b.c6.63.85.b9.3b.b6.8c.e0.5b.00.00.0e.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.b5.05.30.0d.75.37.fb.29.f7.93.00.00.08.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.d4.7f.78.72.7d.b4.47.08.a9.7e.00.00.0a.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: PUBLISHER
+GID: 01.10.dc.51.9d.18.d8.ff.44.08.47.f0.00.00.02.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Subscription count: 1
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Request
+Endpoint type: SUBSCRIPTION
+GID: 01.10.b5.e5.10.5b.aa.f8.40.02.96.51.00.00.1c.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+===== /api/sport/response INFO =====
+/opt/ros/foxy/bin/ros2:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+Type: unitree_api/msg/Response
+
+Publisher count: 1
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: PUBLISHER
+GID: 01.10.b5.e5.10.5b.aa.f8.40.02.96.51.00.00.1a.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Subscription count: 8
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.32.1b.e2.57.3c.59.9d.f4.d9.69.00.00.08.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.3a.70.99.fe.14.4b.83.1f.e2.0c.00.00.0a.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.71.c2.a3.fb.89.ec.9f.b5.9e.4a.00.00.12.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.93.b9.c8.dd.b4.13.7f.2e.fd.55.00.00.70.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_RELIABLE
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.9b.c6.63.85.b9.3b.b6.8c.e0.5b.00.00.10.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.b5.05.30.0d.75.37.fb.29.f7.93.00.00.0a.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.d4.7f.78.72.7d.b4.47.08.a9.7e.00.00.0c.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+
+Node name: _CREATED_BY_BARE_DDS_APP_
+Node namespace: _CREATED_BY_BARE_DDS_APP_
+Topic type: unitree_api/msg/Response
+Endpoint type: SUBSCRIPTION
+GID: 01.10.dc.51.9d.18.d8.ff.44.08.47.f0.00.00.04.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 9223372036854775807 nanoseconds
+  Deadline: 9223372036854775807 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 9223372036854775807 nanoseconds
+

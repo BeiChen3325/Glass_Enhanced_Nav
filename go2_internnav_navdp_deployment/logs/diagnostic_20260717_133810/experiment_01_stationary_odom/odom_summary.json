@@ -1,0 +1,62 @@
+{
+  "topics": {
+    "/utlidar/robot_odom": {
+      "sample_count": 731,
+      "observed_duration_s": 4.81744122505188,
+      "mean_rate_hz": 151.53272575570207,
+      "start": {
+        "x_m": 2.03407883644104,
+        "y_m": 0.9600212574005127,
+        "yaw_rad": 0.01284883465970476
+      },
+      "end": {
+        "x_m": 2.0341172218322754,
+        "y_m": 0.9600000381469727,
+        "yaw_rad": 0.013750740035196855
+      },
+      "end_position_delta_m": 4.385994734478673e-05,
+      "max_position_drift_m": 0.00012017433137806926,
+      "end_yaw_delta_deg": 0.05167537153585882,
+      "max_yaw_drift_deg": 0.07440759940693864,
+      "max_position_step_m": 3.8660631244714105e-05,
+      "max_yaw_step_deg": 0.009233278298495778,
+      "frame_ids": [
+        "odom"
+      ],
+      "child_frame_ids": [
+        "base_link"
+      ],
+      "status": "ok"
+    },
+    "/odom_bridge": {
+      "sample_count": 731,
+      "observed_duration_s": 4.81827974319458,
+      "mean_rate_hz": 151.50635473813333,
+      "start": {
+        "x_m": 2.03407883644104,
+        "y_m": 0.9600212574005127,
+        "yaw_rad": 0.01284883465970476
+      },
+      "end": {
+        "x_m": 2.0341172218322754,
+        "y_m": 0.9600000381469727,
+        "yaw_rad": 0.013750740035196855
+      },
+      "end_position_delta_m": 4.385994734478673e-05,
+      "max_position_drift_m": 0.00012017433137806926,
+      "end_yaw_delta_deg": 0.05167537153585882,
+      "max_yaw_drift_deg": 0.07440759940693864,
+      "max_position_step_m": 3.8660631244714105e-05,
+      "max_yaw_step_deg": 0.009233278298495778,
+      "frame_ids": [
+        "odom"
+      ],
+      "child_frame_ids": [
+        "base_link"
+      ],
+      "status": "ok"
+    }
+  },
+  "duration_requested_s": 60.0,
+  "csv_path": "logs/diagnostic_20260717_133810/experiment_01_stationary_odom/odom_samples.csv"
+}

@@ -1,0 +1,2932 @@
+[INFO] [1788415670.485126150] [navdp_input_bridge]: relay rgb: /camera/color/image_raw -> /camera/camera/color/image_raw
+[INFO] [1788415670.519720913] [navdp_input_bridge]: relay depth: /camera/aligned_depth_to_color/image_raw -> /camera/camera/aligned_depth_to_color/image_raw
+[INFO] [1788415670.525798470] [navdp_input_bridge]: relay rgb_info: /camera/color/camera_info -> /camera/camera/color/camera_info
+[INFO] [1788415670.533918464] [navdp_input_bridge]: relay depth_info: /camera/aligned_depth_to_color/camera_info -> /camera/camera/aligned_depth_to_color/camera_info
+[INFO] [1788415670.724929572] [navdp_input_bridge]: relay odom: /utlidar/robot_odom -> /odom_bridge
+[INFO] [1788415670.727573286] [navdp_input_bridge]: QoS: KEEP_LAST depth=10 BEST_EFFORT VOLATILE for all input and output topics
+[INFO] [1788415675.746080676] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=80 output=80 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=78 output=78 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=78 output=78 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=78 output=78 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=675 output=675 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415680.731758568] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=155 output=155 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=153 output=153 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=153 output=153 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=153 output=153 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=1418 output=1418 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415685.731160429] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=230 output=230 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=228 output=228 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=228 output=228 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=228 output=228 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=2166 output=2166 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415690.731060196] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=305 output=305 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=303 output=303 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=303 output=303 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=303 output=303 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=2918 output=2918 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415695.731987853] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=380 output=380 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=378 output=378 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=378 output=378 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=378 output=378 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=3665 output=3665 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415700.731314504] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=455 output=455 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=453 output=453 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=453 output=453 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=453 output=453 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=4409 output=4409 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415705.732207268] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=529 output=529 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=528 output=528 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=528 output=528 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=528 output=528 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=5156 output=5156 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415710.733969686] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=604 output=604 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=603 output=603 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=603 output=603 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=603 output=603 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=5908 output=5908 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415715.734063526] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=679 output=679 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=678 output=678 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=678 output=678 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=678 output=678 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=6657 output=6657 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415720.731407173] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=754 output=754 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=752 output=752 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=752 output=752 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=752 output=752 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=7409 output=7409 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415725.731349429] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=829 output=829 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=827 output=827 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=827 output=827 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=827 output=827 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=8159 output=8159 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415730.731304808] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=904 output=904 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=902 output=902 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=902 output=902 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=902 output=902 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=8911 output=8911 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415735.732281600] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=979 output=979 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=977 output=977 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=977 output=977 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=977 output=977 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=9665 output=9665 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415740.731230063] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1054 output=1054 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1052 output=1052 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1052 output=1052 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1052 output=1052 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=10415 output=10415 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415745.731086222] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1129 output=1129 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1127 output=1127 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1127 output=1127 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1127 output=1127 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=11155 output=11155 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415750.731400987] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1204 output=1204 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1202 output=1202 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1202 output=1202 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1202 output=1202 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=11902 output=11902 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415755.731384684] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1279 output=1279 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1277 output=1277 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1277 output=1277 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1277 output=1277 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=12584 output=12584 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415760.732777957] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1354 output=1354 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1352 output=1352 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1352 output=1352 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1352 output=1352 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=13314 output=13314 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415765.731210476] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1429 output=1429 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1427 output=1427 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1427 output=1427 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1427 output=1427 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=14068 output=14068 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415770.737249229] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1504 output=1504 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1502 output=1502 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1502 output=1502 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1502 output=1502 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=14817 output=14817 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415775.731381211] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1579 output=1579 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1577 output=1577 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1577 output=1577 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1577 output=1577 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=15568 output=15568 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415780.731188398] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1654 output=1654 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1652 output=1652 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1652 output=1652 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1652 output=1652 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=16315 output=16315 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415785.731091994] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1729 output=1729 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1727 output=1727 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1727 output=1727 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1727 output=1727 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=17062 output=17062 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415790.731096047] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1804 output=1804 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1802 output=1802 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1802 output=1802 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1802 output=1802 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=17813 output=17813 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415795.731178626] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1879 output=1879 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1877 output=1877 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1877 output=1877 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1877 output=1877 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=18565 output=18565 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415800.731093588] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=1953 output=1953 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=1952 output=1952 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=1951 output=1951 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=1952 output=1952 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=19318 output=19318 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415805.732859398] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2028 output=2028 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2027 output=2027 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2026 output=2026 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2027 output=2027 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=20067 output=20067 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415810.733223465] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2102 output=2102 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2102 output=2102 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2101 output=2101 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2102 output=2102 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=20814 output=20814 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415815.734075462] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2177 output=2177 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2177 output=2177 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2176 output=2176 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2177 output=2177 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=21564 output=21564 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415820.731227429] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2252 output=2252 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2251 output=2251 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2250 output=2250 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2251 output=2251 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=22316 output=22316 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415825.731173960] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2327 output=2327 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2326 output=2326 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2325 output=2325 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2326 output=2326 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=23062 output=23062 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415830.731361276] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2402 output=2402 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2401 output=2401 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2400 output=2400 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2401 output=2401 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=23816 output=23816 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415835.731336305] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2477 output=2477 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2476 output=2476 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2475 output=2475 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2476 output=2476 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=24563 output=24563 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415840.731113698] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2552 output=2552 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2551 output=2551 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2550 output=2550 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2551 output=2551 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=25307 output=25307 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415845.737616123] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2627 output=2627 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2626 output=2626 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2625 output=2625 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2626 output=2626 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=26021 output=26021 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415850.733000341] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2702 output=2702 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2701 output=2701 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2700 output=2700 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2701 output=2701 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=26744 output=26744 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415855.731316134] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2777 output=2777 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2776 output=2776 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2775 output=2775 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2776 output=2776 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=27493 output=27493 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415860.731041345] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2852 output=2852 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2851 output=2851 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2850 output=2850 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2851 output=2851 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=28243 output=28243 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415865.731002116] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=2927 output=2927 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=2926 output=2926 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=2925 output=2925 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=2926 output=2926 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=28995 output=28995 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415870.731153774] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3002 output=3002 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3001 output=3001 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3000 output=3000 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3001 output=3001 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=29745 output=29745 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415875.731147790] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3077 output=3077 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3076 output=3076 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3075 output=3075 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3076 output=3076 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=30499 output=30499 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415880.731240244] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3152 output=3152 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3151 output=3151 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3150 output=3150 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3151 output=3151 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=31244 output=31244 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415885.731324642] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3227 output=3227 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3226 output=3226 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3225 output=3225 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3226 output=3226 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=31994 output=31994 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415890.731181952] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3302 output=3302 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3301 output=3301 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3300 output=3300 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3301 output=3301 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=32744 output=32744 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415895.731190648] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3377 output=3377 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3376 output=3376 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3375 output=3375 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3376 output=3376 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=33492 output=33492 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415900.730971356] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3452 output=3452 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3451 output=3451 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3450 output=3450 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3451 output=3451 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=34237 output=34237 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415905.731160869] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3527 output=3527 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3526 output=3526 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3525 output=3525 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3526 output=3526 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=34989 output=34989 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415910.732604192] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3602 output=3602 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3601 output=3601 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3600 output=3600 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3601 output=3601 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=35744 output=35744 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415915.736212057] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3677 output=3677 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3676 output=3676 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3675 output=3675 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3676 output=3676 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=36497 output=36497 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415920.734393374] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3751 output=3751 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3751 output=3751 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3750 output=3750 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3751 output=3751 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=37248 output=37248 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415925.731270467] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3826 output=3826 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3825 output=3825 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3824 output=3824 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3825 output=3825 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=37997 output=37997 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415930.731518810] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3901 output=3901 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3900 output=3900 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3899 output=3899 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3900 output=3900 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=38752 output=38752 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415935.731430295] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=3976 output=3976 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=3975 output=3975 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=3974 output=3974 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=3975 output=3975 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=39498 output=39498 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415940.732489635] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4051 output=4051 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4050 output=4050 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4049 output=4049 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4050 output=4050 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=40247 output=40247 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415945.760682128] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4126 output=4126 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4125 output=4125 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4124 output=4124 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4125 output=4125 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=40889 output=40889 last=0.03s ago
+  output_topic=/odom_bridge
+[INFO] [1788415950.731057105] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4201 output=4201 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4200 output=4200 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4199 output=4199 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4200 output=4200 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=41544 output=41544 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415955.731403568] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4276 output=4276 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4275 output=4275 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4274 output=4274 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4275 output=4275 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=42297 output=42297 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415960.732423892] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4351 output=4351 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4350 output=4350 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4349 output=4349 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4350 output=4350 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=43036 output=43036 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415965.731123528] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4426 output=4426 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4425 output=4425 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4424 output=4424 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4425 output=4425 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=43788 output=43788 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415970.731132667] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4501 output=4501 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4500 output=4500 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4499 output=4499 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4500 output=4500 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=44532 output=44532 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415975.731334381] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4576 output=4576 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4575 output=4575 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4574 output=4574 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4575 output=4575 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=45275 output=45275 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415980.731271863] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4651 output=4651 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4650 output=4650 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4649 output=4649 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4650 output=4650 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=46017 output=46017 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415985.731158860] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4726 output=4726 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4725 output=4725 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4724 output=4724 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4725 output=4725 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=46765 output=46765 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788415990.731012426] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4801 output=4801 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4800 output=4800 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4799 output=4799 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4800 output=4800 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=47513 output=47513 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788415995.735006435] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4875 output=4875 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4874 output=4874 last=0.08s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4873 output=4873 last=0.07s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4875 output=4875 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=48255 output=48255 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416000.731829532] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=4950 output=4950 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=4950 output=4950 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=4949 output=4949 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=4950 output=4950 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=48834 output=48834 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416005.738819094] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5026 output=5026 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5025 output=5025 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5024 output=5024 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5025 output=5025 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=49535 output=49535 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416010.731689052] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5101 output=5101 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5100 output=5100 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5099 output=5099 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5100 output=5100 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=50288 output=50288 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416015.732636026] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5176 output=5176 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5175 output=5175 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5174 output=5174 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5175 output=5175 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=51040 output=51040 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416020.740353946] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5251 output=5251 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5250 output=5250 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5249 output=5249 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5250 output=5250 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=51786 output=51786 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416025.737512313] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5325 output=5325 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5325 output=5325 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5323 output=5323 last=0.07s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5325 output=5325 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=52539 output=52539 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416030.731999476] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5400 output=5400 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5399 output=5399 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5398 output=5398 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5400 output=5400 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=53288 output=53288 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416035.731399963] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5475 output=5475 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5474 output=5474 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5473 output=5473 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5474 output=5474 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=54037 output=54037 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416040.731188847] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5550 output=5550 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5549 output=5549 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5548 output=5548 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5549 output=5549 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=54781 output=54781 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416045.731405549] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5625 output=5625 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5624 output=5624 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5623 output=5623 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5624 output=5624 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=55526 output=55526 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416050.731553491] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5700 output=5700 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5699 output=5699 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5698 output=5698 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5699 output=5699 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=56279 output=56279 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416055.732015497] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5775 output=5775 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5774 output=5774 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5773 output=5773 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5774 output=5774 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=57030 output=57030 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416060.731596404] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5850 output=5850 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5849 output=5849 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5848 output=5848 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5849 output=5849 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=57785 output=57785 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416065.731219359] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=5925 output=5925 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5924 output=5924 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5923 output=5923 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5924 output=5924 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=58540 output=58540 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416070.731148123] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6000 output=6000 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=5999 output=5999 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=5998 output=5998 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=5999 output=5999 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=59297 output=59297 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416075.731272750] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6075 output=6075 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6074 output=6074 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6073 output=6073 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6074 output=6074 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=60046 output=60046 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416080.731119986] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6150 output=6150 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6149 output=6149 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6148 output=6148 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6149 output=6149 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=60791 output=60791 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416085.731206602] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6225 output=6225 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6224 output=6224 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6223 output=6223 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6224 output=6224 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=61536 output=61536 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416090.731002004] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6300 output=6300 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6299 output=6299 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6298 output=6298 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6299 output=6299 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=62281 output=62281 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416095.737490114] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6374 output=6374 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6373 output=6373 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6372 output=6372 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6373 output=6373 last=0.10s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=63021 output=63021 last=0.02s ago
+  output_topic=/odom_bridge
+[INFO] [1788416100.732963366] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6450 output=6450 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6449 output=6449 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6448 output=6448 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6449 output=6449 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=63646 output=63646 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416105.731332710] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6525 output=6525 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6524 output=6524 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6523 output=6523 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6524 output=6524 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=64392 output=64392 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416110.732360879] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6600 output=6600 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6599 output=6599 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6598 output=6598 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6599 output=6599 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=65136 output=65136 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416115.731465831] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6675 output=6675 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6674 output=6674 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6673 output=6673 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6674 output=6674 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=65884 output=65884 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416120.731555303] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6750 output=6750 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6749 output=6749 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6748 output=6748 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6749 output=6749 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=66634 output=66634 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416125.732195210] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6824 output=6824 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6824 output=6824 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6823 output=6823 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6824 output=6824 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=67385 output=67385 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416130.733147899] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6899 output=6899 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6899 output=6899 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6898 output=6898 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6899 output=6899 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=68138 output=68138 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416135.731606971] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=6974 output=6974 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=6973 output=6973 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=6972 output=6972 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=6973 output=6973 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=68894 output=68894 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416140.731878453] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7049 output=7049 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7048 output=7048 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7047 output=7047 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7048 output=7048 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=69642 output=69642 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416145.731087019] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7124 output=7124 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7123 output=7123 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7122 output=7122 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7123 output=7123 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=70388 output=70388 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416150.731109044] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7199 output=7199 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7198 output=7198 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7197 output=7197 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7198 output=7198 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=71137 output=71137 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416155.731346482] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7274 output=7274 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7273 output=7273 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7272 output=7272 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7273 output=7273 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=71886 output=71886 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416160.731122730] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7349 output=7349 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7348 output=7348 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7347 output=7347 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7348 output=7348 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=72634 output=72634 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416165.730982718] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7424 output=7424 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7423 output=7423 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7422 output=7422 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7423 output=7423 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=73382 output=73382 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416170.731100707] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7499 output=7499 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7498 output=7498 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7497 output=7497 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7498 output=7498 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=74113 output=74113 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416175.731040467] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7574 output=7574 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7573 output=7573 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7572 output=7572 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7573 output=7573 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=74863 output=74863 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416180.731139387] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7649 output=7649 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7648 output=7648 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7647 output=7647 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7648 output=7648 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=75615 output=75615 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416185.730969138] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7724 output=7724 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7723 output=7723 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7722 output=7722 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7723 output=7723 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=76366 output=76366 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416190.731683479] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7799 output=7799 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7798 output=7798 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7797 output=7797 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7798 output=7798 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=77119 output=77119 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416195.730974061] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7874 output=7874 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7873 output=7873 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7872 output=7872 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7873 output=7873 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=77868 output=77868 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416200.731089781] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=7949 output=7949 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=7948 output=7948 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=7947 output=7947 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=7948 output=7948 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=78621 output=78621 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416205.731772445] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8024 output=8024 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8023 output=8023 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8022 output=8022 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8023 output=8023 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=79369 output=79369 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416210.731034742] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8099 output=8099 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8098 output=8098 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8097 output=8097 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8098 output=8098 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=80117 output=80117 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416215.731110240] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8174 output=8174 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8173 output=8173 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8172 output=8172 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8173 output=8173 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=80863 output=80863 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416220.731142670] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8249 output=8249 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8248 output=8248 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8247 output=8247 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8248 output=8248 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=81615 output=81615 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416225.733913023] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8324 output=8324 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8323 output=8323 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8322 output=8322 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8323 output=8323 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=82366 output=82366 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416230.735051086] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8399 output=8399 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8398 output=8398 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8397 output=8397 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8398 output=8398 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=83121 output=83121 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416235.732267708] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8473 output=8473 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8472 output=8472 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8471 output=8471 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8473 output=8473 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=83865 output=83865 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416240.731332449] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8548 output=8548 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8547 output=8547 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8546 output=8546 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8547 output=8547 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=84617 output=84617 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416245.731328178] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8623 output=8623 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8622 output=8622 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8621 output=8621 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8622 output=8622 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=85358 output=85358 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416250.732182865] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8698 output=8698 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8697 output=8697 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8696 output=8696 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8697 output=8697 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=86109 output=86109 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416255.731444875] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8773 output=8773 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8772 output=8772 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8771 output=8771 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8772 output=8772 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=86856 output=86856 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416260.731472698] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8848 output=8848 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8847 output=8847 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8846 output=8846 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8847 output=8847 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=87610 output=87610 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416265.731422701] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8923 output=8923 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8922 output=8922 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8921 output=8921 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8922 output=8922 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=88358 output=88358 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416270.731345922] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=8998 output=8998 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=8997 output=8997 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=8996 output=8996 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=8997 output=8997 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=89107 output=89107 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416275.731299030] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9073 output=9073 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9072 output=9072 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9071 output=9071 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9072 output=9072 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=89855 output=89855 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416280.731965248] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9148 output=9148 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9147 output=9147 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9146 output=9146 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9147 output=9147 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=90602 output=90602 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416285.731253946] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9223 output=9223 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9222 output=9222 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9221 output=9221 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9222 output=9222 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=91353 output=91353 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416290.731227084] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9298 output=9298 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9297 output=9297 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9296 output=9296 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9297 output=9297 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=92104 output=92104 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416295.731080453] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9373 output=9373 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9372 output=9372 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9371 output=9371 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9372 output=9372 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=92854 output=92854 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416300.731129652] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9448 output=9448 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9447 output=9447 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9446 output=9446 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9447 output=9447 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=93607 output=93607 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416305.731067976] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9523 output=9523 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9522 output=9522 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9521 output=9521 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9522 output=9522 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=94357 output=94357 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416310.731040635] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9598 output=9598 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9597 output=9597 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9596 output=9596 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9597 output=9597 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=95103 output=95103 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416315.731073450] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9673 output=9673 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9672 output=9672 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9671 output=9671 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9672 output=9672 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=95851 output=95851 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416320.731472356] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9748 output=9748 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9747 output=9747 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9746 output=9746 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9747 output=9747 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=96603 output=96603 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416325.731315743] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9823 output=9823 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9822 output=9822 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9821 output=9821 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9822 output=9822 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=97354 output=97354 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416330.733893341] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9898 output=9898 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9897 output=9897 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9896 output=9896 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9897 output=9897 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=98109 output=98109 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416335.736296837] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=9973 output=9973 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=9972 output=9972 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=9971 output=9971 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=9972 output=9972 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=98857 output=98857 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416340.735383850] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10047 output=10047 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10047 output=10047 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10046 output=10046 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10047 output=10047 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=99610 output=99610 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416345.731263815] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10122 output=10122 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10121 output=10121 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10120 output=10120 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10121 output=10121 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=100363 output=100363 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416350.731197212] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10197 output=10197 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10196 output=10196 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10195 output=10195 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10196 output=10196 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=101113 output=101113 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416355.732524513] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10272 output=10272 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10271 output=10271 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10270 output=10270 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10271 output=10271 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=101863 output=101863 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416360.732209605] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10347 output=10347 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10346 output=10346 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10345 output=10345 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10346 output=10346 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=102615 output=102615 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416365.731194160] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10422 output=10422 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10421 output=10421 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10420 output=10420 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10421 output=10421 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=103367 output=103367 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416370.731252862] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10497 output=10497 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10496 output=10496 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10495 output=10495 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10496 output=10496 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=104115 output=104115 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416375.731363753] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10572 output=10572 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10571 output=10571 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10570 output=10570 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10571 output=10571 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=104864 output=104864 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416380.731249217] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10647 output=10647 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10646 output=10646 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10645 output=10645 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10646 output=10646 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=105615 output=105615 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416385.731197110] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10722 output=10722 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10721 output=10721 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10720 output=10720 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10721 output=10721 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=106356 output=106356 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416390.731071951] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10797 output=10797 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10796 output=10796 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10795 output=10795 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10796 output=10796 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=107106 output=107106 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416395.731129053] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10872 output=10872 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10871 output=10871 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10870 output=10870 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10871 output=10871 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=107855 output=107855 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416400.731096400] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=10947 output=10947 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=10946 output=10946 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=10945 output=10945 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=10946 output=10946 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=108609 output=108609 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416405.731102517] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11022 output=11022 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11021 output=11021 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11020 output=11020 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11021 output=11021 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=109358 output=109358 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416410.731047529] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11097 output=11097 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11096 output=11096 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11095 output=11095 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11096 output=11096 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=110107 output=110107 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416415.731096691] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11172 output=11172 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11171 output=11171 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11170 output=11170 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11171 output=11171 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=110854 output=110854 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416420.731141800] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11247 output=11247 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11246 output=11246 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11245 output=11245 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11246 output=11246 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=111598 output=111598 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416425.732439284] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11322 output=11322 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11321 output=11321 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11320 output=11320 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11321 output=11321 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=112345 output=112345 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416430.731097715] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11397 output=11397 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11396 output=11396 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11395 output=11395 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11396 output=11396 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=113096 output=113096 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416435.731812614] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11471 output=11471 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11470 output=11470 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11469 output=11469 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11470 output=11470 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=113847 output=113847 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416440.738975304] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11545 output=11545 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11545 output=11545 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11544 output=11544 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11545 output=11545 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=114324 output=114324 last=0.02s ago
+  output_topic=/odom_bridge
+[INFO] [1788416445.731257828] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11621 output=11621 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11620 output=11620 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11619 output=11619 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11620 output=11620 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=115005 output=115005 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416450.732606143] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11696 output=11696 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11695 output=11695 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11694 output=11694 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11695 output=11695 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=115756 output=115756 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416455.733198863] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11771 output=11771 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11770 output=11770 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11769 output=11769 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11770 output=11770 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=116504 output=116504 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416460.732163515] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11846 output=11846 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11845 output=11845 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11844 output=11844 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11845 output=11845 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=117258 output=117258 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416465.731606929] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11921 output=11921 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11920 output=11920 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11919 output=11919 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11920 output=11920 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=118004 output=118004 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416470.731177031] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=11996 output=11996 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=11995 output=11995 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=11994 output=11994 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=11995 output=11995 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=118749 output=118749 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416475.731115392] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12071 output=12071 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12070 output=12070 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12069 output=12069 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12070 output=12070 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=119497 output=119497 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416480.731275508] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12146 output=12146 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12145 output=12145 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12144 output=12144 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12145 output=12145 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=120247 output=120247 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416485.731036224] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12221 output=12221 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12220 output=12220 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12219 output=12219 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12220 output=12220 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=120993 output=120993 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416490.731105872] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12296 output=12296 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12295 output=12295 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12294 output=12294 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12295 output=12295 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=121746 output=121746 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416495.731318839] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12371 output=12371 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12370 output=12370 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12369 output=12369 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12370 output=12370 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=122495 output=122495 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416500.731212245] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12446 output=12446 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12445 output=12445 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12444 output=12444 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12445 output=12445 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=123243 output=123243 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416505.731120019] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12521 output=12521 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12520 output=12520 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12519 output=12519 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12520 output=12520 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=123992 output=123992 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416510.731114886] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12596 output=12596 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12595 output=12595 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12594 output=12594 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12595 output=12595 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=124734 output=124734 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416515.731176278] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12671 output=12671 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12670 output=12670 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12669 output=12669 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12670 output=12670 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=125479 output=125479 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416520.734908833] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12746 output=12746 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12745 output=12745 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12744 output=12744 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12745 output=12745 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=126229 output=126229 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416525.731888702] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12820 output=12820 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12819 output=12819 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12818 output=12818 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12820 output=12820 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=126978 output=126978 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416530.731307339] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12895 output=12895 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12894 output=12894 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12893 output=12893 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12894 output=12894 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=127725 output=127725 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416535.731166473] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=12970 output=12970 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=12969 output=12969 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=12968 output=12968 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=12969 output=12969 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=128478 output=128478 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416540.731320590] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13045 output=13045 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13044 output=13044 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13043 output=13043 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13044 output=13044 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=129226 output=129226 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416545.731275617] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13120 output=13120 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13119 output=13119 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13118 output=13118 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13119 output=13119 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=129974 output=129974 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416550.731105887] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13195 output=13195 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13194 output=13194 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13193 output=13193 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13194 output=13194 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=130725 output=130725 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416555.731228146] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13270 output=13270 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13269 output=13269 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13268 output=13268 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13269 output=13269 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=131475 output=131475 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416560.731851214] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13345 output=13345 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13344 output=13344 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13343 output=13343 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13344 output=13344 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=132224 output=132224 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416565.731307593] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13420 output=13420 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13419 output=13419 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13418 output=13418 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13419 output=13419 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=132974 output=132974 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416570.731141990] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13495 output=13495 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13494 output=13494 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13493 output=13493 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13494 output=13494 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=133723 output=133723 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416575.730922529] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13570 output=13570 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13569 output=13569 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13568 output=13568 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13569 output=13569 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=134474 output=134474 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416580.748192739] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13645 output=13645 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13644 output=13644 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13643 output=13643 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13644 output=13644 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=135214 output=135214 last=0.02s ago
+  output_topic=/odom_bridge
+[INFO] [1788416585.732288838] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13719 output=13719 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13719 output=13719 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13718 output=13718 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13719 output=13719 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=135886 output=135886 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416590.731294446] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13795 output=13795 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13794 output=13794 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13793 output=13793 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13794 output=13794 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=136571 output=136571 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416595.731025243] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13870 output=13870 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13869 output=13869 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13868 output=13868 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13869 output=13869 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=137322 output=137322 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416600.731779372] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=13945 output=13945 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=13944 output=13944 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=13943 output=13943 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=13944 output=13944 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=138070 output=138070 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416605.734389230] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14020 output=14020 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14019 output=14019 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14018 output=14018 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14019 output=14019 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=138822 output=138822 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416610.732935507] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14095 output=14095 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14094 output=14094 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14093 output=14093 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14094 output=14094 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=139569 output=139569 last=0.02s ago
+  output_topic=/odom_bridge
+[INFO] [1788416615.731616404] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14169 output=14169 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14169 output=14169 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14168 output=14168 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14169 output=14169 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=140319 output=140319 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416620.734711769] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14244 output=14244 last=0.07s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14244 output=14244 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14243 output=14243 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14244 output=14244 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=141062 output=141062 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416625.731304829] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14319 output=14319 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14318 output=14318 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14317 output=14317 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14318 output=14318 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=141815 output=141815 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416630.732691016] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14394 output=14394 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14393 output=14393 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14392 output=14392 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14393 output=14393 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=142572 output=142572 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416635.731292285] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14469 output=14469 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14468 output=14468 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14467 output=14467 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14468 output=14468 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=143320 output=143320 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416640.731462957] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14544 output=14544 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14543 output=14543 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14542 output=14542 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14543 output=14543 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=144059 output=144059 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416645.731252295] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14619 output=14619 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14618 output=14618 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14617 output=14617 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14618 output=14618 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=144802 output=144802 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416650.731164792] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14694 output=14694 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14693 output=14693 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14692 output=14692 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14693 output=14693 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=145552 output=145552 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416655.730947748] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14769 output=14769 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14768 output=14768 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14767 output=14767 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14768 output=14768 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=146302 output=146302 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416660.731053170] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14844 output=14844 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14843 output=14843 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14842 output=14842 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14843 output=14843 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=147048 output=147048 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416665.731747526] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14919 output=14919 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14918 output=14918 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14917 output=14917 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14918 output=14918 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=147799 output=147799 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416670.731158285] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=14994 output=14994 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=14993 output=14993 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=14992 output=14992 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=14993 output=14993 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=148538 output=148538 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416675.731047445] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15069 output=15069 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15068 output=15068 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15067 output=15067 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15068 output=15068 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=149282 output=149282 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416680.730950199] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15144 output=15144 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15143 output=15143 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15142 output=15142 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15143 output=15143 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=150026 output=150026 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416685.751966090] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15218 output=15218 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15218 output=15218 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15217 output=15217 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15218 output=15218 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=150662 output=150662 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416690.733647260] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15294 output=15294 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15293 output=15293 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15292 output=15292 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15293 output=15293 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=151251 output=151251 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416695.754088146] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15369 output=15369 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15368 output=15368 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15367 output=15367 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15368 output=15368 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=151980 output=151980 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416700.732373808] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15444 output=15444 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15443 output=15443 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15442 output=15442 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15443 output=15443 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=152731 output=152731 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416705.734077335] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15519 output=15519 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15518 output=15518 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15517 output=15517 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15518 output=15518 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=153480 output=153480 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416710.731148623] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15593 output=15593 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15592 output=15592 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15591 output=15591 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15593 output=15593 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=154232 output=154232 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416715.735042366] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15668 output=15668 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15667 output=15667 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15666 output=15666 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15667 output=15667 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=154979 output=154979 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416720.732255872] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15743 output=15743 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15742 output=15742 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15741 output=15741 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15742 output=15742 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=155722 output=155722 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416725.731752973] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15818 output=15818 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15817 output=15817 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15816 output=15816 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15817 output=15817 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=156478 output=156478 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416730.731498764] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15893 output=15893 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15892 output=15892 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15891 output=15891 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15892 output=15892 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=157230 output=157230 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416735.731169162] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=15968 output=15968 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=15967 output=15967 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=15966 output=15966 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=15967 output=15967 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=157982 output=157982 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416740.731391499] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16043 output=16043 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16042 output=16042 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16041 output=16041 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16042 output=16042 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=158727 output=158727 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416745.735331564] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16118 output=16118 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16117 output=16117 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16116 output=16116 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16117 output=16117 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=159478 output=159478 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416750.731002909] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16193 output=16193 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16192 output=16192 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16191 output=16191 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16192 output=16192 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=160225 output=160225 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416755.731358740] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16268 output=16268 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16267 output=16267 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16266 output=16266 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16267 output=16267 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=160976 output=160976 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416760.730960937] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16343 output=16343 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16342 output=16342 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16341 output=16341 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16342 output=16342 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=161731 output=161731 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416765.735261405] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16418 output=16418 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16417 output=16417 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16416 output=16416 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16417 output=16417 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=162480 output=162480 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416770.731119298] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16493 output=16493 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16492 output=16492 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16491 output=16491 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16492 output=16492 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=163220 output=163220 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416775.731177161] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16568 output=16568 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16567 output=16567 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16566 output=16566 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16567 output=16567 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=163971 output=163971 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416780.731091787] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16643 output=16643 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16642 output=16642 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16641 output=16641 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16642 output=16642 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=164715 output=164715 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416785.731234178] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16718 output=16718 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16717 output=16717 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16716 output=16716 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16717 output=16717 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=165462 output=165462 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416790.731154317] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16793 output=16793 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16792 output=16792 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16791 output=16791 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16792 output=16792 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=166210 output=166210 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416795.731105541] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16868 output=16868 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16867 output=16867 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16866 output=16866 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16867 output=16867 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=166958 output=166958 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416800.735411286] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=16943 output=16943 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=16942 output=16942 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=16941 output=16941 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=16942 output=16942 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=167712 output=167712 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416805.733254793] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17017 output=17017 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17017 output=17017 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17016 output=17016 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17017 output=17017 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=168462 output=168462 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416810.732267430] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17092 output=17092 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17091 output=17091 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17090 output=17090 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17092 output=17092 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=169214 output=169214 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416815.732513698] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17167 output=17167 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17166 output=17166 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17165 output=17165 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17167 output=17167 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=169964 output=169964 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416820.731183892] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17242 output=17242 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17241 output=17241 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17240 output=17240 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17241 output=17241 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=170714 output=170714 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416825.732590586] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17317 output=17317 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17316 output=17316 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17315 output=17315 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17316 output=17316 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=171468 output=171468 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416830.731880707] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17392 output=17392 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17391 output=17391 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17390 output=17390 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17391 output=17391 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=172218 output=172218 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416835.731166152] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17467 output=17467 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17466 output=17466 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17465 output=17465 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17466 output=17466 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=172965 output=172965 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416840.731201518] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17542 output=17542 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17541 output=17541 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17540 output=17540 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17541 output=17541 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=173717 output=173717 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416845.731412140] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17617 output=17617 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17616 output=17616 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17615 output=17615 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17616 output=17616 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=174467 output=174467 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416850.731111134] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17692 output=17692 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17691 output=17691 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17690 output=17690 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17691 output=17691 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=175214 output=175214 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416855.731154435] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17767 output=17767 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17766 output=17766 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17765 output=17765 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17766 output=17766 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=175960 output=175960 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416860.731134480] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17842 output=17842 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17841 output=17841 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17840 output=17840 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17841 output=17841 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=176710 output=176710 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416865.731003442] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17917 output=17917 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17916 output=17916 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17915 output=17915 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17916 output=17916 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=177458 output=177458 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416870.731528104] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=17991 output=17991 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=17991 output=17991 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=17990 output=17990 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=17991 output=17991 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=178129 output=178129 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416875.731989735] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18067 output=18067 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18066 output=18066 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18065 output=18065 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18066 output=18066 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=178714 output=178714 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416880.731002101] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18142 output=18142 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18141 output=18141 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18140 output=18140 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18141 output=18141 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=179457 output=179457 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416885.734833637] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18217 output=18217 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18216 output=18216 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18215 output=18215 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18216 output=18216 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=180203 output=180203 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416890.731017962] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18292 output=18292 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18291 output=18291 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18290 output=18290 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18291 output=18291 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=180948 output=180948 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416895.731343950] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18367 output=18367 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18366 output=18366 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18365 output=18365 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18366 output=18366 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=181696 output=181696 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416900.733734556] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18442 output=18442 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18441 output=18441 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18440 output=18440 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18441 output=18441 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=182446 output=182446 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416905.736009251] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18517 output=18517 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18516 output=18516 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18515 output=18515 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18516 output=18516 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=183196 output=183196 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416910.732081481] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18591 output=18591 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18591 output=18591 last=0.00s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18590 output=18590 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18591 output=18591 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=183942 output=183942 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416915.731395441] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18666 output=18666 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18665 output=18665 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18664 output=18664 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18665 output=18665 last=0.07s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=184691 output=184691 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416920.730996699] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18741 output=18741 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18740 output=18740 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18739 output=18739 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18740 output=18740 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=185440 output=185440 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416925.734208000] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18816 output=18816 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18815 output=18815 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18814 output=18814 last=0.06s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18815 output=18815 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=186191 output=186191 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416930.731271321] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18891 output=18891 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18890 output=18890 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18889 output=18889 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18890 output=18890 last=0.06s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=186942 output=186942 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416935.731407421] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=18966 output=18966 last=0.05s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=18965 output=18965 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=18964 output=18964 last=0.05s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=18965 output=18965 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=187689 output=187689 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416940.731093276] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19041 output=19041 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19040 output=19040 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19039 output=19039 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19040 output=19040 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=188431 output=188431 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416945.731008422] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19116 output=19116 last=0.04s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19115 output=19115 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19114 output=19114 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19115 output=19115 last=0.05s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=189180 output=189180 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416950.730970495] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19191 output=19191 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19190 output=19190 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19189 output=19189 last=0.04s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19190 output=19190 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=189933 output=189933 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416955.731026118] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19266 output=19266 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19265 output=19265 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19264 output=19264 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19265 output=19265 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=190683 output=190683 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416960.730988669] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19341 output=19341 last=0.03s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19340 output=19340 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19339 output=19339 last=0.03s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19340 output=19340 last=0.04s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=191430 output=191430 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416965.738668709] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19415 output=19415 last=0.06s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19415 output=19415 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19414 output=19414 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19415 output=19415 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=192180 output=192180 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788416970.731191721] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19491 output=19491 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19490 output=19490 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19489 output=19489 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19490 output=19490 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=192918 output=192918 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416975.731222749] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19566 output=19566 last=0.02s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19565 output=19565 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19564 output=19564 last=0.02s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19565 output=19565 last=0.03s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=193666 output=193666 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416980.731099513] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19641 output=19641 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19640 output=19640 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19639 output=19639 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19640 output=19640 last=0.02s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=194417 output=194417 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416985.731057554] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19716 output=19716 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19715 output=19715 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19714 output=19714 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19715 output=19715 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=195166 output=195166 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416990.731021574] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19791 output=19791 last=0.01s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19790 output=19790 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19789 output=19789 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19790 output=19790 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=195916 output=195916 last=0.00s ago
+  output_topic=/odom_bridge
+[INFO] [1788416995.732216143] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19866 output=19866 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19865 output=19865 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19864 output=19864 last=0.01s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19865 output=19865 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=196665 output=196665 last=0.01s ago
+  output_topic=/odom_bridge
+[INFO] [1788417000.735119162] [navdp_input_bridge]: NavDP input bridge stats:
+- /camera/color/image_raw: input=19941 output=19941 last=0.00s ago
+  output_topic=/camera/camera/color/image_raw
+- /camera/aligned_depth_to_color/image_raw: input=19940 output=19940 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/image_raw
+- /camera/color/camera_info: input=19939 output=19939 last=0.00s ago
+  output_topic=/camera/camera/color/camera_info
+- /camera/aligned_depth_to_color/camera_info: input=19940 output=19940 last=0.01s ago
+  output_topic=/camera/camera/aligned_depth_to_color/camera_info
+- /utlidar/robot_odom: input=197418 output=197418 last=0.00s ago
+  output_topic=/odom_bridge

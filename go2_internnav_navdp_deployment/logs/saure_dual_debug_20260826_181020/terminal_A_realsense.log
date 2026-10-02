@@ -1,0 +1,46 @@
+[INFO] [launch]: All log files can be found below /home/unitree/.ros/log/2026-08-26-18-13-53-767570-ubuntu-11603
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [realsense2_camera_node-1]: process started with pid [11669]
+[realsense2_camera_node-1] 1787739234.375910 [0] realsense2: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[realsense2_camera_node-1] [0m[INFO] [1787739234.518964081] [RealSenseCameraNode]: RealSense ROS v3.2.3[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.520999887] [RealSenseCameraNode]: Built with LibRealSense v2.56.5[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.521888468] [RealSenseCameraNode]: Running with LibRealSense v2.56.5[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.565587934] [RealSenseCameraNode]: Device with serial number 347622070266 was found.
+[realsense2_camera_node-1] [0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.566642256] [RealSenseCameraNode]: Device with physical ID /sys/devices/platform/3610000.xhci/usb1/1-2/1-2.1/1-2.1:1.0/video4linux/video0 was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.566688723] [RealSenseCameraNode]: Device with name Intel RealSense D435I was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.567241374] [RealSenseCameraNode]: Device with port number 1-2.1 was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.568379671] [RealSenseCameraNode]: Device USB type: 2.1[0m
+[realsense2_camera_node-1] [33m[WARN] [1787739234.568435451] [RealSenseCameraNode]: Device 347622070266 is connected using a 2.1 port. Reduced performance is expected.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.577007926] [RealSenseCameraNode]: getParameters...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.592777442] [RealSenseCameraNode]: setupDevice...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.593831732] [RealSenseCameraNode]: JSON file is not provided[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.594725561] [RealSenseCameraNode]: Device Name: Intel RealSense D435I[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.595603550] [RealSenseCameraNode]: Device physical port: /sys/devices/platform/3610000.xhci/usb1/1-2/1-2.1/1-2.1:1.0/video4linux/video0[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.596440575] [RealSenseCameraNode]: Device FW version: 5.15.1.55[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.597247166] [RealSenseCameraNode]: Device Product ID: 0x0B3A[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.598152644] [RealSenseCameraNode]: Enable PointCloud: Off[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.598969380] [RealSenseCameraNode]: Align Depth: On[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.599874666] [RealSenseCameraNode]: Sync Mode: On[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.601064711] [RealSenseCameraNode]: Device Sensors: [0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.603641551] [RealSenseCameraNode]: Stereo Module was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.605820473] [RealSenseCameraNode]: RGB Camera was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.606920110] [RealSenseCameraNode]: Motion Module was found.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.607888570] [RealSenseCameraNode]: (Infrared, 0) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.608743740] [RealSenseCameraNode]: (Fisheye, 0) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.609574173] [RealSenseCameraNode]: (Fisheye, 1) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.610446497] [RealSenseCameraNode]: (Fisheye, 2) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.611390378] [RealSenseCameraNode]: (Pose, 0) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.611460912] [RealSenseCameraNode]: (Confidence, 0) sensor isn't supported by current device! -- Skipping...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.612086433] [RealSenseCameraNode]: num_filters: 1[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.612155910] [RealSenseCameraNode]: Setting Dynamic reconfig parameters.[0m
+[realsense2_camera_node-1] [33m[WARN] [1787739234.739598757] [RealSenseCameraNode]: Could not set param: rgb_camera.power_line_frequency with 3Range: [0, 2]: parameter 'rgb_camera.power_line_frequency' could not be set: Parameter {} doesn't comply with integer range.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.742479013] [RealSenseCameraNode]: Done Setting Dynamic reconfig parameters.[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.744797497] [RealSenseCameraNode]: depth stream is enabled - width: 640, height: 480, fps: 15, Format: Z16[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.746518271] [RealSenseCameraNode]: color stream is enabled - width: 640, height: 480, fps: 15, Format: RGB8[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.748946300] [RealSenseCameraNode]: setupPublishers...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.772362107] [RealSenseCameraNode]: setupStreams...[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.802772858] [RealSenseCameraNode]: SELECTED BASE:Depth, 0[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.805823047] [RealSenseCameraNode]: Device Serial No: 347622070266[0m
+[realsense2_camera_node-1] [0m[INFO] [1787739234.807450182] [RealSenseCameraNode]: RealSense Node Is Up![0m
+[realsense2_camera_node-1] [33m[WARN] [1787739235.040999708] [RealSenseCameraNode]: [0m

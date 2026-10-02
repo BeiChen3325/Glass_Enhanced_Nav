@@ -1,0 +1,100 @@
+{
+  "device_info": {
+    "camera_info.name": "Intel RealSense D435I",
+    "camera_info.serial_number": "347622070266",
+    "camera_info.firmware_version": "5.15.1.55",
+    "camera_info.physical_port": "/sys/devices/pci0000:00/0000:00:06.1/0000:03:00.0/0000:04:02.0/0000:18:00.0/usb4/4-2/4-2:1.0/video4linux/video4",
+    "camera_info.product_id": "0B3A"
+  },
+  "depth": {
+    "stream": "RS2_STREAM_DEPTH",
+    "format": "RS2_FORMAT_Z16",
+    "intrinsics": {
+      "width": 640,
+      "height": 480,
+      "fx": 387.2239685058594,
+      "fy": 387.2239685058594,
+      "cx_ppx": 324.13824462890625,
+      "cy_ppy": 236.2493438720703,
+      "distortion_model": "distortion.brown_conrady",
+      "coeffs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "depth_scale_m_per_unit": 0.0010000000474974513,
+    "center_pixel_distance_m": 1.9650001525878906,
+    "ros_encoding_recommended": "16UC1",
+    "unit_note": "Z16 raw depth value multiplied by depth_scale gives meters."
+  },
+  "color": {
+    "stream": "RS2_STREAM_COLOR",
+    "format": "BGR8",
+    "intrinsics": {
+      "width": 848,
+      "height": 480,
+      "fx": 602.6174926757812,
+      "fy": 601.5787353515625,
+      "cx_ppx": 430.550048828125,
+      "cy_ppy": 246.98899841308594,
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "coeffs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ros_encoding_recommended": "bgr8 or rgb8 after conversion"
+  },
+  "extrinsics": {
+    "depth_to_color": {
+      "rotation_row_major_3x3": [
+        0.9999738335609436,
+        -0.003962783608585596,
+        -0.006053220946341753,
+        0.003971876576542854,
+        0.9999909996986389,
+        0.001490899594500661,
+        0.006047258153557777,
+        -0.0015149032697081566,
+        0.9999805688858032
+      ],
+      "translation_m": [
+        0.015027543529868126,
+        3.488806032692082e-05,
+        0.0002645145868882537
+      ]
+    },
+    "color_to_depth": {
+      "rotation_row_major_3x3": [
+        0.9999738335609436,
+        0.003971876576542854,
+        0.006047258153557777,
+        -0.003962783608585596,
+        0.9999909996986389,
+        -0.0015149032697081566,
+        -0.006053220946341753,
+        0.001490899594500661,
+        0.9999805688858032
+      ],
+      "translation_m": [
+        -0.015025410801172256,
+        -9.496965503785759e-05,
+        -0.0003553320129867643
+      ]
+    },
+    "note": "These are RealSense internal extrinsics, not robot base_link to camera extrinsics."
+  },
+  "internnav_mapping_suggestion": {
+    "rgb_topic": "/camera/camera/color/image_raw",
+    "depth_topic": "/camera/camera/aligned_depth_to_color/image_raw",
+    "depth_encoding": "16UC1",
+    "depth_unit_for_current_adapter": "RealSense Z16 raw uint16; meters = raw * depth_scale_m_per_unit",
+    "camera_info_needed": true
+  }
+}

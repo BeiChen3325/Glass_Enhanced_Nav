@@ -1,0 +1,3 @@
+1788432741.4741325 [INFO] [launch]: All log files can be found below /home/unitree/Glass_Enhanced_X_NavDP/go2_internnav_navdp_deployment/logs/go2_navdp_01/ros/2026-09-03-10-52-21-470710-ubuntu-8090
+1788432741.4746118 [INFO] [launch]: Default logging verbosity is set to INFO
+1788432741.7522998 [INFO] [realsense2_camera_node-1]: process started with pid [8144]

@@ -1,0 +1,1 @@
+request_sequence,response_idx,tracking_profile,smoothing_applied,smoothing_reason,point_count,max_deviation_m,mean_abs_corner_before_deg,mean_abs_corner_after_deg,total_abs_turn_before_deg,total_abs_turn_after_deg

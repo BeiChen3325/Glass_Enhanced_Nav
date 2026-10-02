@@ -1,0 +1,631 @@
+[NAVDP_CLIENT] server url: http://10.10.154.201:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1786938390.593446 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (/home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://10.10.154.201:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=1.000 rad/s
+[MPC CONFIG] tracking_profile=legacy savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: imagegoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=False yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] loaded image goal: /home/unitree/NavDP_workspace/easy_goal.jpg
+[CLIENT HOLD] reason=trajectory_stale:age_s=none; cleared MPC and waiting for next planner output
+response status=200 bytes=26077
+idx: 0 after http 0.926s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.7152466773986816 right_clearance_m=1.9471139907836914 trajectory_end_y_m=0.011
+traj len 1.430452134066694
+1786938392.1270416 update traj
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+response status=200 bytes=28381
+idx: 1 after http 0.399s
+traj len 1.421269560202574
+1786938392.75259 update traj
+response status=200 bytes=28598
+idx: 2 after http 0.349s
+traj len 1.9211495154060416
+1786938393.1584778 update traj
+response status=200 bytes=28673
+idx: 3 after http 0.328s
+traj len 1.8630108272545345
+1786938393.5418503 update traj
+response status=200 bytes=28664
+idx: 4 after http 0.373s
+traj len 1.5493485873202881
+1786938393.9715362 update traj
+response status=200 bytes=28258
+idx: 5 after http 0.389s
+traj len 2.290290853077862
+1786938394.4196732 update traj
+response status=200 bytes=28425
+idx: 6 after http 0.360s
+traj len 2.4339954858918915
+1786938394.920295 update traj
+response status=200 bytes=28238
+idx: 7 after http 0.322s
+traj len 2.5173018471242172
+1786938395.298973 update traj
+response status=200 bytes=28034
+idx: 8 after http 0.328s
+traj len 2.1609555665010904
+1786938395.692376 update traj
+response status=200 bytes=28458
+idx: 9 after http 0.323s
+traj len 2.6063421232488326
+1786938396.1619418 update traj
+response status=200 bytes=28451
+idx: 10 after http 0.300s
+traj len 2.528574425681782
+1786938396.6263282 update traj
+response status=200 bytes=28213
+idx: 11 after http 0.323s
+traj len 2.521813487084683
+1786938397.096762 update traj
+response status=200 bytes=28253
+idx: 12 after http 0.383s
+traj len 2.7144946386635183
+1786938397.5750515 update traj
+response status=200 bytes=28163
+idx: 13 after http 0.366s
+traj len 2.6725750786723097
+1786938397.9960487 update traj
+response status=200 bytes=28347
+idx: 14 after http 0.414s
+traj len 2.693826745963226
+1786938398.4845932 update traj
+response status=200 bytes=28255
+idx: 15 after http 0.343s
+traj len 2.7441435398155645
+1786938398.9111981 update traj
+response status=200 bytes=28513
+idx: 16 after http 0.337s
+traj len 2.8341152679967188
+1786938399.3073823 update traj
+response status=200 bytes=28296
+idx: 17 after http 0.336s
+traj len 2.7284743575367427
+1786938399.704756 update traj
+response status=200 bytes=28455
+idx: 18 after http 0.336s
+traj len 2.7254266642228204
+1786938400.0986025 update traj
+response status=200 bytes=28416
+idx: 19 after http 0.351s
+traj len 2.84330564040639
+1786938400.5101879 update traj
+response status=200 bytes=28463
+idx: 20 after http 0.375s
+traj len 2.861923589052262
+1786938400.9433105 update traj
+response status=200 bytes=28627
+idx: 21 after http 0.348s
+traj len 2.887872759291838
+1786938401.353281 update traj
+response status=200 bytes=28786
+idx: 22 after http 0.388s
+traj len 2.9055112684956996
+1786938401.8048263 update traj
+response status=200 bytes=28670
+idx: 23 after http 0.332s
+traj len 2.919285832742722
+1786938402.2032182 update traj
+response status=200 bytes=28768
+idx: 24 after http 0.331s
+traj len 2.974229811458469
+1786938402.6085699 update traj
+response status=200 bytes=28962
+idx: 25 after http 0.341s
+traj len 2.913368233935815
+1786938403.04482 update traj
+response status=200 bytes=28691
+idx: 26 after http 0.336s
+traj len 2.949407768662632
+1786938403.439278 update traj
+response status=200 bytes=28867
+idx: 27 after http 0.321s
+traj len 2.8491591195753716
+1786938403.8288283 update traj
+response status=200 bytes=28904
+idx: 28 after http 0.384s
+traj len 2.877604523551767
+1786938404.273356 update traj
+response status=200 bytes=28737
+idx: 29 after http 0.362s
+traj len 2.661633820142927
+1786938404.7097254 update traj
+response status=200 bytes=24778
+idx: 30 after http 0.353s
+traj len 1.2635000660979387
+1786938405.1510594 update traj
+response status=200 bytes=29062
+idx: 31 after http 0.356s
+traj len 2.683451996735704
+1786938405.5817776 update traj
+response status=200 bytes=28318
+idx: 32 after http 0.331s
+traj len 1.338768774265404
+1786938405.971062 update traj
+response status=200 bytes=16655
+idx: 33 after http 0.297s
+traj len 0.0
+1786938406.3226833 update traj
+response status=200 bytes=18779
+idx: 34 after http 0.325s
+traj len 0.636604294813864
+1786938406.7078917 update traj
+response status=200 bytes=16652
+idx: 35 after http 0.313s
+traj len 0.0
+1786938407.0891423 update traj
+response status=200 bytes=25972
+idx: 36 after http 0.364s
+traj len 1.5949120855451557
+1786938407.5214763 update traj
+response status=200 bytes=20674
+idx: 37 after http 0.347s
+traj len 1.1228474690491677
+1786938407.9497042 update traj
+response status=200 bytes=28558
+idx: 38 after http 0.347s
+traj len 1.426025994233899
+1786938408.3594375 update traj
+response status=200 bytes=22115
+idx: 39 after http 0.322s
+traj len 0.8917320582846793
+1786938408.7465167 update traj
+response status=200 bytes=29115
+idx: 40 after http 0.332s
+traj len 2.085646831443475
+1786938409.1537933 update traj
+response status=200 bytes=21324
+idx: 41 after http 0.335s
+traj len 0.7186088828502197
+1786938409.5578556 update traj
+response status=200 bytes=16952
+idx: 42 after http 0.350s
+traj len 0.0
+1786938409.9681444 update traj
+response status=200 bytes=18530
+idx: 43 after http 0.316s
+traj len 0.6134962373492218
+1786938410.3470938 update traj
+response status=200 bytes=16680
+idx: 44 after http 0.327s
+traj len 0.0
+1786938410.7341933 update traj
+response status=200 bytes=16555
+idx: 45 after http 0.342s
+traj len 0.0
+1786938411.1405616 update traj
+response status=200 bytes=16548
+idx: 46 after http 0.345s
+traj len 0.0
+1786938411.555107 update traj
+response status=200 bytes=24661
+idx: 47 after http 0.349s
+traj len 0.9565697077240699
+1786938411.9753065 update traj
+response status=200 bytes=19494
+idx: 48 after http 0.349s
+traj len 0.6340171717312884
+1786938412.3853772 update traj
+response status=200 bytes=18916
+idx: 49 after http 0.336s
+traj len 0.5194422136068491
+1786938412.7830293 update traj
+response status=200 bytes=26866
+idx: 50 after http 0.328s
+traj len 0.8154228675232462
+1786938413.2172854 update traj
+response status=200 bytes=18947
+idx: 51 after http 0.321s
+traj len 0.5669404210774901
+1786938413.5974588 update traj
+response status=200 bytes=28942
+idx: 52 after http 0.373s
+traj len 1.7225922687855844
+1786938414.0725493 update traj
+response status=200 bytes=26187
+idx: 53 after http 0.349s
+traj len 0.998115121120605
+1786938414.5287733 update traj
+response status=200 bytes=28016
+idx: 54 after http 0.359s
+traj len 0.894894659364878
+1786938414.9589808 update traj
+response status=200 bytes=28543
+idx: 55 after http 0.366s
+traj len 1.467197285148549
+1786938415.3857758 update traj
+response status=200 bytes=29146
+idx: 56 after http 0.356s
+traj len 1.1410419883056329
+1786938415.812004 update traj
+response status=200 bytes=28839
+idx: 57 after http 0.336s
+traj len 2.008280585923862
+1786938416.2281852 update traj
+response status=200 bytes=28578
+idx: 58 after http 0.354s
+traj len 2.956715861977981
+1786938416.6407027 update traj
+response status=200 bytes=28877
+idx: 59 after http 0.377s
+traj len 2.5737309388679606
+1786938417.1388643 update traj
+response status=200 bytes=28978
+idx: 60 after http 0.445s
+traj len 3.018267962646309
+1786938417.6432269 update traj
+response status=200 bytes=28844
+idx: 61 after http 0.368s
+traj len 3.030770499890285
+1786938418.099637 update traj
+response status=200 bytes=28845
+idx: 62 after http 0.352s
+traj len 3.016766512592167
+1786938418.5653877 update traj
+response status=200 bytes=28612
+idx: 63 after http 0.402s
+traj len 1.534823639680815
+1786938419.0803862 update traj
+response status=200 bytes=28461
+idx: 64 after http 0.348s
+traj len 0.9854165296535551
+1786938419.495198 update traj
+response status=200 bytes=28670
+idx: 65 after http 0.347s
+traj len 2.9173875054905767
+1786938419.898187 update traj
+response status=200 bytes=28684
+idx: 66 after http 0.393s
+traj len 2.9606525182932804
+1786938420.3567808 update traj
+response status=200 bytes=28818
+idx: 67 after http 0.390s
+traj len 2.858720470697231
+1786938420.8436515 update traj
+response status=200 bytes=29080
+idx: 68 after http 0.351s
+traj len 1.9122615474226103
+1786938421.256291 update traj
+response status=200 bytes=29071
+idx: 69 after http 0.369s
+traj len 2.4047564571735416
+1786938421.7240386 update traj
+response status=200 bytes=29006
+idx: 70 after http 0.349s
+traj len 2.3483847431644227
+1786938422.1396267 update traj
+response status=200 bytes=29181
+idx: 71 after http 0.350s
+traj len 2.3314073392737025
+1786938422.593344 update traj
+response status=200 bytes=29096
+idx: 72 after http 0.365s
+traj len 2.402872319047017
+1786938423.0549061 update traj
+response status=200 bytes=28950
+idx: 73 after http 0.356s
+traj len 2.5838479126070397
+1786938423.504521 update traj
+response status=200 bytes=29049
+idx: 74 after http 0.352s
+traj len 2.368090039062007
+1786938423.9683084 update traj
+response status=200 bytes=29043
+idx: 75 after http 0.351s
+traj len 2.5494438207603487
+1786938424.3800845 update traj
+response status=200 bytes=29341
+idx: 76 after http 0.362s
+traj len 2.309328966180162
+1786938424.8174324 update traj
+response status=200 bytes=29237
+idx: 77 after http 0.321s
+traj len 2.1675769831530753
+1786938425.2116427 update traj
+response status=200 bytes=29172
+idx: 78 after http 0.359s
+traj len 2.3635065148194614
+1786938425.6308656 update traj
+response status=200 bytes=29077
+idx: 79 after http 0.364s
+traj len 2.1619562591602115
+1786938426.0545928 update traj
+response status=200 bytes=29126
+idx: 80 after http 0.354s
+traj len 2.5249572651047685
+1786938426.4661129 update traj
+response status=200 bytes=29139
+idx: 81 after http 0.368s
+traj len 2.706549106624902
+1786938426.894347 update traj
+response status=200 bytes=29046
+idx: 82 after http 0.353s
+traj len 1.9988884859757265
+1786938427.3086965 update traj
+response status=200 bytes=29039
+idx: 83 after http 0.367s
+traj len 2.0533620404737256
+1786938427.7354236 update traj
+response status=200 bytes=28853
+idx: 84 after http 0.386s
+traj len 2.309358371714618
+1786938428.207443 update traj
+response status=200 bytes=29021
+idx: 85 after http 0.354s
+traj len 2.4359988107109087
+1786938428.6305344 update traj
+response status=200 bytes=29132
+idx: 86 after http 0.347s
+traj len 1.9558045662511794
+1786938429.0853388 update traj
+response status=200 bytes=29137
+idx: 87 after http 0.323s
+traj len 1.9163409683170443
+1786938429.4999816 update traj
+response status=200 bytes=28834
+idx: 88 after http 0.467s
+traj len 2.7639835336347507
+1786938430.0302246 update traj
+response status=200 bytes=29319
+idx: 89 after http 0.332s
+traj len 2.0914718136578765
+1786938430.4367888 update traj
+response status=200 bytes=29460
+idx: 90 after http 0.344s
+traj len 2.996116121783732
+1786938430.8379085 update traj
+response status=200 bytes=29196
+idx: 91 after http 0.344s
+traj len 2.932069156260376
+1786938431.2389598 update traj
+response status=200 bytes=29128
+idx: 92 after http 0.306s
+traj len 1.347947802591809
+1786938431.6042368 update traj
+response status=200 bytes=29236
+idx: 93 after http 0.366s
+traj len 2.8599440739609046
+1786938432.047463 update traj
+response status=200 bytes=28867
+idx: 94 after http 0.360s
+traj len 2.8545714696680915
+1786938432.4634893 update traj
+response status=200 bytes=28917
+idx: 95 after http 0.366s
+traj len 2.803845827683186
+1786938432.8914986 update traj
+response status=200 bytes=28944
+idx: 96 after http 0.329s
+traj len 2.8115316545753646
+1786938433.2897465 update traj
+response status=200 bytes=29205
+idx: 97 after http 0.342s
+traj len 2.9297705847182725
+1786938433.7082512 update traj
+response status=200 bytes=29091
+idx: 98 after http 0.355s
+traj len 2.833305794345899
+1786938434.1721034 update traj
+response status=200 bytes=29121
+idx: 99 after http 0.363s
+traj len 2.977917958874433
+1786938434.6497557 update traj
+response status=200 bytes=28868
+idx: 100 after http 0.359s
+traj len 2.9736955521068267
+1786938435.1181931 update traj
+response status=200 bytes=28760
+idx: 101 after http 0.345s
+traj len 2.616780997748538
+1786938435.562082 update traj
+response status=200 bytes=28910
+idx: 102 after http 0.348s
+traj len 2.885721444790492
+1786938435.9649658 update traj
+response status=200 bytes=29025
+idx: 103 after http 0.330s
+traj len 2.6918300282219856
+1786938436.376739 update traj
+response status=200 bytes=29004
+idx: 104 after http 0.496s
+traj len 2.905307562871014
+1786938436.9310489 update traj
+response status=200 bytes=26058
+idx: 105 after http 0.327s
+traj len 0.0
+1786938437.3831143 update traj
+response status=200 bytes=25958
+idx: 106 after http 0.316s
+traj len 0.0
+1786938437.7598932 update traj
+response status=200 bytes=25334
+idx: 107 after http 0.329s
+traj len 1.7392322497867772
+1786938438.197459 update traj
+response status=200 bytes=28070
+idx: 108 after http 0.371s
+traj len 1.492715497615766
+1786938438.6268828 update traj
+response status=200 bytes=28043
+idx: 109 after http 0.331s
+traj len 3.0375184884462545
+1786938439.012837 update traj
+response status=200 bytes=27068
+idx: 110 after http 0.354s
+traj len 1.4915211638820283
+1786938439.4522204 update traj
+response status=200 bytes=24007
+idx: 111 after http 0.331s
+traj len 0.7143494166093954
+1786938439.9125538 update traj
+response status=200 bytes=27816
+idx: 112 after http 0.360s
+traj len 1.1096061123483059
+1786938440.3714728 update traj
+response status=200 bytes=29420
+idx: 113 after http 0.328s
+traj len 1.395247657227901
+1786938440.797845 update traj
+response status=200 bytes=22437
+idx: 114 after http 0.377s
+traj len 0.0
+1786938441.2304244 update traj
+response status=200 bytes=18574
+idx: 115 after http 0.351s
+traj len 0.0
+1786938441.6394284 update traj
+response status=200 bytes=20633
+idx: 116 after http 0.351s
+traj len 0.0
+1786938442.052523 update traj
+response status=200 bytes=24452
+idx: 117 after http 0.368s
+traj len 0.0
+1786938442.5336435 update traj
+response status=200 bytes=24728
+idx: 118 after http 0.336s
+traj len 0.0
+1786938442.9560099 update traj
+response status=200 bytes=19176
+idx: 119 after http 0.346s
+traj len 0.0
+1786938443.386774 update traj
+response status=200 bytes=27898
+idx: 120 after http 0.359s
+traj len 1.3372832006500734
+1786938443.800709 update traj
+response status=200 bytes=28366
+idx: 121 after http 0.328s
+traj len 1.1200229957103818
+1786938444.233059 update traj
+response status=200 bytes=28733
+idx: 122 after http 0.362s
+traj len 2.230524820720229
+1786938444.662539 update traj
+response status=200 bytes=28638
+idx: 123 after http 0.361s
+traj len 2.987906353600932
+1786938445.0856955 update traj
+response status=200 bytes=28433
+idx: 124 after http 0.321s
+traj len 2.813886584609624
+1786938445.4863296 update traj
+response status=200 bytes=28548
+idx: 125 after http 0.348s
+traj len 2.930502301956724
+1786938445.922626 update traj
+response status=200 bytes=28577
+idx: 126 after http 0.419s
+traj len 2.966864109041499
+1786938446.4406931 update traj
+response status=200 bytes=28535
+idx: 127 after http 0.361s
+traj len 2.965261187954691
+1786938446.8587542 update traj
+response status=200 bytes=28682
+idx: 128 after http 0.322s
+traj len 2.996637189259087
+1786938447.2513049 update traj
+response status=200 bytes=28435
+idx: 129 after http 0.329s
+traj len 2.9572202694024097
+1786938447.643807 update traj
+response status=200 bytes=28672
+idx: 130 after http 0.334s
+traj len 2.9716383759706244
+1786938448.0426786 update traj
+response status=200 bytes=28640
+idx: 131 after http 0.319s
+traj len 2.9705504730596686
+1786938448.4558098 update traj
+response status=200 bytes=28788
+idx: 132 after http 0.340s
+traj len 2.963050135972312
+1786938448.851684 update traj
+response status=200 bytes=28603
+idx: 133 after http 0.317s
+traj len 2.993609398316414
+1786938449.2363076 update traj
+response status=200 bytes=28991
+idx: 134 after http 0.361s
+traj len 2.9887330282957905
+1786938449.6603663 update traj
+response status=200 bytes=29028
+idx: 135 after http 0.347s
+traj len 2.9568240219537483
+1786938450.0622463 update traj
+response status=200 bytes=29070
+idx: 136 after http 0.358s
+traj len 2.9362840715248284
+1786938450.4804647 update traj
+response status=200 bytes=28861
+idx: 137 after http 0.360s
+traj len 3.0032274531647274
+1786938450.9236348 update traj
+response status=200 bytes=28596
+idx: 138 after http 0.361s
+traj len 3.000139670977226
+1786938451.3499389 update traj
+response status=200 bytes=28851
+idx: 139 after http 0.317s
+traj len 2.9961168833869345
+1786938451.7687442 update traj
+response status=200 bytes=28526
+idx: 140 after http 0.387s
+traj len 2.995942726914916
+1786938452.2730794 update traj
+response status=200 bytes=28653
+idx: 141 after http 0.337s
+traj len 2.874505354171865
+1786938452.6641104 update traj
+response status=200 bytes=28744
+idx: 142 after http 0.350s
+traj len 2.971108044026586
+1786938453.1047096 update traj
+response status=200 bytes=28701
+idx: 143 after http 0.355s
+traj len 2.967257116657544
+1786938453.562805 update traj
+response status=200 bytes=28579
+idx: 144 after http 0.317s
+traj len 2.966883855742739
+1786938453.972435 update traj
+response status=200 bytes=28779
+idx: 145 after http 0.349s
+traj len 2.9466145088942515
+1786938454.382255 update traj
+response status=200 bytes=28831
+idx: 146 after http 0.318s
+traj len 2.897470194004065
+1786938454.7558122 update traj
+response status=200 bytes=29033
+idx: 147 after http 0.378s
+traj len 2.985214225025503
+1786938455.2244177 update traj
+response status=200 bytes=28679
+idx: 148 after http 0.387s
+traj len 3.0055640495952773
+1786938455.706938 update traj
+response status=200 bytes=28888
+idx: 149 after http 0.366s
+traj len 2.936181484846955
+1786938456.1633232 update traj
+response status=200 bytes=28593
+idx: 150 after http 0.344s
+traj len 2.9824897266365706
+1786938456.608996 update traj

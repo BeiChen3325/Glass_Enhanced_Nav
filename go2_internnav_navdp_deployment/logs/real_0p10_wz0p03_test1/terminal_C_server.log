@@ -1,0 +1,125 @@
+=== ISOLATED NAVDP SERVER STARTUP ===
+script_path: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/scripts/http_internvla_server_w_navdp_isolated.py
+workspace_root: /home/unitree/NavDP_workspace
+deployment_root: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment
+navdp_root: /home/unitree/NavDP_workspace/NavDP
+checkpoint_path: /home/unitree/NavDP_workspace/NavDP/navdp-cross-modal.ckpt
+device: cuda:0
+camera_config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+camera_info_mode: effective
+bind_host: 127.0.0.1
+bind_port: 5801
+server_url=http://127.0.0.1:5801/eval_navdp
+compat_url=http://127.0.0.1:5801/eval_dual
+eval_endpoint=/eval_navdp
+compat_endpoint=/eval_dual
+native_endpoints=/navigator_reset,/pointgoal_step,/imagegoal_step,/nogoal_step
+available_endpoints=/eval_navdp,/eval_dual,/navigator_reset,/navigator_reset_env,/pointgoal_step,/imagegoal_step,/nogoal_step
+goal_modes=imagegoal,nogoal,pointgoal
+stop_threshold: -3.0
+model_config: image_size=224 memory_size=8 predict_size=24 temporal_depth=16 heads=8 token_dim=384
+camera_calibration_source: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+agent_loading: lazy_on_first_reset_or_eval
+=== END STARTUP CONFIGURATION ===
+ * Serving Flask app 'http_internvla_server_w_navdp_isolated'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5801
+Press CTRL+C to quit
+xFormers not available
+xFormers not available
+[NAVDP] created NavDP_Agent
+[NAVDP] reset batch_size=1 stop_threshold=-3.000
+-0.32116032 -2.3289645
+[NAVDP EVAL] mode=pointgoal reset=True trajectory_len=24 elapsed_s=40.106
+/home/unitree/.local/lib/python3.8/site-packages/torch/nn/modules/activation.py:1144: UserWarning: Converting mask without torch.bool dtype to bool; this will negatively affect performance. Prefer to use a boolean mask directly. (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/native/transformers/attention.cpp:150.)
+  return torch._native_multi_head_attention(
+127.0.0.1 - - [07/Jul/2026 15:19:29] "POST /eval_navdp HTTP/1.1" 200 -
+[NAVDP] reset batch_size=1 stop_threshold=-3.000
+-0.10215393 -0.26464802
+[NAVDP EVAL] mode=pointgoal reset=True trajectory_len=24 elapsed_s=3.177
+127.0.0.1 - - [07/Jul/2026 15:19:32] "POST /eval_navdp HTTP/1.1" 200 -
+-0.07769063 -0.2363734
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.178
+127.0.0.1 - - [07/Jul/2026 15:19:35] "POST /eval_navdp HTTP/1.1" 200 -
+0.15028018 0.11394916
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.187
+127.0.0.1 - - [07/Jul/2026 15:19:38] "POST /eval_navdp HTTP/1.1" 200 -
+0.119319335 0.06853325
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.181
+127.0.0.1 - - [07/Jul/2026 15:19:42] "POST /eval_navdp HTTP/1.1" 200 -
+0.12956324 0.06669846
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.174
+127.0.0.1 - - [07/Jul/2026 15:19:45] "POST /eval_navdp HTTP/1.1" 200 -
+0.103661135 0.072077364
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.176
+127.0.0.1 - - [07/Jul/2026 15:19:48] "POST /eval_navdp HTTP/1.1" 200 -
+0.07851422 0.05281917
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.197
+127.0.0.1 - - [07/Jul/2026 15:19:51] "POST /eval_navdp HTTP/1.1" 200 -
+0.08846839 -0.0037580132
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.222
+127.0.0.1 - - [07/Jul/2026 15:19:55] "POST /eval_navdp HTTP/1.1" 200 -
+0.08499186 -0.039803155
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.241
+127.0.0.1 - - [07/Jul/2026 15:19:58] "POST /eval_navdp HTTP/1.1" 200 -
+0.050042585 -0.02654107
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.219
+127.0.0.1 - - [07/Jul/2026 15:20:01] "POST /eval_navdp HTTP/1.1" 200 -
+0.029592648 -0.009362042
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.362
+127.0.0.1 - - [07/Jul/2026 15:20:05] "POST /eval_navdp HTTP/1.1" 200 -
+0.079900324 -0.12372136
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.420
+127.0.0.1 - - [07/Jul/2026 15:20:08] "POST /eval_navdp HTTP/1.1" 200 -
+0.047337398 -0.017160177
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.218
+127.0.0.1 - - [07/Jul/2026 15:20:12] "POST /eval_navdp HTTP/1.1" 200 -
+0.048843116 -0.060217395
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.182
+127.0.0.1 - - [07/Jul/2026 15:20:15] "POST /eval_navdp HTTP/1.1" 200 -
+0.081247464 -0.0015008152
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.185
+127.0.0.1 - - [07/Jul/2026 15:20:18] "POST /eval_navdp HTTP/1.1" 200 -
+0.051143512 0.019195884
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.211
+127.0.0.1 - - [07/Jul/2026 15:20:21] "POST /eval_navdp HTTP/1.1" 200 -
+0.105181396 0.04822287
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.183
+127.0.0.1 - - [07/Jul/2026 15:20:25] "POST /eval_navdp HTTP/1.1" 200 -
+0.08601864 0.058787823
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.190
+127.0.0.1 - - [07/Jul/2026 15:20:28] "POST /eval_navdp HTTP/1.1" 200 -
+0.090589955 0.05622089
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.182
+127.0.0.1 - - [07/Jul/2026 15:20:31] "POST /eval_navdp HTTP/1.1" 200 -
+0.04656841 0.00086449087
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.173
+127.0.0.1 - - [07/Jul/2026 15:20:34] "POST /eval_navdp HTTP/1.1" 200 -
+0.064174354 -0.08633555
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.184
+127.0.0.1 - - [07/Jul/2026 15:20:38] "POST /eval_navdp HTTP/1.1" 200 -
+0.07846001 0.008601025
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.346
+127.0.0.1 - - [07/Jul/2026 15:20:41] "POST /eval_navdp HTTP/1.1" 200 -
+0.06285499 0.0046836883
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.181
+127.0.0.1 - - [07/Jul/2026 15:20:44] "POST /eval_navdp HTTP/1.1" 200 -
+0.08749534 0.04823613
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.191
+127.0.0.1 - - [07/Jul/2026 15:20:48] "POST /eval_navdp HTTP/1.1" 200 -
+0.08432457 0.026128769
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.188
+127.0.0.1 - - [07/Jul/2026 15:20:51] "POST /eval_navdp HTTP/1.1" 200 -
+0.07118717 0.030743524
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.193
+127.0.0.1 - - [07/Jul/2026 15:20:54] "POST /eval_navdp HTTP/1.1" 200 -
+0.06961177 0.013996482
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.224
+127.0.0.1 - - [07/Jul/2026 15:20:58] "POST /eval_navdp HTTP/1.1" 200 -
+0.10998924 0.06096472
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.181
+127.0.0.1 - - [07/Jul/2026 15:21:01] "POST /eval_navdp HTTP/1.1" 200 -
+0.07253601 0.006583363
+[NAVDP EVAL] mode=pointgoal reset=False trajectory_len=24 elapsed_s=3.180
+127.0.0.1 - - [07/Jul/2026 15:21:04] "POST /eval_navdp HTTP/1.1" 200 -

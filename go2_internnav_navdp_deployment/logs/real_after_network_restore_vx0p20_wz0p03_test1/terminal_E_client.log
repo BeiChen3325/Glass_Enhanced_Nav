@@ -1,0 +1,13 @@
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1783410781.605912 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://127.0.0.1:5801/eval_navdp
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.200 m/s max_angular_speed=0.030 rad/s
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.55 clear_distance_m=0.75 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] anchored pointgoal local=(1.0, 0.0) world=(0.9922611445323645, 0.015386239154354121)

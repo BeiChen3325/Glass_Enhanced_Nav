@@ -1,0 +1,60 @@
+{
+  "created_local": "2026-07-23 10:46:08",
+  "created_unix_s": 1784774768.0647774,
+  "analysis_dir": "/home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260723_102039/navdp_analysis/20260723_104608_new_model_global_avoidance_5m",
+  "responses_path": "/home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260723_102039/navdp_analysis/20260723_104608_new_model_global_avoidance_5m/responses.jsonl",
+  "terminal_log_path": "/home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/logs/global_avoidance_20260723_102039/navdp_analysis/20260723_104608_new_model_global_avoidance_5m/terminal_E_client.log",
+  "command_argv": [
+    "scripts/http_internvla_client_qos_isolated.py",
+    "--server-host",
+    "127.0.0.1",
+    "--server-port",
+    "5801",
+    "--goal-mode",
+    "pointgoal",
+    "--goal-x",
+    "6.0",
+    "--goal-y",
+    "0.0",
+    "--max-linear-speed",
+    "0.50",
+    "--max-angular-speed",
+    "1.0",
+    "--mpc-tracking-profile",
+    "smooth_continuous",
+    "--analysis-run",
+    "--analysis-root",
+    "logs/global_avoidance_20260723_102039/navdp_analysis",
+    "--analysis-label",
+    "new_model_global_avoidance_5m"
+  ],
+  "command_line": "scripts/http_internvla_client_qos_isolated.py --server-host 127.0.0.1 --server-port 5801 --goal-mode pointgoal --goal-x 6.0 --goal-y 0.0 --max-linear-speed 0.50 --max-angular-speed 1.0 --mpc-tracking-profile smooth_continuous --analysis-run --analysis-root logs/global_avoidance_20260723_102039/navdp_analysis --analysis-label new_model_global_avoidance_5m",
+  "server_url": "http://127.0.0.1:5801/eval_navdp",
+  "goal_mode": "pointgoal",
+  "goal": {
+    "x": 6.0,
+    "y": 0.0
+  },
+  "image_goal_path": null,
+  "pointgoal_stop_radius": 0.5,
+  "camera_config": "/home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json",
+  "dry_run": false,
+  "max_linear_speed": 0.5,
+  "max_angular_speed": 1.0,
+  "mpc_tracking_profile": "smooth_continuous",
+  "trajectory_smoothing": {
+    "enabled": true,
+    "window_length": 7,
+    "polynomial_order": 2,
+    "max_deviation_m": 0.03
+  },
+  "mpc_angular_continuity": {
+    "enabled": true,
+    "angular_delta_weight": 1.0,
+    "max_angular_accel_radps2": 0.6
+  },
+  "manual_override_topic": null,
+  "manual_override_deadzone": 0.05,
+  "manual_override_latch": true,
+  "manual_override_msg_type": "sensor_msgs/msg/Joy"
+}

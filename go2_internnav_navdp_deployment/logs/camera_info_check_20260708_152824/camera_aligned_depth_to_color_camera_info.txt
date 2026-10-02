@@ -1,0 +1,4 @@
+/opt/ros/foxy/bin/ros2:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+usage: ros2 [-h] Call `ros2 <command> -h` for more detailed usage. ...
+ros2: error: unrecognized arguments: --once

@@ -1,0 +1,811 @@
+[NAVDP_CLIENT] server url: http://10.10.154.201:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+1786947996.805351 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (/home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://10.10.154.201:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[NAVDP_CLIENT] publishing /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.500 m/s max_angular_speed=1.000 rad/s
+[MPC CONFIG] tracking_profile=legacy savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: imagegoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[NAVDP_CLIENT] loaded image goal: /home/unitree/NavDP_workspace/easy_goal.jpg
+[CLIENT HOLD] reason=trajectory_stale:age_s=none; cleared MPC and waiting for next planner output
+response status=200 bytes=28856
+idx: 0 after http 0.760s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.7562522888183594 right_clearance_m=2.005344867706299 trajectory_end_y_m=0.037
+traj len 3.4473676008389704
+1786947998.1474001 update traj
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+response status=200 bytes=29149
+idx: 1 after http 0.316s
+traj len 3.405103676087879
+1786947998.690018 update traj
+response status=200 bytes=29249
+idx: 2 after http 0.286s
+traj len 3.0394592494703327
+1786947999.0388339 update traj
+response status=200 bytes=29403
+idx: 3 after http 0.295s
+traj len 3.02743564283978
+1786947999.5040588 update traj
+response status=200 bytes=29282
+idx: 4 after http 0.302s
+traj len 3.038640337117787
+1786947999.9828644 update traj
+response status=200 bytes=29135
+idx: 5 after http 0.339s
+traj len 3.0436904341132562
+1786948000.4428606 update traj
+response status=200 bytes=29279
+idx: 6 after http 0.310s
+traj len 3.016055594072207
+1786948000.807795 update traj
+response status=200 bytes=29128
+idx: 7 after http 0.362s
+traj len 3.031128110702066
+1786948001.2298448 update traj
+response status=200 bytes=29068
+idx: 8 after http 0.320s
+traj len 3.0317258009236956
+1786948001.6075842 update traj
+response status=200 bytes=29119
+idx: 9 after http 0.336s
+traj len 3.054575606137315
+1786948002.0164464 update traj
+response status=200 bytes=29319
+idx: 10 after http 0.351s
+traj len 3.021110669705035
+1786948002.475569 update traj
+response status=200 bytes=29228
+idx: 11 after http 0.327s
+traj len 3.035286299462948
+1786948002.8871303 update traj
+response status=200 bytes=29173
+idx: 12 after http 0.311s
+traj len 3.0449222565175535
+1786948003.2534602 update traj
+response status=200 bytes=29168
+idx: 13 after http 0.316s
+traj len 3.032698549301449
+1786948003.6286452 update traj
+response status=200 bytes=29007
+idx: 14 after http 0.333s
+traj len 3.0085192293464873
+1786948004.042462 update traj
+response status=200 bytes=28982
+idx: 15 after http 0.310s
+traj len 3.028681168545569
+1786948004.408343 update traj
+response status=200 bytes=29124
+idx: 16 after http 0.347s
+traj len 3.0341630779665043
+1786948004.8370302 update traj
+response status=200 bytes=28958
+idx: 17 after http 0.347s
+traj len 3.0040776367663806
+1786948005.2883906 update traj
+response status=200 bytes=28956
+idx: 18 after http 0.332s
+traj len 3.0263674907346414
+1786948005.6958277 update traj
+response status=200 bytes=28968
+idx: 19 after http 0.334s
+traj len 3.0187200983145743
+1786948006.096352 update traj
+response status=200 bytes=29049
+idx: 20 after http 0.326s
+traj len 3.028951287231732
+1786948006.4879236 update traj
+response status=200 bytes=29005
+idx: 21 after http 0.347s
+traj len 3.017537642559909
+1786948006.907537 update traj
+response status=200 bytes=28917
+idx: 22 after http 0.373s
+traj len 3.0038389222508086
+1786948007.3643079 update traj
+response status=200 bytes=29088
+idx: 23 after http 0.399s
+traj len 3.0280462801825645
+1786948007.8232334 update traj
+response status=200 bytes=28980
+idx: 24 after http 0.340s
+traj len 2.97951132540487
+1786948008.2255468 update traj
+response status=200 bytes=28963
+idx: 25 after http 0.328s
+traj len 2.995038281888678
+1786948008.6160867 update traj
+response status=200 bytes=28858
+idx: 26 after http 0.317s
+traj len 3.011304040432593
+1786948009.029462 update traj
+response status=200 bytes=28782
+idx: 27 after http 0.378s
+traj len 3.0058895712336806
+1786948009.475116 update traj
+response status=200 bytes=28874
+idx: 28 after http 0.374s
+traj len 2.9840165211492065
+1786948009.905184 update traj
+response status=200 bytes=28831
+idx: 29 after http 0.329s
+traj len 2.9964969682853506
+1786948010.2932987 update traj
+response status=200 bytes=28972
+idx: 30 after http 0.353s
+traj len 2.9941528249602576
+1786948010.7137268 update traj
+response status=200 bytes=28985
+idx: 31 after http 0.391s
+traj len 2.9970557924173518
+1786948011.1631567 update traj
+response status=200 bytes=28920
+idx: 32 after http 0.411s
+traj len 2.994549212858654
+1786948011.6420293 update traj
+response status=200 bytes=28973
+idx: 33 after http 0.336s
+traj len 2.996267806302204
+1786948012.041293 update traj
+response status=200 bytes=28975
+idx: 34 after http 0.370s
+traj len 2.9579644968393124
+1786948012.4673965 update traj
+response status=200 bytes=28742
+idx: 35 after http 0.395s
+traj len 2.9892087904325404
+1786948012.9279535 update traj
+response status=200 bytes=29003
+idx: 36 after http 0.457s
+traj len 2.983582638903818
+1786948013.4415548 update traj
+response status=200 bytes=29204
+idx: 37 after http 0.401s
+traj len 2.9529582910551695
+1786948013.9240477 update traj
+response status=200 bytes=29122
+idx: 38 after http 0.411s
+traj len 2.9612006254988765
+1786948014.3902764 update traj
+response status=200 bytes=29223
+idx: 39 after http 0.391s
+traj len 2.997322183464922
+1786948014.8369238 update traj
+response status=200 bytes=28984
+idx: 40 after http 0.337s
+traj len 2.9703031416075243
+1786948015.2382376 update traj
+response status=200 bytes=29126
+idx: 41 after http 0.462s
+traj len 3.429130223224983
+1786948015.7660162 update traj
+response status=200 bytes=28856
+idx: 42 after http 0.441s
+traj len 3.0307664640744756
+1786948016.278833 update traj
+response status=200 bytes=28804
+idx: 43 after http 0.409s
+traj len 2.649376434802306
+1786948016.7543373 update traj
+response status=200 bytes=29140
+idx: 44 after http 0.550s
+traj len 3.4664127451813243
+1786948017.3671439 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.604; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=mpc_reference_error:TypeError; cleared MPC and waiting for next planner output
+[MPC REFERENCE ERROR] len() of unsized object
+response status=200 bytes=29003
+idx: 45 after http 0.636s
+traj len 2.989169650028822
+1786948018.0636642 update traj
+response status=200 bytes=29129
+idx: 46 after http 0.493s
+traj len 3.0296173290833046
+1786948018.7286131 update traj
+response status=200 bytes=29215
+idx: 47 after http 0.481s
+traj len 3.4547972427288003
+1786948019.268916 update traj
+response status=200 bytes=29125
+idx: 48 after http 0.513s
+traj len 3.023274415436082
+1786948019.8582976 update traj
+response status=200 bytes=29251
+idx: 49 after http 0.427s
+traj len 3.049815434926216
+1786948020.3676767 update traj
+response status=200 bytes=29039
+idx: 50 after http 0.522s
+traj len 3.1455564953554442
+1786948020.9554932 update traj
+response status=200 bytes=28822
+idx: 51 after http 0.420s
+traj len 3.0006238201305986
+1786948021.4321177 update traj
+response status=200 bytes=28866
+idx: 52 after http 0.468s
+traj len 3.027062039837282
+1786948021.9662175 update traj
+response status=200 bytes=28999
+idx: 53 after http 0.423s
+traj len 3.029790937748329
+1786948022.4519515 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.621; cleared MPC and waiting for next planner output
+response status=200 bytes=28851
+idx: 54 after http 1.023s
+traj len 3.0929365939186
+1786948023.6406195 update traj
+response status=200 bytes=29057
+idx: 55 after http 0.378s
+traj len 3.042965414548034
+1786948024.1763241 update traj
+response status=200 bytes=29130
+idx: 56 after http 0.404s
+traj len 2.9922880949390365
+1786948024.6462586 update traj
+response status=200 bytes=29101
+idx: 57 after http 0.399s
+traj len 3.0302035206034015
+1786948025.1123943 update traj
+response status=200 bytes=29131
+idx: 58 after http 0.362s
+traj len 2.979999587391967
+1786948025.533902 update traj
+response status=200 bytes=29204
+idx: 59 after http 0.350s
+traj len 3.0235844994093606
+1786948025.9422271 update traj
+response status=200 bytes=29154
+idx: 60 after http 0.451s
+traj len 3.0325745549674323
+1786948026.4862182 update traj
+response status=200 bytes=29317
+idx: 61 after http 0.349s
+traj len 3.0551711507361072
+1786948026.9125762 update traj
+response status=200 bytes=29302
+idx: 62 after http 0.426s
+traj len 3.0536396611105485
+1786948027.394925 update traj
+response status=200 bytes=29206
+idx: 63 after http 0.448s
+traj len 3.0387311352081894
+1786948027.9522681 update traj
+response status=200 bytes=29309
+idx: 64 after http 0.367s
+traj len 3.036710337351623
+1786948028.400861 update traj
+response status=200 bytes=29239
+idx: 65 after http 0.471s
+traj len 3.034642209404094
+1786948028.9375732 update traj
+response status=200 bytes=29229
+idx: 66 after http 0.485s
+traj len 3.04493027782194
+1786948029.4926343 update traj
+response status=200 bytes=29440
+idx: 67 after http 0.482s
+traj len 3.0311511335841375
+1786948030.0501666 update traj
+response status=200 bytes=29196
+idx: 68 after http 0.417s
+traj len 2.985203453620641
+1786948030.5247257 update traj
+response status=200 bytes=29479
+idx: 69 after http 0.527s
+traj len 3.007023790885544
+1786948031.1088738 update traj
+response status=200 bytes=29120
+idx: 70 after http 0.533s
+traj len 3.0188503177757804
+1786948031.7088034 update traj
+response status=200 bytes=28330
+idx: 71 after http 0.660s
+traj len 2.96447894676241
+1786948032.4376855 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.723; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=mpc_reference_error:TypeError; cleared MPC and waiting for next planner output
+[MPC REFERENCE ERROR] len() of unsized object
+response status=200 bytes=28567
+idx: 72 after http 0.564s
+traj len 2.6746490386710096
+1786948033.0700097 update traj
+response status=200 bytes=28982
+idx: 73 after http 0.397s
+traj len 2.304029606121955
+1786948033.6038404 update traj
+response status=200 bytes=29128
+idx: 74 after http 0.370s
+traj len 2.7893775820242226
+1786948034.0343966 update traj
+response status=200 bytes=28935
+idx: 75 after http 0.403s
+traj len 2.578051266982419
+1786948034.5144386 update traj
+response status=200 bytes=29117
+idx: 76 after http 0.389s
+traj len 2.9714198262990954
+1786948034.9646041 update traj
+response status=200 bytes=28833
+idx: 77 after http 0.575s
+traj len 3.4323801501066944
+1786948035.5974257 update traj
+response status=200 bytes=29439
+idx: 78 after http 0.565s
+traj len 2.9999061071975204
+1786948036.2264194 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.620; cleared MPC and waiting for next planner output
+[CLIENT HOLD] reason=mpc_reference_error:TypeError; cleared MPC and waiting for next planner output
+[MPC REFERENCE ERROR] len() of unsized object
+response status=200 bytes=28676
+idx: 79 after http 0.402s
+traj len 3.803412730755493
+1786948036.6994464 update traj
+response status=200 bytes=29109
+idx: 80 after http 0.431s
+traj len 3.0274742978386286
+1786948037.3126822 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.630; cleared MPC and waiting for next planner output
+response status=200 bytes=29127
+idx: 81 after http 0.591s
+traj len 3.001181104532376
+1786948037.9722583 update traj
+response status=200 bytes=29002
+idx: 82 after http 0.495s
+traj len 3.0133031874840364
+1786948038.6416078 update traj
+response status=200 bytes=29150
+idx: 83 after http 0.527s
+traj len 3.0216747498894145
+1786948039.2274318 update traj
+response status=200 bytes=28889
+idx: 84 after http 0.501s
+traj len 3.008330320959483
+1786948039.7844486 update traj
+response status=200 bytes=29101
+idx: 85 after http 0.438s
+traj len 3.077497341510357
+1786948040.2864757 update traj
+response status=200 bytes=29097
+idx: 86 after http 0.426s
+traj len 3.056936868137157
+1786948040.7678869 update traj
+response status=200 bytes=29233
+idx: 87 after http 0.519s
+traj len 2.970755412359997
+1786948041.3821335 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.699; cleared MPC and waiting for next planner output
+response status=200 bytes=29155
+idx: 88 after http 0.873s
+traj len 3.014603279688927
+1786948042.3606482 update traj
+response status=200 bytes=29367
+idx: 89 after http 0.396s
+traj len 2.999051663737044
+1786948042.9214983 update traj
+response status=200 bytes=29300
+idx: 90 after http 0.460s
+traj len 3.0274073394063112
+1786948043.453092 update traj
+response status=200 bytes=29266
+idx: 91 after http 0.435s
+traj len 3.01767523069549
+1786948043.949288 update traj
+response status=200 bytes=29340
+idx: 92 after http 0.498s
+traj len 3.028875480469327
+1786948044.5468414 update traj
+response status=200 bytes=29302
+idx: 93 after http 0.458s
+traj len 3.0464468852512168
+1786948045.1128867 update traj
+response status=200 bytes=29092
+idx: 94 after http 0.427s
+traj len 3.031804954925237
+1786948045.6361165 update traj
+response status=200 bytes=29190
+idx: 95 after http 0.404s
+traj len 3.0232347924678082
+1786948046.1172972 update traj
+response status=200 bytes=29229
+idx: 96 after http 0.491s
+traj len 3.0616641044846733
+1786948046.6735778 update traj
+response status=200 bytes=29133
+idx: 97 after http 0.499s
+traj len 3.0350141450511656
+1786948047.2472627 update traj
+response status=200 bytes=28831
+idx: 98 after http 0.515s
+traj len 3.0596572679834058
+1786948047.8376799 update traj
+response status=200 bytes=28993
+idx: 99 after http 0.465s
+traj len 3.042700695679495
+1786948048.380874 update traj
+response status=200 bytes=28896
+idx: 100 after http 0.484s
+traj len 3.0208622065675943
+1786948048.934985 update traj
+response status=200 bytes=28958
+idx: 101 after http 0.532s
+traj len 3.01345465898441
+1786948049.5494726 update traj
+response status=200 bytes=28972
+idx: 102 after http 0.508s
+traj len 3.012951437501535
+1786948050.129544 update traj
+response status=200 bytes=28947
+idx: 103 after http 0.534s
+traj len 3.01876191360795
+1786948050.72062 update traj
+response status=200 bytes=29006
+idx: 104 after http 0.521s
+traj len 3.063355099116523
+1786948051.2970784 update traj
+response status=200 bytes=28986
+idx: 105 after http 0.512s
+traj len 3.0521600795723827
+1786948051.897163 update traj
+response status=200 bytes=29012
+idx: 106 after http 0.443s
+traj len 3.0299287479031887
+1786948052.3956025 update traj
+response status=200 bytes=28934
+idx: 107 after http 0.473s
+traj len 3.026773756568865
+1786948052.9352503 update traj
+response status=200 bytes=28939
+idx: 108 after http 0.536s
+traj len 3.0346354927819688
+1786948053.5356038 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.709; cleared MPC and waiting for next planner output
+response status=200 bytes=29046
+idx: 109 after http 0.934s
+traj len 3.0159127606800706
+1786948054.5483484 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.713; cleared MPC and waiting for next planner output
+response status=200 bytes=29182
+idx: 110 after http 0.874s
+traj len 3.013762258794398
+1786948055.5533986 update traj
+response status=200 bytes=28933
+idx: 111 after http 0.478s
+traj len 2.961426237428519
+1786948056.2059686 update traj
+response status=200 bytes=28878
+idx: 112 after http 0.602s
+traj len 3.0292816308962243
+1786948056.8670382 update traj
+response status=200 bytes=29120
+idx: 113 after http 0.477s
+traj len 3.041899238989916
+1786948057.4112222 update traj
+response status=200 bytes=29141
+idx: 114 after http 0.498s
+traj len 3.044556912133819
+1786948057.970097 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.695; cleared MPC and waiting for next planner output
+response status=200 bytes=29268
+idx: 115 after http 0.655s
+traj len 3.028060855322318
+1786948058.6873496 update traj
+response status=200 bytes=29051
+idx: 116 after http 0.451s
+traj len 2.9652978637734266
+1786948059.2772331 update traj
+response status=200 bytes=29169
+idx: 117 after http 0.476s
+traj len 3.039039220807587
+1786948059.8137858 update traj
+response status=200 bytes=29133
+idx: 118 after http 0.454s
+traj len 2.9897856831474505
+1786948060.3297715 update traj
+response status=200 bytes=29153
+idx: 119 after http 0.422s
+traj len 3.0419615958319146
+1786948060.8138702 update traj
+response status=200 bytes=28960
+idx: 120 after http 0.474s
+traj len 3.0497237986364065
+1786948061.3433235 update traj
+response status=200 bytes=28940
+idx: 121 after http 0.542s
+traj len 3.024304943288201
+1786948061.9492333 update traj
+response status=200 bytes=28992
+idx: 122 after http 0.565s
+traj len 3.0092110011344486
+1786948062.6241047 update traj
+response status=200 bytes=28950
+idx: 123 after http 0.459s
+traj len 2.9791380820333244
+1786948063.1385574 update traj
+response status=200 bytes=28980
+idx: 124 after http 0.391s
+traj len 2.9963470099405214
+1786948063.624834 update traj
+response status=200 bytes=28912
+idx: 125 after http 0.420s
+traj len 2.9756728698829593
+1786948064.1438453 update traj
+response status=200 bytes=29034
+idx: 126 after http 0.433s
+traj len 3.010955238458632
+1786948064.6349366 update traj
+response status=200 bytes=28962
+idx: 127 after http 0.403s
+traj len 3.019312257074648
+1786948065.0921907 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.608; cleared MPC and waiting for next planner output
+response status=200 bytes=29018
+idx: 128 after http 0.654s
+traj len 3.0127730243094923
+1786948065.801523 update traj
+response status=200 bytes=28883
+idx: 129 after http 0.562s
+traj len 3.05086295540496
+1786948066.497807 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.664; cleared MPC and waiting for next planner output
+response status=200 bytes=28883
+idx: 130 after http 0.685s
+traj len 2.9910812564786236
+1786948067.2445457 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.655; cleared MPC and waiting for next planner output
+response status=200 bytes=28835
+idx: 131 after http 0.614s
+traj len 3.0389905725666693
+1786948068.0403543 update traj
+response status=200 bytes=28947
+idx: 132 after http 0.408s
+traj len 3.0238920287962556
+1786948068.61269 update traj
+response status=200 bytes=28949
+idx: 133 after http 0.461s
+traj len 2.976242994460915
+1786948069.1551466 update traj
+response status=200 bytes=29022
+idx: 134 after http 0.448s
+traj len 3.045256802162881
+1786948069.6673164 update traj
+response status=200 bytes=28995
+idx: 135 after http 0.431s
+traj len 2.983135976659912
+1786948070.1662805 update traj
+response status=200 bytes=28898
+idx: 136 after http 0.454s
+traj len 2.9944625270097553
+1786948070.674893 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.682; cleared MPC and waiting for next planner output
+response status=200 bytes=28826
+idx: 137 after http 1.064s
+traj len 3.0574703957848923
+1786948071.8348386 update traj
+response status=200 bytes=28937
+idx: 138 after http 0.595s
+traj len 3.050017380599839
+1786948072.6107945 update traj
+response status=200 bytes=29001
+idx: 139 after http 0.464s
+traj len 3.0128837409527462
+1786948073.1343284 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.614; cleared MPC and waiting for next planner output
+response status=200 bytes=28900
+idx: 140 after http 0.763s
+traj len 3.0400986021250374
+1786948073.9548838 update traj
+response status=200 bytes=28992
+idx: 141 after http 0.540s
+traj len 3.0165470382773805
+1786948074.6276886 update traj
+response status=200 bytes=28883
+idx: 142 after http 0.501s
+traj len 3.029575210302236
+1786948075.1940873 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.685; cleared MPC and waiting for next planner output
+response status=200 bytes=29044
+idx: 143 after http 0.820s
+traj len 3.031154708919282
+1786948076.0979614 update traj
+response status=200 bytes=28908
+idx: 144 after http 0.385s
+traj len 3.052730806299194
+1786948076.6151032 update traj
+response status=200 bytes=29054
+idx: 145 after http 0.456s
+traj len 3.020587351202317
+1786948077.177733 update traj
+response status=200 bytes=28995
+idx: 146 after http 0.448s
+traj len 3.028984435121577
+1786948077.680858 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.734; cleared MPC and waiting for next planner output
+response status=200 bytes=28958
+idx: 147 after http 0.967s
+traj len 3.0333942110746435
+1786948078.7125134 update traj
+response status=200 bytes=28951
+idx: 148 after http 0.523s
+traj len 3.027647699585558
+1786948079.4711895 update traj
+response status=200 bytes=28968
+idx: 149 after http 0.416s
+traj len 3.040486444289894
+1786948079.9663925 update traj
+response status=200 bytes=29038
+idx: 150 after http 0.448s
+traj len 3.0505165827989362
+1786948080.4782338 update traj
+response status=200 bytes=28993
+idx: 151 after http 0.477s
+traj len 3.037632398488467
+1786948081.0198605 update traj
+response status=200 bytes=28953
+idx: 152 after http 0.523s
+traj len 3.0404000962734137
+1786948081.6138577 update traj
+response status=200 bytes=29057
+idx: 153 after http 0.378s
+traj len 3.015333013054987
+1786948082.0519493 update traj
+response status=200 bytes=29040
+idx: 154 after http 0.476s
+traj len 3.0285504791189104
+1786948082.6183798 update traj
+response status=200 bytes=29053
+idx: 155 after http 0.418s
+traj len 3.0196171237142435
+1786948083.0950017 update traj
+response status=200 bytes=28939
+idx: 156 after http 0.437s
+traj len 3.009300594516031
+1786948083.5924842 update traj
+response status=200 bytes=28963
+idx: 157 after http 0.613s
+traj len 3.0255733047927658
+1786948084.294398 update traj
+response status=200 bytes=29015
+idx: 158 after http 0.484s
+traj len 3.0290063920741783
+1786948084.844447 update traj
+response status=200 bytes=29100
+idx: 159 after http 0.520s
+traj len 3.0285063484136514
+1786948085.423576 update traj
+response status=200 bytes=28974
+idx: 160 after http 0.569s
+traj len 3.041661019089353
+1786948086.0762038 update traj
+response status=200 bytes=29203
+idx: 161 after http 0.502s
+traj len 2.9821623463772173
+1786948086.6472688 update traj
+response status=200 bytes=29020
+idx: 162 after http 0.517s
+traj len 3.020416071847484
+1786948087.2295864 update traj
+response status=200 bytes=28908
+idx: 163 after http 0.416s
+traj len 3.025159751183808
+1786948087.701609 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.649; cleared MPC and waiting for next planner output
+response status=200 bytes=29157
+idx: 164 after http 0.616s
+traj len 3.0360695713462955
+1786948088.3719928 update traj
+response status=200 bytes=29046
+idx: 165 after http 0.492s
+traj len 3.0492341408627537
+1786948089.0113404 update traj
+response status=200 bytes=29012
+idx: 166 after http 0.453s
+traj len 3.035882067689459
+1786948089.5273602 update traj
+response status=200 bytes=29060
+idx: 167 after http 0.555s
+traj len 2.978008518082441
+1786948090.141475 update traj
+[CLIENT HOLD] reason=trajectory_stale:age_s=0.706; cleared MPC and waiting for next planner output
+response status=200 bytes=29126
+idx: 168 after http 1.000s
+traj len 1.6142135571426401
+1786948091.2132733 update traj
+response status=200 bytes=18258
+idx: 169 after http 0.541s
+traj len 0.5170010717147356
+1786948091.9243925 update traj
+response status=200 bytes=28849
+idx: 170 after http 0.374s
+traj len 1.0104654417908534
+1786948092.4153373 update traj
+response status=200 bytes=21733
+idx: 171 after http 0.441s
+traj len 0.6747154761113046
+1786948092.9951408 update traj
+response status=200 bytes=24399
+idx: 172 after http 0.376s
+traj len 0.9131766476458376
+1786948093.4317126 update traj
+response status=200 bytes=28034
+idx: 173 after http 0.481s
+traj len 0.8688918259880134
+1786948093.9990237 update traj
+response status=200 bytes=28514
+idx: 174 after http 0.415s
+traj len 2.7058117628359906
+1786948094.4788053 update traj
+response status=200 bytes=28735
+idx: 175 after http 0.470s
+traj len 2.777619708899072
+1786948095.0059993 update traj
+response status=200 bytes=28633
+idx: 176 after http 0.414s
+traj len 2.671755297441198
+1786948095.4954162 update traj
+response status=200 bytes=28289
+idx: 177 after http 0.467s
+traj len 2.762849584666553
+1786948096.0215871 update traj
+response status=200 bytes=28469
+idx: 178 after http 0.440s
+traj len 2.6044841171126456
+1786948096.5207183 update traj
+response status=200 bytes=28495
+idx: 179 after http 0.402s
+traj len 2.56955061353592
+1786948097.0005174 update traj
+response status=200 bytes=28497
+idx: 180 after http 0.445s
+traj len 2.4174878359271865
+1786948097.5460596 update traj
+response status=200 bytes=28535
+idx: 181 after http 0.407s
+traj len 2.763951042571217
+1786948098.0262709 update traj
+response status=200 bytes=28508
+idx: 182 after http 0.398s
+traj len 2.7063385743546315
+1786948098.510359 update traj
+response status=200 bytes=28611
+idx: 183 after http 0.381s
+traj len 1.506864827450686
+1786948098.9567823 update traj
+response status=200 bytes=28777
+idx: 184 after http 0.489s
+traj len 2.4610283539715074
+1786948099.5299942 update traj
+response status=200 bytes=28637
+idx: 185 after http 0.406s
+traj len 1.9900877858294075
+1786948100.033541 update traj
+response status=200 bytes=28825
+idx: 186 after http 0.417s
+traj len 2.7334043037572484
+1786948100.5061307 update traj
+response status=200 bytes=28913
+idx: 187 after http 0.388s
+traj len 1.9759665505595512
+1786948100.9529786 update traj
+response status=200 bytes=28686
+idx: 188 after http 0.424s
+traj len 2.1965789952440615
+1786948101.4455354 update traj
+response status=200 bytes=28754
+idx: 189 after http 0.524s
+traj len 1.8366893495244254
+1786948102.0577474 update traj

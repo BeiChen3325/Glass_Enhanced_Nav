@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/unitree/Glass_Enhanced_X_NavDP/go2_internnav_navdp_deployment/scripts/visualize_navdp_response_sequence.py", line 511, in <module>
+    raise SystemExit(main())
+  File "/home/unitree/Glass_Enhanced_X_NavDP/go2_internnav_navdp_deployment/scripts/visualize_navdp_response_sequence.py", line 481, in main
+    render_frame(records, index, frame_path, int(args.dpi))
+  File "/home/unitree/Glass_Enhanced_X_NavDP/go2_internnav_navdp_deployment/scripts/visualize_navdp_response_sequence.py", line 169, in render_frame
+    selected = int(response["final_selection_index"])
+KeyError: 'final_selection_index'

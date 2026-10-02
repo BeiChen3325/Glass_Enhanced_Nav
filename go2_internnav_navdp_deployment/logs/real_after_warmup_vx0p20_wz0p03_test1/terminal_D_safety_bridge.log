@@ -1,0 +1,596 @@
+1783412458.583017 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[WARN] [1783412458.752471304] [cmd_vel_sport_safe_bridge]: real sport publishing ENABLED on /api/sport/request; manual latch and timeout gates remain active
+[INFO] [1783412458.755533457] [cmd_vel_sport_safe_bridge]: subscribed cmd=/cmd_vel_bridge wireless=/wirelesscontroller max_vx=0.500 max_wz=0.100 cmd_timeout_sec=0.500 diagnostic_no_sport_publish=False
+[INFO] [1783412459.758024988] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412460.757534449] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412461.757656262] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412462.757844206] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412463.757534620] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412464.757537859] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412465.757572061] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412466.757576295] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412467.757632485] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412468.757502448] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412469.757836088] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412470.757986061] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412471.757909743] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412472.757727489] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412473.757730857] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412474.757589792] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412475.757580460] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412476.757742767] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412477.757665950] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412478.757615745] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412479.757716409] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412480.757766819] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=0 cmd_age=never raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=True wireless_baseline=False action=StopMove
+[INFO] [1783412481.645022986] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000908204947,"y":0.0,"z":0.1}')
+[INFO] [1783412481.646225350] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000908204947,"y":0.0,"z":0.1}')
+[INFO] [1783412481.757573945] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=1 cmd_age=0.11s raw_vx=0.400 raw_wz=0.100 limited_vx=0.400 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.400, y=0.000, wz=0.100)
+[INFO] [1783412481.825218059] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000966703525,"y":0.0,"z":0.1}')
+[INFO] [1783412481.826442088] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000966703525,"y":0.0,"z":0.1}')
+[INFO] [1783412481.993213070] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000966091875,"y":0.0,"z":0.1}')
+[INFO] [1783412481.994409131] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000966091875,"y":0.0,"z":0.1}')
+[INFO] [1783412482.192305384] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000096131772,"y":0.0,"z":0.1}')
+[INFO] [1783412482.194474011] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000096131772,"y":0.0,"z":0.1}')
+[INFO] [1783412482.399121175] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000095122236,"y":0.0,"z":0.1}')
+[INFO] [1783412482.400351124] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000095122236,"y":0.0,"z":0.1}')
+[INFO] [1783412482.601258904] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000094118168,"y":0.0,"z":0.1}')
+[INFO] [1783412482.603453387] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000094118168,"y":0.0,"z":0.1}')
+[INFO] [1783412482.757633224] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=6 cmd_age=0.16s raw_vx=0.400 raw_wz=0.100 limited_vx=0.400 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.400, y=0.000, wz=0.100)
+[INFO] [1783412482.859347032] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000889641324,"y":0.0,"z":0.1}')
+[INFO] [1783412482.860453618] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000889641324,"y":0.0,"z":0.1}')
+[INFO] [1783412483.087093328] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.399999991035082,"y":0.0,"z":0.1}')
+[INFO] [1783412483.088252523] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.399999991035082,"y":0.0,"z":0.1}')
+[INFO] [1783412483.253456232] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3999999321206987,"y":0.0,"z":0.1}')
+[INFO] [1783412483.254590499] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3999999321206987,"y":0.0,"z":0.1}')
+[INFO] [1783412483.444903340] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.24422609452078076,"y":0.0,"z":0.1}')
+[INFO] [1783412483.446113161] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.24422609452078076,"y":0.0,"z":0.1}')
+[INFO] [1783412483.634710378] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.09352063852085746,"y":0.0,"z":0.1}')
+[INFO] [1783412483.635847332] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.09352063852085746,"y":0.0,"z":0.1}')
+[INFO] [1783412483.757605224] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=11 cmd_age=0.12s raw_vx=0.094 raw_wz=0.100 limited_vx=0.094 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.094, y=0.000, wz=0.100)
+[INFO] [1783412483.907104309] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412483.908477910] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.095091687] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.096334692] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.275261472] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.276444316] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.439719882] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.441074378] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.607568707] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.608738942] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.756817705] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.758038501] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.1}')
+[INFO] [1783412484.759704588] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=17 cmd_age=0.00s raw_vx=0.000 raw_wz=0.100 limited_vx=0.000 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.100)
+[INFO] [1783412484.972747591] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":9.871776548874616e-10,"y":0.0,"z":0.1}')
+[INFO] [1783412484.975127615] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":9.871776548874616e-10,"y":0.0,"z":0.1}')
+[INFO] [1783412485.106649668] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.2655593451384384e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.107897281] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.2655593451384384e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.250540458] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.4076942780351108e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.251675525] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.4076942780351108e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.405255726] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5133322571175906e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.406390760] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5133322571175906e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.551107138] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5810768693839866e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.552763177] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5810768693839866e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.687265331] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.614010005837007e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.688612019] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.614010005837007e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.757690147] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=23 cmd_age=0.07s raw_vx=0.000 raw_wz=0.100 limited_vx=0.000 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.100)
+[INFO] [1783412485.825679321] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.661670131373572e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.826924278] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.661670131373572e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.997145637] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7201859375271425e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412485.998409506] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7201859375271425e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.135955922] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5873475806838847e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.137652922] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.5873475806838847e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.293582232] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.634038352773366e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.294771380] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.634038352773366e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.443981716] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.6559406644789663e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.445243602] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.6559406644789663e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.601017164] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.6948138081949443e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.602312554] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.6948138081949443e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.757693371] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=29 cmd_age=0.16s raw_vx=0.000 raw_wz=0.100 limited_vx=0.000 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.100)
+[INFO] [1783412486.776211788] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7107689010306029e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.778045687] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7107689010306029e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.965104077] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7420160508471448e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412486.967045882] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7420160508471448e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.106479989] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7804475353527188e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.107683025] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.7804475353527188e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.264231676] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8041224100680058e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.265823297] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8041224100680058e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.401374080] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8181003866607885e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.402682239] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8181003866607885e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.539670688] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8301331532792078e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.541219396] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8301331532792078e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.683119640] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8255718557231395e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.684249587] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8255718557231395e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.758191315] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=36 cmd_age=0.08s raw_vx=0.000 raw_wz=0.100 limited_vx=0.000 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.100)
+[INFO] [1783412487.818289231] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8429357768956458e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.819432746] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8429357768956458e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.958257334] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8435201433485198e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412487.959606709] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8435201433485198e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412488.109478082] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8574006772160264e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412488.110886339] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.8574006772160264e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412488.271154786] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.12944909225719461,"y":0.0,"z":0.1}')
+[INFO] [1783412488.272350718] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.12944909225719461,"y":0.0,"z":0.1}')
+[INFO] [1783412488.412717740] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.24219474025724927,"y":0.0,"z":0.1}')
+[INFO] [1783412488.414257424] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.24219474025724927,"y":0.0,"z":0.1}')
+[INFO] [1783412488.566122699] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3626970618572465,"y":0.0,"z":0.1}')
+[INFO] [1783412488.567394665] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3626970618572465,"y":0.0,"z":0.1}')
+[INFO] [1783412488.708499912] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000096651455,"y":0.0,"z":0.1}')
+[INFO] [1783412488.710384756] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000096651455,"y":0.0,"z":0.1}')
+[INFO] [1783412488.757584739] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=43 cmd_age=0.05s raw_vx=0.400 raw_wz=0.100 limited_vx=0.400 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.400, y=0.000, wz=0.100)
+[INFO] [1783412488.867179458] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.400000009634813,"y":0.0,"z":0.1}')
+[INFO] [1783412488.870414766] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.400000009634813,"y":0.0,"z":0.1}')
+[INFO] [1783412489.014928285] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000957550963,"y":0.0,"z":0.1}')
+[INFO] [1783412489.016192026] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000957550963,"y":0.0,"z":0.1}')
+[INFO] [1783412489.170958615] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000095181478,"y":0.0,"z":0.1}')
+[INFO] [1783412489.172055473] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000095181478,"y":0.0,"z":0.1}')
+[INFO] [1783412489.323268090] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000093903826,"y":0.0,"z":0.1}')
+[INFO] [1783412489.324436437] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000093903826,"y":0.0,"z":0.1}')
+[INFO] [1783412489.480275435] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000091834633,"y":0.0,"z":0.1}')
+[INFO] [1783412489.481690028] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000091834633,"y":0.0,"z":0.1}')
+[INFO] [1783412489.618224831] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000088633603,"y":0.0,"z":0.1}')
+[INFO] [1783412489.619430747] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000088633603,"y":0.0,"z":0.1}')
+[INFO] [1783412489.757659286] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=49 cmd_age=0.14s raw_vx=0.400 raw_wz=0.100 limited_vx=0.400 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.400, y=0.000, wz=0.100)
+[INFO] [1783412489.770388671] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000080187521,"y":0.0,"z":0.1}')
+[INFO] [1783412489.773264802] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000080187521,"y":0.0,"z":0.1}')
+[INFO] [1783412489.927160074] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000047022918,"y":0.0,"z":0.1}')
+[INFO] [1783412489.928995317] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000047022918,"y":0.0,"z":0.1}')
+[INFO] [1783412490.071187467] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2848596816775905,"y":0.0,"z":0.1}')
+[INFO] [1783412490.072317926] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2848596816775905,"y":0.0,"z":0.1}')
+[INFO] [1783412490.222827165] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.17026851527760367,"y":0.0,"z":0.1}')
+[INFO] [1783412490.224652968] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.17026851527760367,"y":0.0,"z":0.1}')
+[INFO] [1783412490.358413176] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.05793824087766619,"y":0.0,"z":0.1}')
+[INFO] [1783412490.360370182] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.05793824087766619,"y":0.0,"z":0.1}')
+[INFO] [1783412490.496798004] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":6.580272264578024e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.498045394] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":6.580272264578024e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.646138064] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":5.755125949828341e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.647460335] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":5.755125949828341e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.757883743] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=56 cmd_age=0.11s raw_vx=0.000 raw_wz=0.100 limited_vx=0.000 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.100)
+[INFO] [1783412490.790029933] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":7.041275845991257e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.791213609] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":7.041275845991257e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.940717097] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":7.348474942717355e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412490.941890756] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":7.348474942717355e-09,"y":0.0,"z":0.1}')
+[INFO] [1783412491.086973372] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.0591781243295291e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.088759045] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.0591781243295291e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.226024134] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.0848630884559989e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.227257251] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.0848630884559989e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.371945680] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.129817657654675e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.373103563] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":1.129817657654675e-08,"y":0.0,"z":0.1}')
+[INFO] [1783412491.542020110] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.13837306043527478,"y":0.0,"z":0.1}')
+[INFO] [1783412491.543204713] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.13837306043527478,"y":0.0,"z":0.1}')
+[INFO] [1783412491.682329141] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.12969955080291162,"y":0.0,"z":0.1}')
+[INFO] [1783412491.683445071] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.12969955080291162,"y":0.0,"z":0.1}')
+[INFO] [1783412491.757597936] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=63 cmd_age=0.08s raw_vx=0.130 raw_wz=0.100 limited_vx=0.130 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.130, y=0.000, wz=0.100)
+[INFO] [1783412491.819570453] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.07782592717494054,"y":0.0,"z":0.1}')
+[INFO] [1783412491.820968854] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.07782592717494054,"y":0.0,"z":0.1}')
+[INFO] [1783412491.959912701] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.05915573077574197,"y":0.0,"z":0.1}')
+[INFO] [1783412491.961033975] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.05915573077574197,"y":0.0,"z":0.1}')
+[INFO] [1783412492.108162077] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.08114240407428332,"y":0.0,"z":0.1}')
+[INFO] [1783412492.109639167] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.08114240407428332,"y":0.0,"z":0.1}')
+[INFO] [1783412492.265246121] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.09514183733926505,"y":0.0,"z":0.1}')
+[INFO] [1783412492.266485702] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.09514183733926505,"y":0.0,"z":0.1}')
+[INFO] [1783412492.411628156] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.10275345463820147,"y":0.0,"z":0.1}')
+[INFO] [1783412492.412737334] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.10275345463820147,"y":0.0,"z":0.1}')
+[INFO] [1783412492.556510285] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.13758517153279484,"y":0.0,"z":0.1}')
+[INFO] [1783412492.557720809] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.13758517153279484,"y":0.0,"z":0.1}')
+[INFO] [1783412492.694118291] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.15259237333554002,"y":0.0,"z":0.1}')
+[INFO] [1783412492.695206669] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.15259237333554002,"y":0.0,"z":0.1}')
+[INFO] [1783412492.757651036] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=70 cmd_age=0.06s raw_vx=0.153 raw_wz=0.100 limited_vx=0.153 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.153, y=0.000, wz=0.100)
+[INFO] [1783412492.833687464] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.18271059530202802,"y":0.0,"z":0.1}')
+[INFO] [1783412492.834875235] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.18271059530202802,"y":0.0,"z":0.1}')
+[INFO] [1783412492.973175034] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.19927292386283516,"y":0.0,"z":0.1}')
+[INFO] [1783412492.974485785] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.19927292386283516,"y":0.0,"z":0.1}')
+[INFO] [1783412493.112470023] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2184929461767976,"y":0.0,"z":0.1}')
+[INFO] [1783412493.114045196] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2184929461767976,"y":0.0,"z":0.1}')
+[INFO] [1783412493.284036035] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.22218226607488845,"y":0.0,"z":0.1}')
+[INFO] [1783412493.285192510] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.22218226607488845,"y":0.0,"z":0.1}')
+[INFO] [1783412493.420794612] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.21708907720514226,"y":0.0,"z":0.1}')
+[INFO] [1783412493.422036977] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.21708907720514226,"y":0.0,"z":0.1}')
+[INFO] [1783412493.556393578] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2288838818719265,"y":0.0,"z":0.1}')
+[INFO] [1783412493.558179796] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2288838818719265,"y":0.0,"z":0.1}')
+[INFO] [1783412493.698963747] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.23774565924214525,"y":0.0,"z":0.1}')
+[INFO] [1783412493.700667946] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.23774565924214525,"y":0.0,"z":0.1}')
+[INFO] [1783412493.757607865] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=77 cmd_age=0.06s raw_vx=0.238 raw_wz=0.100 limited_vx=0.238 limited_wz=0.100 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.238, y=0.000, wz=0.100)
+[INFO] [1783412493.880077149] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2536082171474161,"y":0.0,"z":0.1}')
+[INFO] [1783412493.881173975] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2536082171474161,"y":0.0,"z":0.1}')
+[INFO] [1783412494.026447470] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2574771651081137,"y":0.0,"z":0.1}')
+[INFO] [1783412494.027538119] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2574771651081137,"y":0.0,"z":0.1}')
+[INFO] [1783412494.162397514] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2625985752636884,"y":0.0,"z":0.1}')
+[INFO] [1783412494.163686248] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2625985752636884,"y":0.0,"z":0.1}')
+[INFO] [1783412494.304566648] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2641513667787275,"y":0.0,"z":0.1}')
+[INFO] [1783412494.305809493] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2641513667787275,"y":0.0,"z":0.1}')
+[INFO] [1783412494.447918817] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.27582774313403724,"y":0.0,"z":0.1}')
+[INFO] [1783412494.449276256] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.27582774313403724,"y":0.0,"z":0.1}')
+[INFO] [1783412494.587407792] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.28178989980352076,"y":0.0,"z":0.097783027738613}')
+[INFO] [1783412494.588579019] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.28178989980352076,"y":0.0,"z":0.097783027738613}')
+[INFO] [1783412494.757919793] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=83 cmd_age=0.17s raw_vx=0.282 raw_wz=0.098 limited_vx=0.282 limited_wz=0.098 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.282, y=0.000, wz=0.098)
+[INFO] [1783412494.774326127] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000091370471,"y":0.0,"z":-0.03121131052911502}')
+[INFO] [1783412494.776082552] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000091370471,"y":0.0,"z":-0.03121131052911502}')
+[INFO] [1783412494.913179375] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.400000008828794,"y":0.0,"z":-0.07330335618286159}')
+[INFO] [1783412494.916137492] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.400000008828794,"y":0.0,"z":-0.07330335618286159}')
+[INFO] [1783412495.052615164] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000083001319,"y":0.0,"z":-0.0716333267550352}')
+[INFO] [1783412495.053841849] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000083001319,"y":0.0,"z":-0.0716333267550352}')
+[INFO] [1783412495.208491494] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000068601758,"y":0.0,"z":-0.061724482342070744}')
+[INFO] [1783412495.209787109] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.4000000068601758,"y":0.0,"z":-0.061724482342070744}')
+[INFO] [1783412495.354851252] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000153991117,"y":0.0,"z":-0.04452714855192848}')
+[INFO] [1783412495.356159762] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.40000000153991117,"y":0.0,"z":-0.04452714855192848}')
+[INFO] [1783412495.488896738] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.39999995608024136,"y":0.0,"z":-0.028687677921655885}')
+[INFO] [1783412495.490224993] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.39999995608024136,"y":0.0,"z":-0.028687677921655885}')
+[INFO] [1783412495.626870540] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30826544966898906,"y":0.0,"z":-0.0008597763896292694}')
+[INFO] [1783412495.627964646] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30826544966898906,"y":0.0,"z":-0.0008597763896292694}')
+[INFO] [1783412495.757767825] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=90 cmd_age=0.13s raw_vx=0.308 raw_wz=-0.001 limited_vx=0.308 limited_wz=-0.001 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.308, y=0.000, wz=-0.001)
+[INFO] [1783412495.761973715] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30997247563905056,"y":0.0,"z":-0.010518961856260521}')
+[INFO] [1783412495.763613625] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30997247563905056,"y":0.0,"z":-0.010518961856260521}')
+[INFO] [1783412495.905104437] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30956718253274235,"y":0.0,"z":-0.017642346725188426}')
+[INFO] [1783412495.906510646] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30956718253274235,"y":0.0,"z":-0.017642346725188426}')
+[INFO] [1783412496.063986917] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30190968000214935,"y":0.0,"z":-0.014644883615684726}')
+[INFO] [1783412496.065768334] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30190968000214935,"y":0.0,"z":-0.014644883615684726}')
+[INFO] [1783412496.201631333] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.302030108078919,"y":0.0,"z":-0.015245755501190497}')
+[INFO] [1783412496.202711103] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.302030108078919,"y":0.0,"z":-0.015245755501190497}')
+[INFO] [1783412496.347626856] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30008442379361955,"y":0.0,"z":-0.0325800443149053}')
+[INFO] [1783412496.348691457] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30008442379361955,"y":0.0,"z":-0.0325800443149053}')
+[INFO] [1783412496.484963554] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.29705770713961854,"y":0.0,"z":-0.0597999271692692}')
+[INFO] [1783412496.486326945] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.29705770713961854,"y":0.0,"z":-0.0597999271692692}')
+[INFO] [1783412496.621229090] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30142894928536,"y":0.0,"z":-0.06310282235362277}')
+[INFO] [1783412496.622433054] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30142894928536,"y":0.0,"z":-0.06310282235362277}')
+[INFO] [1783412496.757704071] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=97 cmd_age=0.14s raw_vx=0.301 raw_wz=-0.063 limited_vx=0.301 limited_wz=-0.063 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.301, y=0.000, wz=-0.063)
+[INFO] [1783412496.767566189] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.297532233252419,"y":0.0,"z":-0.043091444873788284}')
+[INFO] [1783412496.768699783] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.297532233252419,"y":0.0,"z":-0.043091444873788284}')
+[INFO] [1783412496.904587071] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30212030788942906,"y":0.0,"z":-0.038100051196682444}')
+[INFO] [1783412496.905834524] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.30212030788942906,"y":0.0,"z":-0.038100051196682444}')
+[INFO] [1783412497.060437126] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.29893494385203756,"y":0.0,"z":-0.05363750396696491}')
+[INFO] [1783412497.063175942] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.29893494385203756,"y":0.0,"z":-0.05363750396696491}')
+[INFO] [1783412497.213822899] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2948888838381285,"y":0.0,"z":-0.0625178982051402}')
+[INFO] [1783412497.214907660] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2948888838381285,"y":0.0,"z":-0.0625178982051402}')
+[INFO] [1783412497.353718918] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2976231002601666,"y":0.0,"z":-0.0258862184448395}')
+[INFO] [1783412497.354923586] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2976231002601666,"y":0.0,"z":-0.0258862184448395}')
+[INFO] [1783412497.496634879] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2986658944345574,"y":0.0,"z":-0.00770531665033149}')
+[INFO] [1783412497.501030693] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2986658944345574,"y":0.0,"z":-0.00770531665033149}')
+[INFO] [1783412497.634209724] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3022329508859734,"y":0.0,"z":-0.020892656397634143}')
+[INFO] [1783412497.636848890] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.3022329508859734,"y":0.0,"z":-0.020892656397634143}')
+[INFO] [1783412497.758205886] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=104 cmd_age=0.12s raw_vx=0.302 raw_wz=-0.021 limited_vx=0.302 limited_wz=-0.021 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.302, y=0.000, wz=-0.021)
+[INFO] [1783412497.783164482] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2985192095487234,"y":0.0,"z":-0.028493818611180055}')
+[INFO] [1783412497.784365438] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2985192095487234,"y":0.0,"z":-0.028493818611180055}')
+[INFO] [1783412497.927686177] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2932957336858066,"y":0.0,"z":-0.00025263495820763635}')
+[INFO] [1783412497.928917469] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.2932957336858066,"y":0.0,"z":-0.00025263495820763635}')
+[INFO] [1783412498.000163669] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.001434162] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.028517448] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.030257040] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.129959132] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.132005643] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.229936558] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.231099785] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.331856077] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.333158508] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.432481359] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.433718443] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.535820303] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.537036843] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.633858260] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.634924013] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.737744961] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.738973181] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.757528428] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=115 cmd_age=0.02s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412498.837759604] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.838921295] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.939326315] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412498.943003585] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.043488446] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.046475459] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.139908988] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.140977621] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.242318278] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.244254803] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.342632447] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.343704983] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.444363032] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.445472754] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.547815418] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.548889427] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.648822211] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.650190594] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.746622753] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.747703674] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.757595968] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=125 cmd_age=0.01s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412499.851498116] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.852853251] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.949748877] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412499.950849094] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.051883695] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.053098187] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.152602320] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.154076050] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.255152891] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.256806338] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.355868636] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.357004598] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.459410302] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.460583386] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.557505187] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.558575323] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.658122209] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.659388414] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.757594309] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=134 cmd_age=0.10s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412500.761325116] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.762945025] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.859712390] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.861016645] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.960606507] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412500.961730981] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.061603602] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.062744172] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.162323346] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.163373834] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.263286519] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.264554228] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.363929705] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.365594380] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.465228353] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.469669374] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.565693351] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.566867168] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.666305616] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.667568875] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.757533204] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=144 cmd_age=0.09s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412501.766975867] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.768080594] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.867993901] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.869146469] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.968845595] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412501.970620161] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.069580931] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.070655044] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.170410128] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.171964114] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.271107901] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.272189630] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.372466538] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.373645099] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.472869878] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.473959383] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.576955975] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.579082345] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.674686352] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.675891601] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.757669226] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=154 cmd_age=0.08s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=False action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412502.776915742] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.778942049] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.877697195] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.879104525] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.979621433] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412502.981813659] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.080735273] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.081894602] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.182342394] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.183543291] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.283000426] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.284076523] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.357492220] [cmd_vel_sport_safe_bridge]: wireless controller baseline captured: lx=-0.001 ly=-1.000 rx=0.000 ry=0.003 keys=0
+[INFO] [1783412503.383897082] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.386183548] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.484470442] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.485892811] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.585353530] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.587697500] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.685944522] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.687018091] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.757876506] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=164 cmd_age=0.07s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=False timeout=False wireless_baseline=True action=Move(vx=0.000, y=0.000, wz=0.000)
+[INFO] [1783412503.787458330] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.788670652] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.888022922] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.889078539] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.991129245] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412503.993220959] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.091785968] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.093521682] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.192702115] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.194350661] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.293412502] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[INFO] [1783412504.294728472] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=Move trigger=cmd_vel Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}')
+[WARN] [1783412504.307735047] [cmd_vel_sport_safe_bridge]: [SAFETY LATCH] manual override detected
+[INFO] [1783412504.309709449] [cmd_vel_sport_safe_bridge]: PUBLISH_ATTEMPT action=StopMove trigger=manual_latch Request(api_id=1003, parameter='')
+[INFO] [1783412504.311250507] [cmd_vel_sport_safe_bridge]: PUBLISH_DONE action=StopMove trigger=manual_latch Request(api_id=1003, parameter='')
+[WARN] [1783412504.395421611] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412504.496086494] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412504.596831698] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412504.697704229] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412504.757400458] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=174 cmd_age=0.06s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412504.798461785] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412504.899267820] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.000209280] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.100849494] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.201734605] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.304378822] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.403363418] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.507217236] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.607315658] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.708357121] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412505.758023132] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=184 cmd_age=0.05s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412505.809832569] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412505.908517613] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.008845539] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.110825695] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.210504887] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.311288881] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.412264171] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.513183045] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.613819327] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.715218202] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412506.757494125] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=194 cmd_age=0.04s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412506.815862292] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412506.916719790] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.019950027] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.118481990] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.218816194] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.323664037] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.421175134] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.521777819] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.622310456] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.723216469] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412507.757515264] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=204 cmd_age=0.03s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412507.824003026] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412507.924752208] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.028149873] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.126501422] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.227163759] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.331247955] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.428864528] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.532274548] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.633258773] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.734428246] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412508.758252468] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=214 cmd_age=0.02s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412508.835219446] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412508.935992663] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.036831928] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.137742012] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.239423041] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.342260136] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.440070600] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.540979276] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.644405395] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.742524243] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412509.757475911] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=224 cmd_age=0.02s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412509.843501239] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412509.944357915] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.045073728] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.148720235] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.249286546] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.353130685] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.454100004] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.554941772] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.655592563] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.756285625] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412510.757936444] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=234 cmd_age=0.00s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412510.860974630] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412510.961687277] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.067890205] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.165937284] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.266676078] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.368009177] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.468334915] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.569193293] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.672680955] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412511.757457968] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=243 cmd_age=0.08s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412511.770740898] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.871466604] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412511.972315863] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.073707172] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.177357558] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.275182527] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.376023053] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.476991803] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.577824552] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.678358966] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412512.757633061] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=253 cmd_age=0.08s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412512.779363267] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.879923185] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412512.980844223] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.081669775] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.182688640] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.283259536] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.385841220] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.486053524] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.586955653] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.687603702] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412513.757528474] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=263 cmd_age=0.07s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412513.788671079] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.889413752] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412513.990177768] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.091853277] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.191657360] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.292374948] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.393246744] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.494004364] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.594687456] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.695339060] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412514.757621968] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=273 cmd_age=0.06s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412514.800348558] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412514.900871010] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.001003029] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.102481229] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.203177125] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.306534944] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.407164311] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.508107183] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.608416645] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.709090940] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412515.757922310] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=283 cmd_age=0.05s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412515.809901844] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412515.911205772] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.012105923] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.113007326] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.213807065] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.314713556] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.415979119] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.517982635] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.619468199] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.720548546] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412516.757824283] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=293 cmd_age=0.04s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412516.821321917] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412516.922194967] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.023210515] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.124846418] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.225692688] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.326528078] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.428106445] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.529535051] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.630161481] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.731027847] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412517.757201360] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=303 cmd_age=0.03s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412517.831873381] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412517.933776484] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.035032388] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.135414660] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.235885701] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.336909126] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.438046248] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.538483656] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.638923464] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.739686985] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412518.757297894] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=313 cmd_age=0.02s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412518.840737611] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412518.941629964] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.043001135] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.143413491] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.245067384] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.346010429] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.446822369] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.547296837] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.648527978] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.750003759] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412519.757816508] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=323 cmd_age=0.01s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412519.851024916] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412519.951764024] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.052987966] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.153625094] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.254770190] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.355115092] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.456500893] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.557228996] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.661445937] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412520.757699217] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=332 cmd_age=0.10s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412520.759761557] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.862862752] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412520.963828936] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.061950092] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.167354015] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.263870306] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.364868365] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.466111801] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.569682280] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.667824686] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412521.757652326] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=342 cmd_age=0.09s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412521.771435709] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.869817860] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412521.970691119] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.071663612] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.172404330] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.273678168] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.374613574] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.475590580] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.579615752] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.677451377] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[INFO] [1783412522.757878267] [cmd_vel_sport_safe_bridge]: [REAL MODE STATUS] cmd_count=352 cmd_age=0.08s raw_vx=0.000 raw_wz=0.000 limited_vx=0.000 limited_wz=0.000 dry_run=False enable_sport_publish=True manual_latch=True timeout=False wireless_baseline=True action=StopMove
+[WARN] [1783412522.778726015] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.879874606] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish
+[WARN] [1783412522.980681500] [cmd_vel_sport_safe_bridge]: PUBLISH_BLOCKED action=Move trigger=cmd_vel reasons=manual_latch_true Request(api_id=1008, parameter='{"x":0.0,"y":0.0,"z":0.0}'); no publish

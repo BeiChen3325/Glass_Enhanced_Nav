@@ -1,0 +1,1 @@
+request_sequence,idx,goal_mode,goal_x,goal_y,elapsed_s,candidate_count,selected_end_x,selected_end_y,selected_end_yaw,selected_endpoint_norm_m,selected_path_length_m,selected_max_abs_y,top_candidate_index,top_candidate_value,min_value,max_value,selected_matches_top_candidate

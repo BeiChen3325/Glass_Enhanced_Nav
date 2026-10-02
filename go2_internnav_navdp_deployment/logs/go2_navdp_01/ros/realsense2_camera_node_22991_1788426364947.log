@@ -1,0 +1,43 @@
+[INFO] [1788426365.279434521] [RealSenseCameraNode]: RealSense ROS v3.2.3
+[INFO] [1788426365.280346223] [RealSenseCameraNode]: Built with LibRealSense v2.56.5
+[INFO] [1788426365.280402576] [RealSenseCameraNode]: Running with LibRealSense v2.56.5
+[INFO] [1788426365.329979313] [RealSenseCameraNode]: Device with serial number 347622070266 was found.
+
+[INFO] [1788426365.330070675] [RealSenseCameraNode]: Device with physical ID /sys/devices/platform/3610000.xhci/usb1/1-2/1-2.1/1-2.1:1.0/video4linux/video0 was found.
+[INFO] [1788426365.330094324] [RealSenseCameraNode]: Device with name Intel RealSense D435I was found.
+[INFO] [1788426365.330618176] [RealSenseCameraNode]: Device with port number 1-2.1 was found.
+[INFO] [1788426365.330651937] [RealSenseCameraNode]: Device USB type: 2.1
+[WARN] [1788426365.330670625] [RealSenseCameraNode]: Device 347622070266 is connected using a 2.1 port. Reduced performance is expected.
+[INFO] [1788426365.335234798] [RealSenseCameraNode]: getParameters...
+[INFO] [1788426365.341529957] [RealSenseCameraNode]: setupDevice...
+[INFO] [1788426365.341592070] [RealSenseCameraNode]: JSON file is not provided
+[INFO] [1788426365.341618439] [RealSenseCameraNode]: Device Name: Intel RealSense D435I
+[INFO] [1788426365.341636295] [RealSenseCameraNode]: Device physical port: /sys/devices/platform/3610000.xhci/usb1/1-2/1-2.1/1-2.1:1.0/video4linux/video0
+[INFO] [1788426365.341652232] [RealSenseCameraNode]: Device FW version: 5.15.1.55
+[INFO] [1788426365.341665928] [RealSenseCameraNode]: Device Product ID: 0x0B3A
+[INFO] [1788426365.341678600] [RealSenseCameraNode]: Enable PointCloud: Off
+[INFO] [1788426365.341690825] [RealSenseCameraNode]: Align Depth: On
+[INFO] [1788426365.341702697] [RealSenseCameraNode]: Sync Mode: On
+[INFO] [1788426365.341785419] [RealSenseCameraNode]: Device Sensors: 
+[INFO] [1788426365.343271567] [RealSenseCameraNode]: Stereo Module was found.
+[INFO] [1788426365.344504780] [RealSenseCameraNode]: RGB Camera was found.
+[INFO] [1788426365.344704977] [RealSenseCameraNode]: Motion Module was found.
+[INFO] [1788426365.344761874] [RealSenseCameraNode]: (Infrared, 0) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344786291] [RealSenseCameraNode]: (Fisheye, 0) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344801619] [RealSenseCameraNode]: (Fisheye, 1) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344815187] [RealSenseCameraNode]: (Fisheye, 2) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344830836] [RealSenseCameraNode]: (Pose, 0) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344845652] [RealSenseCameraNode]: (Confidence, 0) sensor isn't supported by current device! -- Skipping...
+[INFO] [1788426365.344902677] [RealSenseCameraNode]: num_filters: 1
+[INFO] [1788426365.344922774] [RealSenseCameraNode]: Setting Dynamic reconfig parameters.
+[WARN] [1788426365.466809430] [RealSenseCameraNode]: Could not set param: rgb_camera.power_line_frequency with 3Range: [0, 2]: parameter 'rgb_camera.power_line_frequency' could not be set: Parameter {} doesn't comply with integer range.
+[INFO] [1788426365.467773837] [RealSenseCameraNode]: Done Setting Dynamic reconfig parameters.
+[INFO] [1788426365.468493727] [RealSenseCameraNode]: depth stream is enabled - width: 640, height: 480, fps: 15, Format: Z16
+[INFO] [1788426365.469254161] [RealSenseCameraNode]: color stream is enabled - width: 640, height: 480, fps: 15, Format: RGB8
+[INFO] [1788426365.470514607] [RealSenseCameraNode]: setupPublishers...
+[INFO] [1788426365.489885054] [RealSenseCameraNode]: setupStreams...
+[INFO] [1788426365.526596107] [RealSenseCameraNode]: SELECTED BASE:Depth, 0
+[INFO] [1788426365.530439687] [RealSenseCameraNode]: Device Serial No: 347622070266
+[INFO] [1788426365.532260850] [RealSenseCameraNode]: RealSense Node Is Up!
+[WARN] [1788426365.765201200] [RealSenseCameraNode]: 
+[INFO] [1788427069.970895065] [rclcpp]: signal_handler(signal_value=2)

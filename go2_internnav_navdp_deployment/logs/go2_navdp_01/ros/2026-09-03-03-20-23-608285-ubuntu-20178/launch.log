@@ -1,0 +1,5 @@
+1788405623.6110790 [INFO] [launch]: All log files can be found below /home/unitree/Glass_Enhanced_X_NavDP/go2_internnav_navdp_deployment/logs/go2_navdp_01/ros/2026-09-03-03-20-23-608285-ubuntu-20178
+1788405623.6114914 [INFO] [launch]: Default logging verbosity is set to INFO
+1788405623.8106806 [INFO] [realsense2_camera_node-1]: process started with pid [20211]
+1788406765.0223746 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1788406765.7105637 [INFO] [realsense2_camera_node-1]: process has finished cleanly [pid 20211]

@@ -1,0 +1,711 @@
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] camera config: /home/unitree/NavDP_workspace/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+[ROS TRANSPORT DEFAULTS] CYCLONEDDS_HOME=/home/unitree/cyclonedds/install
+1787739646.913601 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (file:///home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+[NAVDP_CLIENT] using BEST_EFFORT QoS for RGB/depth subscriptions
+[NAVDP_CLIENT] server url: http://192.168.8.251:5802/eval_navdp
+[NAVDP_CLIENT] temporal_mode=legacy_request_history
+[SAFETY] dry-run: not publishing cmd_vel
+[NAVDP_CLIENT] dry-run command topic: /cmd_vel_bridge
+[SAFETY] max_linear_speed=0.200 m/s max_angular_speed=0.100 rad/s
+[MPC CONFIG] tracking_profile=smooth_continuous savgol_window=7 savgol_poly=2 max_deviation_m=0.030 angular_delta_weight=1.00 max_angular_accel_radps2=0.60
+[NAVDP_CLIENT] goal_mode: pointgoal
+[NAVDP_CLIENT] goal topics: /navdp/goal_point, /navdp/goal_image, /navdp/goal_mode
+[NAVDP_CLIENT] depth scale: 0.0010000000475 m/raw_unit
+[DEPTH SAFETY CONFIG] block_distance_m=0.30 clear_distance_m=0.40 roi=(0.15,0.35)-(0.85,0.75) min_close_fraction=0.015 min_block_duration_s=0.50
+[DEPTH SAFETY SAFE CURVE] enabled=False max_forward_speed_mps=0.060
+[DEPTH SAFETY RECOVERY SCAN] enabled=True yaw_rate_radps=0.250 reverse_interval_s=4.00
+[NAVDP_CLIENT] sensor topics: rgb=/camera/camera/color/image_raw depth=/camera/camera/aligned_depth_to_color/image_raw camera_info=/camera/camera/color/camera_info odom=/odom_bridge
+[SAFETY] manual override topic not configured; remote latch disabled
+[SAFETY] dry-run: control thread was not started and no cmd_vel publisher exists
+[NAVDP_CLIENT] anchored pointgoal local=(3.0, 0.0) world=(37.51759959158675, -6.961057863028619)
+response status=200 bytes=28794
+idx: 0 after http 0.304s
+[DEPTH SAFETY RECOVERY DIRECTION] preferred=right left_clearance_m=1.5585933923721313 right_clearance_m=1.7864646911621094 trajectory_end_y_m=-0.016
+[DRY RUN] trajectory_points=24 traj_len=2.499
+response status=200 bytes=28637
+idx: 1 after http 0.263s
+[DRY RUN] trajectory_points=24 traj_len=2.413
+response status=200 bytes=28714
+idx: 2 after http 0.291s
+[DRY RUN] trajectory_points=24 traj_len=2.293
+response status=200 bytes=28802
+idx: 3 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.402
+response status=200 bytes=28762
+idx: 4 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.610
+response status=200 bytes=28860
+idx: 5 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.427
+response status=200 bytes=28755
+idx: 6 after http 0.309s
+[DRY RUN] trajectory_points=24 traj_len=2.571
+response status=200 bytes=28656
+idx: 7 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.641
+response status=200 bytes=28839
+idx: 8 after http 0.278s
+[DRY RUN] trajectory_points=24 traj_len=2.481
+response status=200 bytes=28756
+idx: 9 after http 0.299s
+[DRY RUN] trajectory_points=24 traj_len=2.563
+response status=200 bytes=28597
+idx: 10 after http 0.292s
+[DRY RUN] trajectory_points=24 traj_len=2.243
+response status=200 bytes=28703
+idx: 11 after http 0.289s
+[DRY RUN] trajectory_points=24 traj_len=2.527
+response status=200 bytes=28698
+idx: 12 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.542
+response status=200 bytes=28793
+idx: 13 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.446
+response status=200 bytes=28681
+idx: 14 after http 0.844s
+[DRY RUN] trajectory_points=24 traj_len=2.602
+response status=200 bytes=28767
+idx: 15 after http 0.264s
+[DRY RUN] trajectory_points=24 traj_len=2.664
+response status=200 bytes=28677
+idx: 16 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.513
+response status=200 bytes=28772
+idx: 17 after http 0.284s
+[DRY RUN] trajectory_points=24 traj_len=2.557
+response status=200 bytes=28699
+idx: 18 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.568
+response status=200 bytes=28788
+idx: 19 after http 0.286s
+[DRY RUN] trajectory_points=24 traj_len=2.428
+response status=200 bytes=28679
+idx: 20 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.536
+response status=200 bytes=28810
+idx: 21 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.481
+response status=200 bytes=28747
+idx: 22 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.534
+response status=200 bytes=28725
+idx: 23 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.519
+response status=200 bytes=28638
+idx: 24 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.401
+response status=200 bytes=28792
+idx: 25 after http 0.274s
+[DRY RUN] trajectory_points=24 traj_len=2.517
+response status=200 bytes=28737
+idx: 26 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.503
+response status=200 bytes=28710
+idx: 27 after http 0.278s
+[DRY RUN] trajectory_points=24 traj_len=2.560
+response status=200 bytes=28618
+idx: 28 after http 0.312s
+[DRY RUN] trajectory_points=24 traj_len=2.379
+response status=200 bytes=28665
+idx: 29 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.531
+response status=200 bytes=28743
+idx: 30 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.457
+response status=200 bytes=28731
+idx: 31 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.625
+response status=200 bytes=28678
+idx: 32 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.540
+response status=200 bytes=28776
+idx: 33 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.474
+response status=200 bytes=28747
+idx: 34 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.624
+response status=200 bytes=28708
+idx: 35 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.539
+response status=200 bytes=28683
+idx: 36 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.573
+response status=200 bytes=28561
+idx: 37 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.338
+response status=200 bytes=28657
+idx: 38 after http 0.258s
+[DRY RUN] trajectory_points=24 traj_len=2.482
+response status=200 bytes=28758
+idx: 39 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.645
+response status=200 bytes=28835
+idx: 40 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.604
+response status=200 bytes=28834
+idx: 41 after http 0.291s
+[DRY RUN] trajectory_points=24 traj_len=2.423
+response status=200 bytes=28708
+idx: 42 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.538
+response status=200 bytes=28657
+idx: 43 after http 0.281s
+[DRY RUN] trajectory_points=24 traj_len=2.552
+response status=200 bytes=28702
+idx: 44 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.539
+response status=200 bytes=28634
+idx: 45 after http 0.801s
+[DRY RUN] trajectory_points=24 traj_len=2.518
+response status=200 bytes=28819
+idx: 46 after http 0.259s
+[DRY RUN] trajectory_points=24 traj_len=2.546
+response status=200 bytes=28547
+idx: 47 after http 0.262s
+[DRY RUN] trajectory_points=24 traj_len=2.484
+response status=200 bytes=28732
+idx: 48 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.465
+response status=200 bytes=28887
+idx: 49 after http 0.269s
+[DRY RUN] trajectory_points=24 traj_len=2.522
+response status=200 bytes=28790
+idx: 50 after http 0.269s
+[DRY RUN] trajectory_points=24 traj_len=2.460
+response status=200 bytes=28768
+idx: 51 after http 0.292s
+[DRY RUN] trajectory_points=24 traj_len=2.464
+response status=200 bytes=28677
+idx: 52 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.549
+response status=200 bytes=28742
+idx: 53 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.453
+response status=200 bytes=28652
+idx: 54 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.501
+response status=200 bytes=28723
+idx: 55 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.400
+response status=200 bytes=28711
+idx: 56 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.539
+response status=200 bytes=28758
+idx: 57 after http 0.278s
+[DRY RUN] trajectory_points=24 traj_len=2.553
+response status=200 bytes=28728
+idx: 58 after http 0.304s
+[DRY RUN] trajectory_points=24 traj_len=2.582
+response status=200 bytes=28760
+idx: 59 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.466
+response status=200 bytes=28691
+idx: 60 after http 0.255s
+[DRY RUN] trajectory_points=24 traj_len=2.550
+response status=200 bytes=28737
+idx: 61 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.550
+response status=200 bytes=28744
+idx: 62 after http 0.287s
+[DRY RUN] trajectory_points=24 traj_len=2.446
+response status=200 bytes=28759
+idx: 63 after http 0.263s
+[DRY RUN] trajectory_points=24 traj_len=2.489
+response status=200 bytes=28733
+idx: 64 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.524
+response status=200 bytes=28725
+idx: 65 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.672
+response status=200 bytes=28649
+idx: 66 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.495
+response status=200 bytes=28785
+idx: 67 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.546
+response status=200 bytes=28721
+idx: 68 after http 0.274s
+[DRY RUN] trajectory_points=24 traj_len=2.577
+response status=200 bytes=28591
+idx: 69 after http 0.263s
+[DRY RUN] trajectory_points=24 traj_len=2.486
+response status=200 bytes=28670
+idx: 70 after http 0.253s
+[DRY RUN] trajectory_points=24 traj_len=2.604
+response status=200 bytes=28682
+idx: 71 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.565
+response status=200 bytes=28694
+idx: 72 after http 0.292s
+[DRY RUN] trajectory_points=24 traj_len=2.579
+response status=200 bytes=28778
+idx: 73 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.506
+response status=200 bytes=28671
+idx: 74 after http 0.842s
+[DRY RUN] trajectory_points=24 traj_len=2.544
+response status=200 bytes=28833
+idx: 75 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.439
+response status=200 bytes=28761
+idx: 76 after http 0.250s
+[DRY RUN] trajectory_points=24 traj_len=2.470
+response status=200 bytes=28682
+idx: 77 after http 0.368s
+[DRY RUN] trajectory_points=24 traj_len=2.557
+response status=200 bytes=28563
+idx: 78 after http 0.247s
+[DRY RUN] trajectory_points=24 traj_len=2.465
+response status=200 bytes=28723
+idx: 79 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.544
+response status=200 bytes=28683
+idx: 80 after http 0.283s
+[DRY RUN] trajectory_points=24 traj_len=2.505
+response status=200 bytes=28663
+idx: 81 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.455
+response status=200 bytes=28722
+idx: 82 after http 0.256s
+[DRY RUN] trajectory_points=24 traj_len=2.534
+response status=200 bytes=28710
+idx: 83 after http 0.281s
+[DRY RUN] trajectory_points=24 traj_len=2.545
+response status=200 bytes=28884
+idx: 84 after http 0.274s
+[DRY RUN] trajectory_points=24 traj_len=2.356
+response status=200 bytes=28687
+idx: 85 after http 0.302s
+[DRY RUN] trajectory_points=24 traj_len=2.430
+response status=200 bytes=28685
+idx: 86 after http 0.288s
+[DRY RUN] trajectory_points=24 traj_len=2.593
+response status=200 bytes=28731
+idx: 87 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.432
+response status=200 bytes=28812
+idx: 88 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.509
+response status=200 bytes=28697
+idx: 89 after http 0.291s
+[DRY RUN] trajectory_points=24 traj_len=2.441
+response status=200 bytes=28635
+idx: 90 after http 0.262s
+[DRY RUN] trajectory_points=24 traj_len=2.583
+response status=200 bytes=28601
+idx: 91 after http 0.258s
+[DRY RUN] trajectory_points=24 traj_len=2.409
+response status=200 bytes=28853
+idx: 92 after http 0.281s
+[DRY RUN] trajectory_points=24 traj_len=2.490
+response status=200 bytes=28721
+idx: 93 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.522
+response status=200 bytes=28802
+idx: 94 after http 0.301s
+[DRY RUN] trajectory_points=24 traj_len=2.496
+response status=200 bytes=28655
+idx: 95 after http 0.290s
+[DRY RUN] trajectory_points=24 traj_len=2.472
+response status=200 bytes=28629
+idx: 96 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.507
+response status=200 bytes=28815
+idx: 97 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.626
+response status=200 bytes=28755
+idx: 98 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.461
+response status=200 bytes=28644
+idx: 99 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.578
+response status=200 bytes=28677
+idx: 100 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.394
+response status=200 bytes=28594
+idx: 101 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.476
+response status=200 bytes=28787
+idx: 102 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.514
+response status=200 bytes=28701
+idx: 103 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.495
+response status=200 bytes=28608
+idx: 104 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.457
+response status=200 bytes=28759
+idx: 105 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.609
+response status=200 bytes=28623
+idx: 106 after http 0.254s
+[DRY RUN] trajectory_points=24 traj_len=2.574
+response status=200 bytes=28735
+idx: 107 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.388
+response status=200 bytes=28548
+idx: 108 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.651
+response status=200 bytes=28656
+idx: 109 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.533
+response status=200 bytes=28682
+idx: 110 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.456
+response status=200 bytes=28876
+idx: 111 after http 0.304s
+[DRY RUN] trajectory_points=24 traj_len=2.432
+response status=200 bytes=28770
+idx: 112 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.565
+response status=200 bytes=28672
+idx: 113 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.389
+response status=200 bytes=28754
+idx: 114 after http 0.259s
+[DRY RUN] trajectory_points=24 traj_len=2.468
+response status=200 bytes=28659
+idx: 115 after http 0.258s
+[DRY RUN] trajectory_points=24 traj_len=2.536
+response status=200 bytes=28716
+idx: 116 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.483
+response status=200 bytes=28696
+idx: 117 after http 0.269s
+[DRY RUN] trajectory_points=24 traj_len=2.481
+response status=200 bytes=28754
+idx: 118 after http 0.294s
+[DRY RUN] trajectory_points=24 traj_len=2.501
+response status=200 bytes=28597
+idx: 119 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.633
+response status=200 bytes=28696
+idx: 120 after http 0.789s
+[DRY RUN] trajectory_points=24 traj_len=2.584
+response status=200 bytes=28749
+idx: 121 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.550
+response status=200 bytes=28719
+idx: 122 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.548
+response status=200 bytes=28698
+idx: 123 after http 0.289s
+[DRY RUN] trajectory_points=24 traj_len=2.622
+response status=200 bytes=28778
+idx: 124 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.564
+response status=200 bytes=28687
+idx: 125 after http 0.279s
+[DRY RUN] trajectory_points=24 traj_len=2.551
+response status=200 bytes=28720
+idx: 126 after http 0.269s
+[DRY RUN] trajectory_points=24 traj_len=2.470
+response status=200 bytes=28732
+idx: 127 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.542
+response status=200 bytes=28765
+idx: 128 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.564
+response status=200 bytes=28673
+idx: 129 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.605
+response status=200 bytes=28766
+idx: 130 after http 0.252s
+[DRY RUN] trajectory_points=24 traj_len=2.494
+response status=200 bytes=28768
+idx: 131 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.591
+response status=200 bytes=28742
+idx: 132 after http 0.298s
+[DRY RUN] trajectory_points=24 traj_len=2.481
+response status=200 bytes=28753
+idx: 133 after http 0.253s
+[DRY RUN] trajectory_points=24 traj_len=2.531
+response status=200 bytes=28773
+idx: 134 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.533
+response status=200 bytes=28628
+idx: 135 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.546
+response status=200 bytes=28781
+idx: 136 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.594
+response status=200 bytes=28733
+idx: 137 after http 0.281s
+[DRY RUN] trajectory_points=24 traj_len=2.485
+response status=200 bytes=28750
+idx: 138 after http 0.277s
+[DRY RUN] trajectory_points=24 traj_len=2.584
+response status=200 bytes=28804
+idx: 139 after http 0.280s
+[DRY RUN] trajectory_points=24 traj_len=2.550
+response status=200 bytes=28654
+idx: 140 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.309
+response status=200 bytes=28746
+idx: 141 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.497
+response status=200 bytes=28621
+idx: 142 after http 0.290s
+[DRY RUN] trajectory_points=24 traj_len=2.462
+response status=200 bytes=28630
+idx: 143 after http 0.312s
+[DRY RUN] trajectory_points=24 traj_len=2.580
+response status=200 bytes=28788
+idx: 144 after http 0.278s
+[DRY RUN] trajectory_points=24 traj_len=2.576
+response status=200 bytes=28585
+idx: 145 after http 0.262s
+[DRY RUN] trajectory_points=24 traj_len=2.575
+response status=200 bytes=28765
+idx: 146 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.576
+response status=200 bytes=28707
+idx: 147 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.467
+response status=200 bytes=28539
+idx: 148 after http 0.292s
+[DRY RUN] trajectory_points=24 traj_len=2.525
+response status=200 bytes=28652
+idx: 149 after http 0.314s
+[DRY RUN] trajectory_points=24 traj_len=2.594
+response status=200 bytes=28659
+idx: 150 after http 0.696s
+[DRY RUN] trajectory_points=24 traj_len=2.559
+response status=200 bytes=28581
+idx: 151 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.566
+response status=200 bytes=28620
+idx: 152 after http 0.262s
+[DRY RUN] trajectory_points=24 traj_len=2.527
+response status=200 bytes=28780
+idx: 153 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.561
+response status=200 bytes=28629
+idx: 154 after http 0.260s
+[DRY RUN] trajectory_points=24 traj_len=2.533
+response status=200 bytes=28728
+idx: 155 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.535
+response status=200 bytes=28620
+idx: 156 after http 0.342s
+[DRY RUN] trajectory_points=24 traj_len=2.498
+response status=200 bytes=28644
+idx: 157 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.485
+response status=200 bytes=28773
+idx: 158 after http 0.252s
+[DRY RUN] trajectory_points=24 traj_len=2.551
+response status=200 bytes=28592
+idx: 159 after http 0.313s
+[DRY RUN] trajectory_points=24 traj_len=2.512
+response status=200 bytes=28535
+idx: 160 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.513
+response status=200 bytes=28769
+idx: 161 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.424
+response status=200 bytes=28652
+idx: 162 after http 0.270s
+[DRY RUN] trajectory_points=24 traj_len=2.579
+response status=200 bytes=28666
+idx: 163 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.494
+response status=200 bytes=28818
+idx: 164 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.579
+response status=200 bytes=28880
+idx: 165 after http 0.272s
+[DRY RUN] trajectory_points=24 traj_len=2.548
+response status=200 bytes=28684
+idx: 166 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.559
+response status=200 bytes=28600
+idx: 167 after http 0.306s
+[DRY RUN] trajectory_points=24 traj_len=2.474
+response status=200 bytes=28649
+idx: 168 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.439
+response status=200 bytes=28670
+idx: 169 after http 0.275s
+[DRY RUN] trajectory_points=24 traj_len=2.494
+response status=200 bytes=28680
+idx: 170 after http 0.263s
+[DRY RUN] trajectory_points=24 traj_len=2.551
+response status=200 bytes=28669
+idx: 171 after http 0.327s
+[DRY RUN] trajectory_points=24 traj_len=2.320
+response status=200 bytes=28772
+idx: 172 after http 0.283s
+[DRY RUN] trajectory_points=24 traj_len=2.531
+response status=200 bytes=28597
+idx: 173 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.430
+response status=200 bytes=28727
+idx: 174 after http 0.302s
+[DRY RUN] trajectory_points=24 traj_len=2.508
+response status=200 bytes=28695
+idx: 175 after http 0.289s
+[DRY RUN] trajectory_points=24 traj_len=2.552
+response status=200 bytes=28753
+idx: 176 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.469
+response status=200 bytes=28670
+idx: 177 after http 0.289s
+[DRY RUN] trajectory_points=24 traj_len=2.442
+response status=200 bytes=28792
+idx: 178 after http 0.285s
+[DRY RUN] trajectory_points=24 traj_len=2.507
+response status=200 bytes=28681
+idx: 179 after http 0.613s
+[DRY RUN] trajectory_points=24 traj_len=2.652
+response status=200 bytes=28724
+idx: 180 after http 0.258s
+[DRY RUN] trajectory_points=24 traj_len=2.450
+response status=200 bytes=28741
+idx: 181 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.554
+response status=200 bytes=28591
+idx: 182 after http 0.334s
+[DRY RUN] trajectory_points=24 traj_len=2.511
+response status=200 bytes=28616
+idx: 183 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.550
+response status=200 bytes=28748
+idx: 184 after http 0.300s
+[DRY RUN] trajectory_points=24 traj_len=2.495
+response status=200 bytes=28785
+idx: 185 after http 0.274s
+[DRY RUN] trajectory_points=24 traj_len=2.600
+response status=200 bytes=28764
+idx: 186 after http 0.301s
+[DRY RUN] trajectory_points=24 traj_len=2.613
+response status=200 bytes=28796
+idx: 187 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.500
+response status=200 bytes=28662
+idx: 188 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.525
+response status=200 bytes=28753
+idx: 189 after http 0.290s
+[DRY RUN] trajectory_points=24 traj_len=2.396
+response status=200 bytes=28769
+idx: 190 after http 0.292s
+[DRY RUN] trajectory_points=24 traj_len=2.602
+response status=200 bytes=28664
+idx: 191 after http 0.295s
+[DRY RUN] trajectory_points=24 traj_len=2.512
+response status=200 bytes=28576
+idx: 192 after http 0.273s
+[DRY RUN] trajectory_points=24 traj_len=2.337
+response status=200 bytes=28802
+idx: 193 after http 0.293s
+[DRY RUN] trajectory_points=24 traj_len=2.448
+response status=200 bytes=28635
+idx: 194 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.528
+response status=200 bytes=28762
+idx: 195 after http 0.268s
+[DRY RUN] trajectory_points=24 traj_len=2.453
+response status=200 bytes=28699
+idx: 196 after http 0.299s
+[DRY RUN] trajectory_points=24 traj_len=2.588
+response status=200 bytes=28643
+idx: 197 after http 0.293s
+[DRY RUN] trajectory_points=24 traj_len=2.585
+response status=200 bytes=28698
+idx: 198 after http 0.311s
+[DRY RUN] trajectory_points=24 traj_len=2.490
+response status=200 bytes=28812
+idx: 199 after http 0.301s
+[DRY RUN] trajectory_points=24 traj_len=2.570
+response status=200 bytes=28714
+idx: 200 after http 0.293s
+[DRY RUN] trajectory_points=24 traj_len=2.412
+response status=200 bytes=28665
+idx: 201 after http 0.262s
+[DRY RUN] trajectory_points=24 traj_len=2.545
+response status=200 bytes=28675
+idx: 202 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.532
+response status=200 bytes=28674
+idx: 203 after http 0.253s
+[DRY RUN] trajectory_points=24 traj_len=2.552
+response status=200 bytes=28695
+idx: 204 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.566
+response status=200 bytes=28787
+idx: 205 after http 0.258s
+[DRY RUN] trajectory_points=24 traj_len=2.495
+response status=200 bytes=28671
+idx: 206 after http 0.261s
+[DRY RUN] trajectory_points=24 traj_len=2.403
+response status=200 bytes=28614
+idx: 207 after http 0.298s
+[DRY RUN] trajectory_points=24 traj_len=2.479
+response status=200 bytes=28714
+idx: 208 after http 0.264s
+[DRY RUN] trajectory_points=24 traj_len=2.526
+response status=200 bytes=28676
+idx: 209 after http 0.680s
+[DRY RUN] trajectory_points=24 traj_len=2.540
+response status=200 bytes=28520
+idx: 210 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.564
+response status=200 bytes=28628
+idx: 211 after http 0.257s
+[DRY RUN] trajectory_points=24 traj_len=2.261
+response status=200 bytes=28825
+idx: 212 after http 0.274s
+[DRY RUN] trajectory_points=24 traj_len=2.493
+response status=200 bytes=28741
+idx: 213 after http 0.282s
+[DRY RUN] trajectory_points=24 traj_len=2.457
+response status=200 bytes=28720
+idx: 214 after http 0.266s
+[DRY RUN] trajectory_points=24 traj_len=2.391
+response status=200 bytes=28759
+idx: 215 after http 0.263s
+[DRY RUN] trajectory_points=24 traj_len=2.559
+response status=200 bytes=28604
+idx: 216 after http 0.271s
+[DRY RUN] trajectory_points=24 traj_len=2.473
+response status=200 bytes=28744
+idx: 217 after http 0.276s
+[DRY RUN] trajectory_points=24 traj_len=2.499
+response status=200 bytes=28695
+idx: 218 after http 0.299s
+[DRY RUN] trajectory_points=24 traj_len=2.432
+response status=200 bytes=28810
+idx: 219 after http 0.281s
+[DRY RUN] trajectory_points=24 traj_len=2.485
+response status=200 bytes=28679
+idx: 220 after http 0.283s
+[DRY RUN] trajectory_points=24 traj_len=2.472
+response status=200 bytes=28659
+idx: 221 after http 0.294s
+[DRY RUN] trajectory_points=24 traj_len=2.552
+response status=200 bytes=28694
+idx: 222 after http 0.259s
+[DRY RUN] trajectory_points=24 traj_len=2.466
+response status=200 bytes=28673
+idx: 223 after http 0.267s
+[DRY RUN] trajectory_points=24 traj_len=2.507
+response status=200 bytes=28602
+idx: 224 after http 0.287s
+[DRY RUN] trajectory_points=24 traj_len=2.378
+response status=200 bytes=28761
+idx: 225 after http 0.265s
+[DRY RUN] trajectory_points=24 traj_len=2.552
+response status=200 bytes=28871
+idx: 226 after http 0.278s
+[DRY RUN] trajectory_points=24 traj_len=2.523
+response status=200 bytes=28804
+idx: 227 after http 0.303s
+[DRY RUN] trajectory_points=24 traj_len=2.642
+[NAVDP_CLIENT] received SIGTERM; closing logs and generating trajectory visualization
+[V4 SENSOR SUMMARY] enqueued=1195 processed=1132 dropped_oldest=62 pending=1
+response status=200 bytes=28595
+idx: 228 after http 1.088s
+[DRY RUN] trajectory_points=24 traj_len=2.570

@@ -1,0 +1,160 @@
+=== NAVDP REAL-ROBOT SERVER ===
+deployment_root: /home/robot/Glass_Enhanced_X_NavDP_full_from_go2/go2_internnav_navdp_deployment
+navdp_root: /home/robot/Glass_Enhanced_X_NavDP/NavDP
+model_mode: x-navdp
+checkpoint: /home/robot/Glass_Enhanced_X_NavDP/NavDP/model/x-navdp_posttrain.ckpt
+dav2_checkpoint: None
+device: cuda:0
+camera_config: /home/robot/Glass_Enhanced_X_NavDP_full_from_go2/go2_internnav_navdp_deployment/configs/realsense_d435i.json
+camera_info_mode: effective
+server_url: http://<SERVER_IP>:5802/eval_navdp
+health_url: http://<SERVER_IP>:5802/healthz
+goal_modes: pointgoal
+agent_loading: lazy_on_first_request
+=== END NAVDP REAL-ROBOT SERVER ===
+ * Serving Flask app 'http_internvla_server_w_navdp_isolated'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5802
+ * Running on http://192.168.8.251:5802
+Press CTRL+C to quit
+192.168.8.254 - - [03/Sep/2026 19:45:26] "GET /healthz HTTP/1.1" 200 -
+/home/robot/ENTER/envs/env_isaaclab/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:33] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:33] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:33] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:34] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:35] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:35] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:35] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:35] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:35] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:36] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:37] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:37] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:37] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:37] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:37] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:38] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:38] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:38] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:38] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:39] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:40] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:41] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:42] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:43] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:43] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:43] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:43] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:43] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:44] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:44] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:44] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:44] "POST /eval_navdp HTTP/1.1" 500 -
+[MODEL ERROR] TypeError: NavDP_Agent.__init__() got an unexpected keyword argument 'return_glass_debug_depths'
+192.168.8.254 - - [03/Sep/2026 19:45:44] "POST /eval_navdp HTTP/1.1" 500 -

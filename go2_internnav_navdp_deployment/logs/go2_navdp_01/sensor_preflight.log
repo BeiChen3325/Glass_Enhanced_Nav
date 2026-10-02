@@ -1,0 +1,2 @@
+1788432838.966001 [0]    python3: config: //CycloneDDS/Domain/Internal/MinimumSocketReceiveBufferSize: setting moved to //CycloneDDS/Domain/Internal/SocketReceiveBufferSize[@min] (/home/unitree/cyclonedds_ws/cyclonedds.xml line 12)
+{"status": "ok", "counts": {"rgb": 1, "depth": 1, "camera_info": 1, "odom": 1}, "rgb": {"width": 640, "height": 480, "encoding": "rgb8"}, "depth": {"width": 640, "height": 480, "encoding": "16UC1"}, "camera_info": {"fx": 602.6174926757812, "fy": 601.5787353515625}, "odom": {"x": -1.7466213703155518, "y": 0.4398440420627594}}
